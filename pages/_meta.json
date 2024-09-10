@@ -1,0 +1,26 @@
+{
+  "index": {
+    "title": "Introduction",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "get-started": "Get Started",
+  "courses": "My Courses",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "course": {
+    "title": "My Next Js Course 📖",
+    "type": "page",
+    "href": "https://coding-school-typescript.vercel.app/courses/next",
+    "newWindow": true
+  },
+  "portfolio": {
+    "title": "My Portfolio ↗",
+    "type": "page",
+    "href": "https://jb.desishub.com/",
+    "newWindow": true
+  }
+}

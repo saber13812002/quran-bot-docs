@@ -1,24 +1,24 @@
 {
   "index": {
-    "title": "Introduction",
+    "title": "مقدمه",
     "theme": {
       "layout": "full"
     }
   },
-  "get-started": "Get Started",
-  "courses": "My Courses",
+  "get-started": "شروع سریع",
+  "courses": "دوره‌های من",
   "about": {
-    "title": "About",
+    "title": "درباره ما",
     "type": "page"
   },
   "course": {
-    "title": "My Next Js Course 📖",
+    "title": "دوره Next.js 📖",
     "type": "page",
     "href": "https://coding-school-typescript.vercel.app/courses/next",
     "newWindow": true
   },
   "portfolio": {
-    "title": "My Portfolio ↗",
+    "title": "نمونه کار ↗",
     "type": "page",
     "href": "https://jb.desishub.com/",
     "newWindow": true

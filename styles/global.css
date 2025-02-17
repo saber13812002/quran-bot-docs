@@ -1,3 +1,44 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+    font-family: 'Anjoman';
+    src: url('/fonts/Anjoman-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: embed;
+  }
+  
+  body {
+    font-family: 'Anjoman', sans-serif;
+    direction: rtl;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse; /* کل ساختار را معکوس می‌کند */
+  }
+  
+  /* تغییر موقعیت سایدبار */
+  .nextra-sidebar-container {
+    right: 0;
+    left: auto;
+  }
+  
+  /* تغییر موقعیت محتوا */
+  .nextra-content {
+    margin-left: 0;
+  }
+  
+  /* تغییر موقعیت نوار جستجو */
+  .nextra-search {
+    text-align: right;
+    direction: rtl;
+  }
+  
+  /* تغییر موقعیت لینک‌های ناوبری */
+  .nextra-navbar {
+    direction: rtl;
+    text-align: right;
+  }
+  

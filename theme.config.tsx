@@ -1,11 +1,16 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import Search from "./components/Search";
 
 const config: DocsThemeConfig = {
+  direction: "rtl",
+  navbar: {
+    extraContent: <Search />
+  },
   logo: (
     <>
       <img
-        style={{ width: "80px" }}
+        style={{ fontFamily: 'Anjoman', fontSize: '1.5rem', color: 'blue' , width: "80px" }}
         src="https://logowik.com/content/uploads/images/nextjs2106.logowik.com.webp"
         alt=""
       />
@@ -28,7 +33,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
   footer: {
-    text: "Nextra Docs Template",
+    text: "کسرا نسل دو",
   },
 };
 

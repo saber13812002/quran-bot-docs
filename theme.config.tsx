@@ -17,7 +17,7 @@ const config: DocsThemeConfig = {
     </>
   ),
   project: {
-    link: "https://github.com/shuding/nextra-docs-template",
+    link: "https://gitlab.depna.com/s.tabatabaei/kasra-nextra-doc",
   },
   chat: {
     link: "https://www.youtube.com/@JBWEBDEVELOPER",
@@ -31,7 +31,7 @@ const config: DocsThemeConfig = {
       </>
     ),
   },
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
+  docsRepositoryBase: "https://gitlab.depna.com/s.tabatabaei/kasra-nextra-doc",
   footer: {
     text: "کسرا نسل دو",
   },

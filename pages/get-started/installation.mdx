@@ -1,24 +1,25 @@
 import { Tabs, Tab } from "nextra/components";
 import Image from "next/image";
 
-# نصب Tailwind CSS با Next.js
+# Install Tailwind CSS with Next.js
 
-راه‌اندازی Tailwind CSS در یک پروژه Next.js.
+Setting up Tailwind CSS in a Next.js project.
 
-<Tabs items={["مرحله ۱", "مرحله ۲","مرحله ۳"]}>
+<Tabs items={["Step 1", "Step 2","Step 3"]}>
   <Tab>
-    ### مرحله ۱: ایجاد پروژه
-    با ایجاد یک پروژه جدید Next.js شروع کنید (اگر قبلاً یکی ندارید). رایج‌ترین روش استفاده از Create Next App است.
+    ### Step 1 Create your project Start by creating a new Next.js project if
+    you don’t have one set up already. The most common approach is to use Create
+    Next App.
 
 ```bash copy filename=">Terminal"
-npx create-next-app@latest my-project --typescript --eslint
+npx create-next-app@latest my-projec --typescript --eslint
 cd my-project
 ```
 
   </Tab>
   <Tab>
-  ### نصب Tailwind CSS 
-  Tailwind CSS و وابستگی‌های آن را از طریق npm نصب کنید، و سپس دستور init را اجرا کنید تا فایل‌های `tailwind.config.js` و `postcss.config.js` ایجاد شوند.
+  ### Install Tailwind CSS 
+  Install tailwindcss and its peer dependencies via npm, and then run the init command to generate both `tailwind.config.js` and `postcss.config.js`.
 
 ```bash copy filename=">Terminal"
 npm install -D tailwindcss postcss autoprefixer
@@ -28,8 +29,8 @@ npx tailwindcss init -p
   </Tab>
 
   <Tab>
-  ### پیکربندی مسیرهای قالب
-  مسیر تمام فایل‌های قالب خود را در فایل `tailwind.config.js` اضافه کنید.
+  ### Configure your template paths
+  Add the paths to all of your template files in your `tailwind.config.js file`.
 
 ```js copy filename="tailwind.config.js"
 /** @type {import('tailwindcss').Config} */
@@ -39,7 +40,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
 
-    // یا اگر از پوشه `src` استفاده می‌کنید:
+    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -52,9 +53,9 @@ module.exports = {
   </Tab>
 </Tabs>
 
-![متن جایگزین](./../../public/thumbnail.png)
+![Alt text](./../../public/thumbnail.png)
 
-{/* <Image src="/thumbnail.png" alt="توضیحات" width={500} height={300} /> */}
+{/* <Image src="/thumbnail.png" alt="Description" width={500} height={300} /> */}
 
 <iframe
   width="100%"
@@ -80,46 +81,45 @@ import { FileTree } from "nextra/components";
 import { Steps } from "nextra/components";
 
 <Steps>
-  ### مرحله ۱
-  اول این کار را انجام دهید
-  این محتوای مرحله ۱ است
+  ### Step 1 
+  Do this first This some Content for step 1
 
-### مرحله ۲
-سپس این کار را انجام دهید
-این محتوای مرحله ۲ است
+### Step 2 Then do this
 
-### مرحله ۳
-در نهایت
-این محتوای مرحله ۳ است
+This is some content for step 2
+
+### Step 3 Finally
+
+This is some content for step 3
 
 </Steps>
 
-<Tabs items={["تب ۱", "تب ۲"]}>
-  <Tab>محتوای تب ۱</Tab>
-  <Tab>محتوای تب ۲</Tab>
+<Tabs items={["Tab 1", "Tab 2"]}>
+  <Tab>Content for Tab 1</Tab>
+  <Tab>Content for Tab 2</Tab>
 </Tabs>
 
 import { Card, Cards } from "nextra/components";
 
 <Cards>
-  <Card title="کارت ۱" href="/link1">
-    توضیحات برای کارت ۱
+  <Card title="Card 1" href="/link1">
+    Description for Card 1
   </Card>
-  <Card title="کارت ۲" href="/link2">
-    توضیحات برای کارت ۲
+  <Card title="Card 2" href="/link2">
+    Description for Card 2
   </Card>
 </Cards>
 
-## نمودار Mermaid
+## Mermaid Diagram
 
 ```mermaid copy
 graph TD;
-subgraph AA [مصرف‌کنندگان]
-A[اپلیکیشن موبایل];
-B[اپلیکیشن وب];
-C[کلاینت Node.js];
+subgraph AA [Consumers]
+A[Mobile app];
+B[Web app];
+C[Node.js client];
 end
-subgraph BB [سرویس‌ها]
+subgraph BB [Services]
 E[REST API];
 F[GraphQL API];
 G[SOAP API];

@@ -1,11 +1,9 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
-import Search from "./components/Search";
 
 const config: DocsThemeConfig = {
   direction: "rtl",
   navbar: {
-    extraContent: <Search />
   },
   logo: (
     <>

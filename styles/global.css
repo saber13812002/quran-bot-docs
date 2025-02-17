@@ -30,11 +30,7 @@
     margin-left: 0;
   }
   
-  /* تغییر موقعیت نوار جستجو */
-  .nextra-search {
-    text-align: right;
-    direction: rtl;
-  }
+
   
   /* تغییر موقعیت لینک‌های ناوبری */
   .nextra-navbar {

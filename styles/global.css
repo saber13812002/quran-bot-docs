@@ -15,7 +15,7 @@
     font-family: 'Anjoman', sans-serif;
     direction: rtl;
     text-align: right;
-    display: flex;
+    /* display: flex; */
     flex-direction: row-reverse; /* کل ساختار را معکوس می‌کند */
   }
   

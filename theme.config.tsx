@@ -1,5 +1,6 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import { useConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   direction: "rtl",
@@ -34,6 +35,17 @@ const config: DocsThemeConfig = {
   footer: {
     text: "هولدینگ مهیمن - محصول کسرا نسل دوم",
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – عنوان سایت شما'
+    }
+  },
+  search: {
+    placeholder: 'جستجو...',
+    loading: 'در حال جستجو...',
+    error: 'خطا در جستجو',
+    emptyResult: 'نتیجه‌ای یافت نشد'
+  }
 };
 
 export default config;

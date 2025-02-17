@@ -31,9 +31,9 @@ const config: DocsThemeConfig = {
   //   ),
   // },
   docsRepositoryBase: "https://gitlab.depna.com/s.tabatabaei/kasra-nextra-doc",
-  // footer: {
-  //   text: "هولدینگ مهیمن - محصول کسرا نسل دوم",
-  // },
+  footer: {
+    text: "هولدینگ مهیمن - محصول کسرا نسل دوم",
+  },
 };
 
 export default config;

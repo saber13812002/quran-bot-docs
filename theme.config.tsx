@@ -45,6 +45,27 @@ const config: DocsThemeConfig = {
     loading: 'در حال جستجو...',
     error: 'خطا در جستجو', 
     emptyResult: 'نتیجه‌ای یافت نشد'
+  },
+  feedback: {
+    content: 'ارسال بازخورد ←',
+  },
+  editLink: {
+    text: 'ویرایش این صفحه'
+  },
+  toc: {
+    title: 'در این صفحه'
+  },
+  gitTimestamp: ({ timestamp }) => {
+    return `آخرین بروزرسانی در تاریخ ${new Intl.DateTimeFormat('fa-IR').format(timestamp)}`
+  },
+  themeSwitch: {
+    useOptions() {
+      return {
+        light: 'روشن',
+        dark: 'تیره',
+        system: 'سیستم'
+      }
+    }
   }
 };
 

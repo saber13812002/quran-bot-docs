@@ -20,7 +20,7 @@ const config: DocsThemeConfig = {
   //   link: "https://gitlab.depna.com/s.tabatabaei/kasra-nextra-doc",
   // },
   // chat: {
-  //   link: "https://www.youtube.com/@JBWEBDEVELOPER",
+  //   link: "https://www.youtube.com/@JBWEBDEVELOPER", 
   //   icon: (
   //     <>
   //       <img
@@ -31,7 +31,7 @@ const config: DocsThemeConfig = {
   //     </>
   //   ),
   // },
-  docsRepositoryBase: "https://gitlab.depna.com/s.tabatabaei/kasra-nextra-doc",
+  docsRepositoryBase: "https://gitlab.depna.com/s.tabatabaei/kasra-nextra-doc/-/blob/main",
   footer: {
     text: "هولدینگ مهیمن - محصول کسرا نسل دوم",
   },
@@ -43,7 +43,7 @@ const config: DocsThemeConfig = {
   search: {
     placeholder: 'جستجو...',
     loading: 'در حال جستجو...',
-    error: 'خطا در جستجو',
+    error: 'خطا در جستجو', 
     emptyResult: 'نتیجه‌ای یافت نشد'
   }
 };

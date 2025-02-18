@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
     title: 'در این صفحه'
   },
   gitTimestamp: ({ timestamp }) => {
-    return `آخرین بروزرسانی در تاریخ ${new Intl.DateTimeFormat('fa-IR').format(timestamp)}`
+    return <span>آخرین بروزرسانی در تاریخ {new Intl.DateTimeFormat('fa-IR').format(timestamp)}</span>
   },
   themeSwitch: {
     useOptions() {

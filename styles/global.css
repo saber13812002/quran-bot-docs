@@ -38,3 +38,42 @@
     text-align: right;
   }
   
+  .nextra-steps {
+    margin-right: -26px !important;
+  }
+  
+  .nextra-steps h3 {
+    margin-left: 16px !important;
+  }
+  
+  .nextra-steps h3:before {
+    margin-right: -32px !important;
+  }
+  
+
+  .nextra-filetree {
+    direction: ltr !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  
+  .nextra-filetree > div {
+    direction: ltr !important;
+    text-align: left !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .nextra-filetree li {
+    direction: ltr !important;
+  }
+  
+  .nextra-filetree span, 
+  .nextra-filetree button {
+    direction: ltr !important;
+    text-align: left !important;
+  }
+  

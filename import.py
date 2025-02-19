@@ -7,6 +7,7 @@ from urllib.parse import urljoin, urlparse, unquote
 from collections import deque
 import html2text
 import re
+import json
 
 def read_links_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -103,15 +104,59 @@ def extract_links(soup, base_url, base_domain):
 def is_media_url(url, extensions =[]):
     return any(url.lower().endswith(ext) for ext in extensions)
 
+def persian_to_english(text):
+    """تبدیل متن فارسی به انگلیسی با استفاده از یک الگوریتم پایدار"""
+    mapping = {
+        'آ': 'a', 'ا': 'a', 'ب': 'b', 'پ': 'p', 'ت': 't', 'ث': 's',
+        'ج': 'j', 'چ': 'ch', 'ح': 'h', 'خ': 'kh', 'د': 'd', 'ذ': 'z',
+        'ر': 'r', 'ز': 'z', 'ژ': 'zh', 'س': 's', 'ش': 'sh', 'ص': 's',
+        'ض': 'z', 'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f',
+        'ق': 'gh', 'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n',
+        'و': 'v', 'ه': 'h', 'ی': 'y', 'ئ': 'y', ' ': '-'
+    }
+    result = ''
+    for char in text:
+        result += mapping.get(char, char)
+    return result.lower().strip('-')
+
+def update_meta_json(directory, fa_name, en_name):
+    """به‌روزرسانی یا ایجاد فایل _meta.json"""
+    meta_path = os.path.join(directory, '_meta.json')
+    meta_data = {}
+    
+    if os.path.exists(meta_path):
+        with open(meta_path, 'r', encoding='utf-8') as f:
+            meta_data = json.load(f)
+    
+    meta_data[en_name] = fa_name
+    
+    with open(meta_path, 'w', encoding='utf-8') as f:
+        json.dump(meta_data, f, ensure_ascii=False, indent=2)
+
 def create_file_path(url, base_dir, extension):
+    """ایجاد مسیر فایل با پشتیبانی از نام‌های فارسی"""
     parsed_url = urlparse(url)
     path = parsed_url.path
-    path = re.sub(r'\.html?$', '', path)  # Remove .htm/.html extension
-    path = unquote(path.strip('/'))
-    return os.path.join(
-        base_dir,
-        path + extension
-    )
+    path = re.sub(r'\.html?$', '', path)  # حذف پسوند .htm/.html
+    path_parts = unquote(path.strip('/')).split('/')
+    
+    # تبدیل هر بخش مسیر به انگلیسی
+    en_parts = []
+    current_dir = base_dir
+    
+    for part in path_parts:
+        if any(ord(c) > 127 for c in part):  # بررسی وجود کاراکتر فارسی
+            en_name = persian_to_english(part)
+            en_parts.append(en_name)
+            
+            # ایجاد یا به‌روزرسانی _meta.json
+            current_dir = os.path.join(base_dir, *en_parts[:-1])
+            os.makedirs(current_dir, exist_ok=True)
+            update_meta_json(current_dir, part, en_name)
+        else:
+            en_parts.append(part)
+    
+    return os.path.join(base_dir, *en_parts) + extension
 
 def save_content(path, content):
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -181,11 +226,15 @@ def create_index_page(links, index_file_path):
         f.write(index_content)
     print(f"📄 Index page created: {index_file_path}")
 
-def add_front_matter(md_path, md_content):
-    title = os.path.splitext(os.path.basename(md_path))[0]
-    # Wrap title in double quotes
+def add_front_matter(md_path, md_content, original_title=None):
+    """اضافه کردن front matter با پشتیبانی از عنوان‌های فارسی"""
+    base_name = os.path.splitext(os.path.basename(md_path))[0]
+    
+    # استفاده از عنوان اصلی فارسی اگر موجود باشد
+    title = original_title or base_name
+    
     front_matter = f"""---
-id: "{title}"
+id: "{base_name}"
 title: "{title}"
 ---
 
@@ -203,7 +252,7 @@ if __name__ == "__main__":
     static_img_dir = r"D:\saberprojects\kasra\kasra-docs\public\img"
     static_assets_dir = r"D:\saberprojects\kasra\kasra-docs\public\assets"
     # Path for the index file
-    index_file_path = os.path.join(save_directory, 'index.md')
+    index_file_path = os.path.join(save_directory, 'index.mdx')
 
     # Start crawling
     start_urls = [

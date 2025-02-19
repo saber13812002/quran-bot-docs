@@ -1,16 +1,33 @@
 import os
 import json
 
+import os
+
 def extract_id_from_file(file_path):
     """این تابع برای استخراج _id از محتویات فایل استفاده می‌شود."""
     if not os.path.isfile(file_path):  # بررسی اینکه آیا file_path یک فایل است
         return None
+    
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
         for line in lines:
             if line.strip().startswith('_id'):
-                return line.strip()
-    return None
+                return line.strip()  # برگرداندن _id اگر پیدا شد
+
+    # اگر _id پیدا نشود، به پوشه‌های زیرین می‌رویم
+    if os.path.isdir(file_path):
+        # لیست کردن فایل‌های داخل پوشه
+        for inner_item in os.listdir(file_path):
+            inner_item_path = os.path.join(file_path, inner_item)
+            # اگر فایل باشد و با .md یا .json تمام شود
+            if inner_item.endswith('.md') or inner_item.endswith('.json'):
+                id_value = extract_id_from_file(inner_item_path)
+                if id_value:
+                    return id_value  # برگرداندن _id اگر پیدا شد
+
+    return "مقدار پیش‌فرض"  # مقدار پیش‌فرض در صورت عدم وجود _id
+
+
 
 def translate_meta(folder_path):
     # بررسی وجود پوشه
@@ -34,16 +51,14 @@ def translate_meta(folder_path):
                 id_value = extract_id_from_file(item_path)
                 if id_value:
                     meta_data[item] = id_value
-                else:
-                    meta_data[item] = "مقدار پیش‌فرض"  # مقدار پیش‌فرض در صورت عدم وجود _id
 
-            # اگر فایل باشد و با .json تمام شود
-            elif item.endswith('.json'):
-                id_value = extract_id_from_file(item_path)
-                if id_value:
-                    meta_data[item] = id_value
-                else:
-                    meta_data[item] = "مقدار پیش‌فرض"  # مقدار پیش‌فرض در صورت عدم وجود _id
+                # اگر فایل باشد و با .json تمام شود
+                elif item.endswith('.json'):
+                    id_value = extract_id_from_file(item_path)
+                    if id_value:
+                        meta_data[item] = id_value
+                    else:
+                        meta_data[item] = "مقدار پیش‌فرض"  # مقدار پیش‌فرض در صورت عدم وجود _id
 
         # نوشتن داده‌ها در فایل _meta.json
         with open(meta_file_path, 'w', encoding='utf-8') as new_file:

@@ -266,12 +266,10 @@ if __name__ == "__main__":
     print(f"🔍 Total number of found links: {len(start_urls)}")
     print("="*50)
     
-    user_input = input("\n❓ Do you want to start crawling? (yes/no): ").strip().lower()
-    
-    if user_input != 'yes':
+    user_input = input("\n❓ Do you want to start crawling? (y:yes/n:no): ").strip().lower()
+    if user_input not in ['y', 'Y', 'ye', 'yeah', '1', 'yes']:
         print("❌ Crawling operation canceled.")
-        sys.exit()
-        
+        sys.exit(0)
     print("\n✅ Starting crawling operation...")
 
     crawl_website(start_urls, save_directory, static_img_dir, static_assets_dir, index_file_path)

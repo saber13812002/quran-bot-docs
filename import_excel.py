@@ -24,29 +24,26 @@ def print_data(data):
 def create_folder_with_meta_json(save_directory, english_name, persian_name):
     base_folder = os.path.join(save_directory, english_name)
 
-    print(english_name)
-    if not os.path.exists(english_name):
-        os.makedirs(english_name)
-        print(f"📁 پوشه '{english_name}' ایجاد شد.")
+    print(base_folder)
+    if not os.path.exists(base_folder):
+        os.makedirs(base_folder)
+        print(f"📁 پوشه '{base_folder}' ایجاد شد.")
     else:
-        print(f"📁 پوشه '{english_name}' قبلاً وجود دارد.")
+        print(f"📁 پوشه '{base_folder}' قبلاً وجود دارد.")
 
-    meta_file_path = os.path.join(save_directory, english_name, '_meta.json')
-    print(meta_file_path)
-    if not os.path.exists(meta_file_path):
-        meta_content = {
-            english_name: persian_name
-        }
+
+    meta_file_path = os.path.join(save_directory, '_meta.json')
+    if os.path.exists(meta_file_path):
+        with open(meta_file_path, 'r', encoding='utf-8') as meta_file:
+            existing_meta_content = json.load(meta_file)
+        
+        existing_meta_content[english_name] = persian_name
         
         with open(meta_file_path, 'w', encoding='utf-8') as meta_file:
-            json.dump(meta_content, meta_file, ensure_ascii=False, indent=4)
-        print(f"📄 فایل '_meta.json' ایجاد شد: {meta_file_path}")
-    else:
-        print("📁 فایل '_meta.json' قبلاً وجود دارد.")
-    # os.makedirs(base_folder, exist_ok=True)    
+            json.dump(existing_meta_content, meta_file, ensure_ascii=False, indent=4)
+        print(f"📄 اطلاعات جدید به فایل '_meta.json' اضافه شد: {meta_file_path}")
 
-def throw(near_folder):
-    raise near_folder
+
 # main
 
 if __name__ == "__main__":
@@ -63,39 +60,71 @@ if __name__ == "__main__":
     name_persian= "کسرا";
     create_folder_with_meta_json(save_directory,name_english,name_persian)
 
-    save_directory_v1 = os.path.join(save_directory, 'kasra')
-    name_english_v1 = "v1"
-    name_persian_v1 = "نسل دوم";
-    create_folder_with_meta_json(save_directory_v1,name_english_v1,name_persian_v1)
+    # save_directory_v1 = os.path.join(save_directory, 'kasra')
+    # name_english_v1 = "v1"
+    # name_persian_v1 = "نسل یک ";
+    # create_folder_with_meta_json(save_directory_v1,name_english_v1,name_persian_v1)
+
+    save_directory_v2 = os.path.join(save_directory, 'kasra')
+    name_english_v2 = "v2"
+    name_persian_v2 = "نسل دو";
+    create_folder_with_meta_json(save_directory_v2,name_english_v2,name_persian_v2)
 
 
     # خواندن داده‌ها از شیت اول و سوم
-    first_sheet_data = data['v1']
+    # first_sheet_data = data['v1']
+    second_sheet_data = data['v2']
     third_sheet_data = data['extracted_links']
 
-    for index, row in first_sheet_data.iterrows():
+    for index, row in second_sheet_data.iterrows():
         title = row['Title']
-        reference = row['Reference']
-        perian_type = row['Perian Type']
-        hidden = row['Hidden']
+        
+        # بررسی وجود ستون 'Reference'
+        if 'Reference' in row:
+            reference = row['Reference']
+        else:
+            reference = None  # یا می‌توانید مقدار پیش‌فرض دیگری تعیین کنید
+
+        is_page = True if row['Persian'] == "page" else False
+        # type = row['Type']
+        # hidden = row['Hidden']
+        # toc = row['TOC']
+
+        if not is_page:
+            # تبدیل persian_name به رشته در صورت نیاز
+            persian_name = str(row['Title'])
+            english_name = ''.join([{'ا': 'a', 'ب': 'b', 'پ': 'p', 'ت': 't', 'ث': 's', 'ج': 'j', 'چ': 'ch', 'ح': 'h', 'خ': 'kh', 'د': 'd', 'ذ': 'z', 'ر': 'r', 'ز': 'z', 'ژ': 'zh', 'س': 's', 'ش': 'sh', 'ص': 's', 'ض': 'z', 'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f', 'ق': 'gh', 'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n', 'و': 'v', 'ه': 'h', 'ی': 'y', ' ': '_', ':': '_', '/': '_', '\n': '_', '\t': '_', '-': '_', '.': '_', ',': '_', '?': '_', '!': '_', '؛': '_', '؟': '_', '(': '_', ')': '_', '{': '_', '}': '_', '[': '_', ']': '_', '<': '_', '>': '_', 'ـ': '_', 'ـ': '_', 'ـ': '_'}.get(char, char) for char in persian_name])
+            try: 
+                # بررسی وجود پوشه kasra و ایجاد آن در صورت عدم وجود
+                kasra_folder_path = os.path.join(save_directory, 'kasra', 'v2')
+                if not os.path.exists(kasra_folder_path):
+                    os.makedirs(kasra_folder_path)
+
+                # ایجاد پوشه با نام انگلیسی و فارسی در پوشه kasra
+                create_folder_with_meta_json(kasra_folder_path, english_name, persian_name)
+                # create_folder_with_meta_json(save_directory_v2 + name_english, english_name, persian_name)
+            except Exception as e:
+                print(f"خطا در ایجاد پوشه '{english_name}': {e}")
+
+            # create_folder_with_meta_json(save_directory_v2,english_name,persian_name)
 
         # جستجو در third_sheet_data با استفاده از index
-        if index < len(third_sheet_data):
-            near_folder = third_sheet_data.iloc[index]['nearFolder']
-            full_url = third_sheet_data.iloc[index]['full_url']
-            filename1 = third_sheet_data.iloc[index]['filename1']
-            filename2 = third_sheet_data.iloc[index]['filename2']
-            htm_name = third_sheet_data.iloc[index]['htmName']
+        # if index < len(third_sheet_data):
+        #     near_folder = third_sheet_data.iloc[index]['nearFolder']
+        #     full_url = third_sheet_data.iloc[index]['full_url']
+        #     filename1 = third_sheet_data.iloc[index]['filename1']
+        #     filename2 = third_sheet_data.iloc[index]['filename2']
+        #     htm_name = third_sheet_data.iloc[index]['htmName']
 
-            # اینجا می‌توانید با داده‌ها کار کنید
-            print(f"عنوان: {title}, مرجع: {reference}, نوع: {perian_type}, پنهان: {hidden}, پوشه نزدیک: {near_folder}, URL کامل: {full_url}, نام فایل 1: {filename1}, نام فایل 2: {filename2}, نام HTML: {htm_name}")
+        #     # اینجا می‌توانید با داده‌ها کار کنید
+        #     print(f"عنوان: {title}, مرجع: {reference}, صفحه یا بوک {is_page}, پوشه نزدیک: {near_folder}, URL کامل: {full_url}, نام فایل 1: {filename1}, نام فایل 2: {filename2}, نام HTML: {htm_name}")
 
     
 
     # # بررسی وجود nearFolder در ستون htmName شیت سوم
     # if any(third_sheet_data['htmName'] == near_folder):
     #     # دانلود فایل HTML
-    #     html_url = first_sheet_data.iloc[0]['htmlUrl']  # فرض می‌کنیم که آدرس HTML در شیت اول موجود است
+    #     html_url = second_sheet_data.iloc[0]['htmlUrl']  # فرض می‌کنیم که آدرس HTML در شیت اول موجود است
     #     html_file_path = os.path.join(base_folder, f"{near_folder}.html")
         
     #     response = requests.get(html_url)
@@ -104,7 +133,7 @@ if __name__ == "__main__":
     #     print(f"📄 فایل HTML دانلود شد: {html_file_path}")
 
     #     # دانلود مدیاها
-    #     media_urls = first_sheet_data.iloc[0]['mediaUrls'].split(',')  # فرض می‌کنیم که آدرس‌های مدیا در یک ستون به صورت کاما جدا شده‌اند
+    #     media_urls = second_sheet_data.iloc[0]['mediaUrls'].split(',')  # فرض می‌کنیم که آدرس‌های مدیا در یک ستون به صورت کاما جدا شده‌اند
     #     media_folder = os.path.join(static_img_folder, 'media')
     #     os.makedirs(media_folder, exist_ok=True)
 

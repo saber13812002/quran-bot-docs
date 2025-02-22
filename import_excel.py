@@ -4,6 +4,21 @@ import requests
 from urllib.parse import urljoin
 import json
 
+def convert_persian_to_english(persian_name):
+    translation_map = {
+        'ا': 'a', 'ب': 'b', 'پ': 'p', 'ت': 't', 'ث': 's', 'ج': 'j', 
+        'چ': 'ch', 'ح': 'h', 'خ': 'kh', 'د': 'd', 'ذ': 'z', 'ر': 'r', 
+        'ز': 'z', 'ژ': 'zh', 'س': 's', 'ش': 'sh', 'ص': 's', 'ض': 'z', 
+        'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f', 'ق': 'gh', 
+        'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n', 'و': 'v', 
+        'ه': 'h', 'ی': 'y', ' ': '_', ':': '_', '/': '_', '\n': '_', 
+        '\t': '_', '-': '_', '.': '_', ',': '_', '?': '_', '!': '_', 
+        '؛': '_', '؟': '_', '(': '_', ')': '_', '{': '_', '}': '_', 
+        '[': '_', ']': '_', '<': '_', '>': '_', 'ـ': '_'
+    }
+    return ''.join(translation_map.get(char, char) for char in persian_name)
+
+
 def read_excel_data(file_path):
     # خواندن داده‌ها از فایل اکسل
     xls = pd.ExcelFile(file_path)
@@ -94,7 +109,7 @@ if __name__ == "__main__":
             # تبدیل persian_name به رشته در صورت نیاز
             persian_name = str(row['Title'])
             persian_name = persian_name.replace('_', ' ')
-            english_name = ''.join([{'ا': 'a', 'ب': 'b', 'پ': 'p', 'ت': 't', 'ث': 's', 'ج': 'j', 'چ': 'ch', 'ح': 'h', 'خ': 'kh', 'د': 'd', 'ذ': 'z', 'ر': 'r', 'ز': 'z', 'ژ': 'zh', 'س': 's', 'ش': 'sh', 'ص': 's', 'ض': 'z', 'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f', 'ق': 'gh', 'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n', 'و': 'v', 'ه': 'h', 'ی': 'y', ' ': '_', ':': '_', '/': '_', '\n': '_', '\t': '_', '-': '_', '.': '_', ',': '_', '?': '_', '!': '_', '؛': '_', '؟': '_', '(': '_', ')': '_', '{': '_', '}': '_', '[': '_', ']': '_', '<': '_', '>': '_', 'ـ': '_', 'ـ': '_', 'ـ': '_'}.get(char, char) for char in persian_name])
+            english_name = convert_persian_to_english(persian_name)
             try: 
                 # بررسی وجود پوشه kasra و ایجاد آن در صورت عدم وجود
                 kasra_folder_path = os.path.join(save_directory, 'kasra', 'v2')

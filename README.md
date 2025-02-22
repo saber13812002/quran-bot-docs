@@ -1,10 +1,10 @@
-# Nextra Docs RTL Template for persian arabic or hebrew
+# Nextra Docs RTL Template for Persian Arabic or Hebrew With Adobe RoboHelp importer tool with python
 
 This is a template for creating documentation with [Nextra](https://nextra.site).
 
 [**Live Demo →**](https://nextra-docs-template.vercel.app)
 
-[![](https://github.com/saber13812002/quran-bot-docs/blob/main/public/assets/img/screencapture-localhost-3000-2025-02-22-10_32_50.png)](https://nextra-docs-template.vercel.app)
+[![](https://raw.githubusercontent.com/saber13812002/quran-bot-docs/refs/heads/master/public/assets/img/screencapture-localhost-3000-2025-02-22-10_32_50.png)](https://nextra-docs-template.vercel.app)
 
 ## Quick Start
 

@@ -48,6 +48,7 @@ def create_folder_with_meta_json(save_directory, english_name, persian_name):
 
 
     meta_file_path = os.path.join(save_directory, '_meta.json')
+
     if os.path.exists(meta_file_path):
         with open(meta_file_path, 'r', encoding='utf-8') as meta_file:
             existing_meta_content = json.load(meta_file)
@@ -58,11 +59,18 @@ def create_folder_with_meta_json(save_directory, english_name, persian_name):
             json.dump(existing_meta_content, meta_file, ensure_ascii=False, indent=4)
         print(f"📄 اطلاعات جدید به فایل '_meta.json' اضافه شد: {meta_file_path}")
 
+    else:
+        # اگر فایل '_meta.json' وجود ندارد، یک دیکشنری جدید ایجاد کنید
+        new_meta_content = {english_name: persian_name}
+        with open(meta_file_path, 'w', encoding='utf-8') as meta_file:
+            json.dump(new_meta_content, meta_file, ensure_ascii=False, indent=4)
+        print(f"📄 فایل '_meta.json' جدید ایجاد شد: {meta_file_path}")
+
 
 # main
 
 if __name__ == "__main__":
-    file_path = 'Table Of Contents.report.xlsx'
+    file_path = 'Table Of Contents.report_.xlsx'
     data = read_excel_data(file_path)
     # print_data(data)
 
@@ -85,16 +93,16 @@ if __name__ == "__main__":
     name_persian_v2 = "نسل دو";
     create_folder_with_meta_json(save_directory_v2,name_english_v2,name_persian_v2)
 
-
     # خواندن داده‌ها از شیت اول و سوم
     # first_sheet_data = data['v1']
     second_sheet_data = data['v2']
     third_sheet_data = data['extracted_links']
 
+    english_root = ""
+    # بررسی وجود ستون 'Reference'
     for index, row in second_sheet_data.iterrows():
         title = row['Title']
         
-        # بررسی وجود ستون 'Reference'
         if 'Reference' in row:
             reference = row['Reference']
         else:
@@ -110,12 +118,13 @@ if __name__ == "__main__":
             persian_name = str(row['Title'])
             persian_name = persian_name.replace('_', ' ')
             english_name = convert_persian_to_english(persian_name)
+            english_root = english_name
+            kasra_folder_path = os.path.join(save_directory, 'kasra', 'v2')
+            # بررسی وجود پوشه kasra و ایجاد آن در صورت عدم وجود
+            if not os.path.exists(kasra_folder_path):
+                os.makedirs(kasra_folder_path)
+            
             try: 
-                # بررسی وجود پوشه kasra و ایجاد آن در صورت عدم وجود
-                kasra_folder_path = os.path.join(save_directory, 'kasra', 'v2')
-                if not os.path.exists(kasra_folder_path):
-                    os.makedirs(kasra_folder_path)
-
                 # ایجاد پوشه با نام انگلیسی و فارسی در پوشه kasra
                 create_folder_with_meta_json(kasra_folder_path, english_name, persian_name)
                 # create_folder_with_meta_json(save_directory_v2 + name_english, english_name, persian_name)
@@ -123,6 +132,14 @@ if __name__ == "__main__":
                 print(f"خطا در ایجاد پوشه '{english_name}': {e}")
 
             # create_folder_with_meta_json(save_directory_v2,english_name,persian_name)
+        else: # page
+            # if(reference != None):
+            
+            reference = reference.replace('_', ' ')
+            reference = reference.replace('.html', '')
+            english_reference = convert_persian_to_english(reference)
+            save_directory_ = os.path.join(kasra_folder_path,english_root)
+            create_folder_with_meta_json(save_directory_, english_reference, reference)
 
         # جستجو در third_sheet_data با استفاده از index
         # if index < len(third_sheet_data):

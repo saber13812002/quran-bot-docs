@@ -1,16 +1,16 @@
-# Nextra Docs Template 
+# Nextra Docs RTL Template for persian arabic or hebrew
 
 This is a template for creating documentation with [Nextra](https://nextra.site).
 
 [**Live Demo →**](https://nextra-docs-template.vercel.app)
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+[![](https://github.com/saber13812002/quran-bot-docs/blob/main/public/assets/img/screencapture-localhost-3000-2025-02-22-10_32_50.png)](https://nextra-docs-template.vercel.app)
 
 ## Quick Start
 
 Click the button to clone this repository and deploy it on Vercel:
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%saber13812002%2Fquran-bot-docs&showOptionalTeamCreation=false)
 
 ## Local Development
 

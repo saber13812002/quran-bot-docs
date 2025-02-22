@@ -1,13 +1,7 @@
 {
-  "index": {
-    "title": "مقدمه",
-    "theme": {
-      "layout": "full"
-    }
-  },
-  "get-started": "شروع سریع",
-  "courses": "دوره‌های من",
+  "kasra": "کسرا",
   "about": {
     "title": "درباره ما"
-  }
+  },
+  "index": "فهرست"
 }

@@ -77,3 +77,18 @@
     text-align: left !important;
   }
   
+  .nextra-search {
+    order: 3;
+  }
+
+  .nextra-sections {
+    order: 2;
+    margin-left: 20%;
+  }
+  
+
+  .nextra-sections a {
+    margin-left: 20px;
+  }
+  
+  

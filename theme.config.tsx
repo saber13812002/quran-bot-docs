@@ -1,19 +1,24 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
-import { useConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   direction: "rtl",
   navbar: {
+    extraContent: (
+      <div className="flex nextra-sections">
+        <a href="/kasra/v1">نسل یک </a>
+        <a href="/kasra/v2">نسل دو </a>
+      </div>
+    )
   },
   logo: (
     <>
       <img
         style={{ fontFamily: 'Anjoman', fontSize: '1.5rem', color: 'blue' , width: "30px" }}
-        src="assets/img/depna.png"
+        src="/assets/img/depna.png"
         alt="depna"
       />
-      کسرا نسل دوم
+      کسرا
     </>
   ),
   // project: {

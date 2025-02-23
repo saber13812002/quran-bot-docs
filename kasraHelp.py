@@ -39,8 +39,11 @@ def process_xml(xml_file, save_directory):
     tree = ET.parse(xml_file)
     root = tree.getroot()
 
+    save_directory = "./pages/kasra/"
     for book in root.findall("book"):
         persian_name = book.get("navtitle")
+        if persian_name == "نسل یک":
+            continue
         english_name = convert_persian_to_english(persian_name)
 
         book_path = os.path.join(save_directory, english_name)

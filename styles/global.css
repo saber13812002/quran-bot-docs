@@ -92,3 +92,12 @@
   }
   
   
+/* Flip SVGs only in RTL contexts */
+[dir="rtl"] main > div:first-child > svg {
+  transform: scaleX(-1);
+}
+
+/* Flip SVGs only in RTL contexts */
+button svg {
+  transform: scaleX(-1);
+}

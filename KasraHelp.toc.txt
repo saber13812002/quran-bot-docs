@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>KasraWebHelp</title>
+<book navtitle="نسل یک" condition="Product:نسل_یک" format="html" processing-role="normal">
+  <book navtitle="محیط بهره برداری" condition="Product:نسل_یک" format="html" processing-role="normal">
+    <page href="../contents/KasraWebHelp/آشنایی_با_سمت_وب_کسرا/آشنایی_با_سمت_وب_کسرا.html" format="html" processing-role="normal"></page>
+    <page href="../contents/KasraWebHelp/تعریف/تعریف.html" format="html" processing-role="normal"></page>
+    <page href="../contents/KasraWebHelp/ورود_به_سیستم/ورود_به_سیستم.html" format="html" processing-role="normal"></page>
+    <book navtitle="میزکار" format="html" processing-role="normal">
+      <page navtitle="میز کار" href="../contents/KasraWebHelp/صفحه‌ی_اصلی_سیستم/صفحه‌ی_اصلی_سیستم.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraWebHelp/منو_جمع/منو_جمع.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraWebHelp/صفحه_ی_اصلی/صفحه_ی_اصلی.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraWebHelp/جایگاه/جایگاه.html" format="html" processing-role="normal"></page>
+      <book navtitle="حساب_کاربری" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/حساب_کاربری/حساب_کاربری.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/راهنما/راهنما.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/تغییر_رمز/تغییر_رمز.html" format="html" processing-role="normal"></page>
+        <book navtitle="پروفایل" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/پروفایل/پروفایل.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تغییر_تصویر_کاربر/تغییر_تصویر_کاربر.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/نحوه‌ی_تفویض_کارتابل/نحوه‌ی_تفویض_کارتابل.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/نمایش_آخرین_ورود/نمایش_آخرین_ورود.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات_کاربر/تنظیمات_کاربر.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/ورود_با_کاربر_دیگر/ورود_با_کاربر_دیگر.html" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+    </book>
+    <book navtitle="مدیریت_دسترسی‌ها" format="html" processing-role="normal">
+      <page href="../contents/KasraWebHelp/مدیریت_دسترسی‌ها/مدیریت_دسترسی‌ها.html" format="html" processing-role="normal"></page>
+      <book navtitle="چارت_سازمانی" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/چارت_سازمانی/چارت_سازمانی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/سازمان/سازمان.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/طبقه/طبقه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/رسته/رسته.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/جایگاه_1/جایگاه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/پرسنل/پرسنل.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/امضای_الکترونیکی/امضای_الکترونیکی.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="کاربری_سامانه" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/کاربری_سامانه/کاربری_سامانه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/کاربران_فعال/کاربران_فعال.html" format="html" processing-role="normal"></page>
+        <book navtitle="کاربران" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/کاربران/کاربران.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/مشاهده/مشاهده.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/ویرایش/ویرایش.html" format="html" processing-role="normal"></page>
+          <book navtitle="مجوزها" format="html" processing-role="normal">
+            <page href="../contents/KasraWebHelp/مجوزها/مجوزها.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/دسترسی_به_منو/دسترسی_به_منو.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/دسترسی_راهنما/دسترسی_راهنما.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/دسترسی_به_وب‌سرویس/دسترسی_به_وب‌سرویس.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/مجوز_وضعیت_otp/مجوز_وضعیت_otp.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/ارجاع_آزاد/ارجاع_آزاد.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/چت/چت.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/ارسال_پیام/ارسال_پیام.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/مجوز_ورود_بدون_شغل/مجوز_ورود_بدون_شغل.html" format="html" processing-role="normal"></page>
+          </book>
+          <page href="../contents/KasraWebHelp/بایگانی/بایگانی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/حذف/حذف.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گروه‌های_عضویت/گروه‌های_عضویت.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/کلمه_عبور/کلمه_عبور.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/عضویت_جدید/عضویت_جدید.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/شغل_و_پست/شغل_و_پست.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/پرسنل_1/پرسنل.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/امضا_الکترونیکی_کاربر/امضا_الکترونیکی_کاربر.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/دسترسی_به_اطلاعات/دسترسی_به_اطلاعات.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تاریخچه_عملیات/تاریخچه_عملیات.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تاریخچه_ورود/تاریخچه_ورود.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تصویر_کاربر/تصویر_کاربر.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="گروه_کاربران" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/گروه_کاربران/گروه_کاربران.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/مشاهده_1/مشاهده.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/ویرایش_1/ویرایش.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/بایگانی_1/بایگانی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/حذف_1/حذف.html" format="html" processing-role="normal"></page>
+          <book navtitle="مجوزها" format="html" processing-role="normal">
+            <page href="../contents/KasraWebHelp/مجوزها_1/مجوزها.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/دسترسی_راهنما_1/دسترسی_راهنما.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/دسترسی_به_منو_1/دسترسی_به_منو.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/ارجاع_آزاد_1/ارجاع_آزاد.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/چت_1/چت.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/ارسال_پیام_1/ارسال_پیام.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/دسترسی_کارتابل‌ها/دسترسی_کارتابل‌ها.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraWebHelp/دسترسی_فرایندی.htm" format="html" processing-role="normal"></page>
+          </book>
+          <page href="../contents/KasraWebHelp/اعضای_گروه/اعضای_گروه.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/عضویت_جدید_1/عضویت_جدید.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/دسترسی_اطلاعات/دسترسی_اطلاعات.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تصویر_گروه/تصویر_گروه.html" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+      <book navtitle="مدیریت_عناصر_و_اطلاعات" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/مدیریت_عناصر_و_اطلاعات/مدیریت_عناصر_و_اطلاعات.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/فرم‌ها/فرم‌ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/قوانین/قوانین.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/حقایق/حقایق.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/اقلام_داده‌ای/اقلام_داده‌ای.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/دسته‌بندی_اقلام_داده‌ای/دسته‌بندی_اقلام_داده‌ای.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/مدیریت_راهنما/مدیریت_راهنما.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/مدیریت_همگام‌سازی/مدیریت_همگام‌سازی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/مدیریت_اخبار/مدیریت_اخبار.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/تنظیمات_OTP/تنظیمات_OTP.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت_واسط_کاربری" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/مدیریت_واسط_کاربری/مدیریت_واسط_کاربری.html" format="html" processing-role="normal"></page>
+        <book navtitle="تنظیمات_سیستم" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/تنظیمات_سیستم/تنظیمات_سیستم.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/پروفایل_کاربر/پروفایل_کاربر.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات_ورود/تنظیمات_ورود.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات_نرم‌افزار/تنظیمات_نرم‌افزار.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/لاگ‌های_اضطراری/لاگ‌های_اضطراری.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات_توستر/تنظیمات_توستر.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات__FlieBrows/تنظیمات__FlieBrows.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات_لاگ/تنظیمات_لاگ.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات_ستون‌ها/تنظیمات_ستون‌ها.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/تنظیمات_نمایشی_سیستم/تنظیمات_نمایشی_سیستم.html" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/KasraWebHelp/فایل‌ها/فایل‌ها.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت_سیستم" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/مدیریت_سیستم/مدیریت_سیستم.html" format="html" processing-role="normal"></page>
+        <book navtitle="مدیریت_سوابق_کاری" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/مدیریت_سوابق_کاری/مدیریت_سوابق_کاری.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/جستجو_در_لاگ_وب‌سرویس/جستجو_در_لاگ_وب‌سرویس.html" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/KasraWebHelp/اتصال_به_سامانه‌های_بیرونی/اتصال_به_سامانه‌های_بیرونی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/ساختار_نمایشی/ساختار_نمایشی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/منوها/منوها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/تنظیمات_ورود_1/تنظیمات_ورود.html" format="html" processing-role="normal"></page>
+        <book navtitle="مدیریت_اطلاعات" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/مدیریت_اطلاعات/مدیریت_اطلاعات.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/پشتیبان_گیری_برگرداندن_اطلاعات/_برگرداندن_اطلاعات.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/بروز_کردن_اطلاعات_فرم،_گردش_کار_و_گزارشات/بروز_کردن_اطلاعات_فرم،_گردش_کار_و_گزارشات.html" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/KasraWebHelp/تقویم/تقویم.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/مدیریت_خطاها/مدیریت_خطاها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/مشخصات_نسخه/مشخصات_نسخه.html" format="html" processing-role="normal"></page>
+        <book navtitle="اطلاعات_پرداخت" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/اطلاعات_پرداخت/اطلاعات_پرداخت.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/درگاه_پرداخت/درگاه_پرداخت.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/عناوین_پرداخت/عناوین_پرداخت.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/حساب‌های_بانکی/حساب‌های_بانکی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/اطلاعات_بانک‌ها/اطلاعات_بانک‌ها.html" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+      <book navtitle="پایش_کسب_و_کار" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/پایش_کسب_و_کار/پایش_کسب_و_کار.html" format="html" processing-role="normal"></page>
+        <book navtitle="فعالیت_محور" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/گزارش_مدت_انجام_فعالیت‌ها/گزارش_مدت_انجام_فعالیت‌ها.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_آنالیز_عملکرد_عناصر_نسخه‌های_مختلف_فرایند/گزارش_آنالیز_عملکرد_عناصر_نسخه‌های_مختلف_فرایند.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_وضعیت_فعالیت‌ها/گزارش_وضعیت_فعالیت‌ها.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_عملکردی_فعالیت_بر_اساس_مهلت_انجام/گزارش_عملکردی_فعالیت_بر_اساس_مهلت_انجام.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/نرخ_ورودی_و_خروجی_فعالیت‌ها/نرخ_ورودی_و_خروجی_فعالیت‌ها.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="فرایند_محور" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/فرایند_محور/فرایند_محور.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_تاریخچه_وضعیت_فرایندهای_سازمانی/گزارش_تاریخچه_وضعیت_فرایندهای_سازمانی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_عملکردی_فرایندها_بر_اساس_مهلت_انجام/گزارش_عملکردی_فرایندها_بر_اساس_مهلت_انجام.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_آنالیز_نمونه‌های_فرایند/گزارش_آنالیز_نمونه‌های_فرایند.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_مدت_انجام_کار_فرایند/گزارش_مدت_انجام_کار_فرایند.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_آنالیز_فرایندها/گزارش_آنالیز_فرایندها.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_آنالیز_وضعیت_نسخه‌های_مختلف_فرایند/گزارش_آنالیز_وضعیت_نسخه‌های_مختلف_فرایند.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_آنالیز_عملکرد_نسخه‌های_مختلف_فرایند/گزارش_آنالیز_عملکرد_نسخه‌های_مختلف_فرایند.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="کاربر_محور" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/کاربر_محور/کاربر_محور.html" format="html" processing-role="normal"></page>
+          <page navtitle="آنال‏‏ی‏‏ز‏‏ فعال‏‏ی‏‏ت‌ها‏‏ی‏‏ سازمان" href="../contents/KasraWebHelp/آنالیز_فعالیت‌های_سازمان_(کاربرانجایگاه‌ها_دپارتمان‌ها)/_دپارتمان‌ها).html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_آنالیز_عملکرد_کاربران/گزارش_آنالیز_عملکرد_کاربران.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/گزارش_تاریخچه_عملکرد_کاربران/گزارش_تاریخچه_عملکرد_کاربران.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="نقشه‌های_حرارتی" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/نقشه‌های_حرارتی/نقشه‌های_حرارتی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/بر_اساس_مدت_زمانی_که_کار_در_هر_مرحله_مانده_است/بر_اساس_مدت_زمانی_که_کار_در_هر_مرحله_مانده_است.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/بر_اساس_تعداد_نمونه‌های_موجود_در_هر_مرحله/بر_اساس_تعداد_نمونه‌های_موجود_در_هر_مرحله.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/بر_اساس_تعداد_نمونه‌های_انجام_شده_در_هر_مرحله/بر_اساس_تعداد_نمونه‌های_انجام_شده_در_هر_مرحله.html" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+      <book navtitle="مدیریت_فرایند‌های_سازمانی" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/مدیریت_فرایند‌های_سازمانی/مدیریت_فرایند‌های_سازمانی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/فرایندهای_گروهی_سازمانی/فرایندهای_گروهی_سازمانی.html" format="html" processing-role="normal"></page>
+        <book navtitle="شماره_سریال" format="html" processing-role="normal">
+          <page href="../contents/KasraWebHelp/شماره_سریال/شماره_سریال.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/بازگرداندن_به_مرحله_خاص/بازگرداندن_به_مرحله_خاص.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/نمایش_شماره_سریال_فرایند_پدر/نمایش_شماره_سریال_فرایند_پدر.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/لیست_خطاهای_اجرای_فرایند/لیست_خطاهای_اجرای_فرایند.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/اجرای_عناصر_آسنکرون/اجرای_عناصر_آسنکرون.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/لغو_بایگانی_دستی/لغو_بایگانی_دستی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/فعال_کردن_آخرین_عمل/فعال_کردن_آخرین_عمل.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/لغو_آخرین_عمل/لغو_آخرین_عمل.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/مشاهده_نمودار/مشاهده_نمودار.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraWebHelp/مشاهده_جزئیات/مشاهده_جزئیات.html" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/KasraWebHelp/لیست_فرایند‌های_متوقف_شده/لیست_فرایند‌های_متوقف_شده.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/ارسال_فعالیت_به_مرحله_بعد/ارسال_فعالیت_به_مرحله_بعد.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت_جلسات" format="html" processing-role="normal">
+        <page href="../contents/KasraWebHelp/مدیریت_جلسات/مدیریت_جلسات.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/جلسه/جلسه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraWebHelp/نوع_جلسه/نوع_جلسه.html" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <page href="../contents/KasraWebHelp/تغییر_تصویر_زمینه_صفحه_ورود.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/KasraWebHelp/کارتابل/کارتابل.html" format="html" processing-role="normal"></page>
+    <page href="../contents/KasraWebHelp/ارسال_به_سرور_فرم_و_فرایند/ارسال_به_سرور_فرم_و_فرایند.html" format="html" processing-role="normal"></page>
+    <book navtitle="پرسشنامه ساز" format="html" processing-role="normal">
+      <page href="../contents/KasraWebHelp/پرسشنامه_ساز/پرسشنامه_ساز.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="محیط طراحی" condition="Product:نسل_یک" format="html" processing-role="normal">
+    <page href="../contents/KasraHelp/کسرا/کسرا.html" format="html" processing-role="normal"></page>
+    <page href="../contents/KasraHelp/درباره/درباره.html" format="html" processing-role="normal"></page>
+    <book navtitle="اجزای_کسرا" format="html" processing-role="normal">
+      <page href="../contents/KasraHelp/اجزای_کسرا/اجزای_کسرا.html" format="html" processing-role="normal"></page>
+      <book navtitle="فرم‌ها" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/فرم‌ها/فرم‌ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/صفحه_ورود/صفحه_ورود.html" format="html" processing-role="normal"></page>
+        <book navtitle="مدیریت_فرم‌ها" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/مدیریت_فرم‌ها/مدیریت_فرم‌ها.html" format="html" processing-role="normal"></page>
+          <book navtitle="مراحل_ایجاد_فرم" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/مراحل_ایجاد_فرم/مراحل_ایجاد_فرم.html" format="html" processing-role="normal"></page>
+            <book navtitle="مرحله_اول:_مشخصات_فرم" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/مرحله_اول_مشخصات_فرم/_مشخصات_فرم.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مشخصات/مشخصات.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_پیشرفته/تنظیمات_پیشرفته.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/جستجو/جستجو.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رمزنگاری/رمزنگاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فرم‌های_داخلی/فرم‌های_داخلی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رفتار_فرم/رفتار_فرم.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/توضیحات/توضیحات.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/(Log)_مدیریت_سوابق/(Log)_مدیریت_سوابق.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/محدودیت_کنترل‌ها/محدودیت_کنترل‌ها.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_نمایشی/تنظیمات_نمایشی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حقیقت/حقیقت.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_راهنما/تنظیمات_راهنما.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مدیریت_شاخص‌ها(index)/مدیریت_شاخص‌ها(index).html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_تمیزسازی_داده/تنظیمات_تمیزسازی_داده.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="مرحله_دوم:_تعریف_فیلدها" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/مرحله_دوم_تعریف_فیلدها/_تعریف_فیلدها.html" format="html" processing-role="normal"></page>
+              <book navtitle="آشنایی_با_کنترل‌ها" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/آشنایی_با_کنترل‌ها/آشنایی_با_کنترل‌ها.html" format="html" processing-role="normal"></page>
+                <book navtitle="کنترل‌های_اصلی" format="html" processing-role="normal">
+                  <page href="../contents/KasraHelp/کنترل‌های_اصلی/کنترل‌های_اصلی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/TxtTextBox_کنترل_متنی/TxtTextBox_کنترل_متنی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/NumericTextBox_کنترل_عددی/NumericTextBox_کنترل_عددی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_چک_باکس__CheckBox/کنترل_چک_باکس__CheckBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_چند_انتخابی__DropDownList/کنترل_چند_انتخابی__DropDownList.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_تاریخ_DatePanel/کنترل_تاریخ_DatePanel.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_تقویم_CalendarC/کنترل_تقویم_CalendarC.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_آپلود_فایل__FileBrowser/کنترل_آپلود_فایل__FileBrowser.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل__CodeTextBox/کنترل__CodeTextBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_چک‌لیست_باکس_CheckListBox/کنترل_چک‌لیست_باکس_CheckListBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_TreeCodeBox/کنترل_TreeCodeBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_TreeView/کنترل_TreeView.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_RepeatingTable/کنترل_RepeatingTable.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_SequenceGenerator/کنترل_SequenceGenerator.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ExcelSheet/کنترل_ExcelSheet.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_رادیو_لیست_RadioList/کنترل_رادیو_لیست_RadioList.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ادیتور_HtmlEditor/کنترل_ادیتور_HtmlEditor.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_انتخاب_رنگ_ColorPicker/کنترل_انتخاب_رنگ_ColorPicker.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_انتخاب_فونت_FontPicker/کنترل_انتخاب_فونت_FontPicker.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_CodeGrid/کنترل_CodeGrid.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_SelectedGrid/کنترل_SelectedGrid.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_MaskedBox/کنترل_MaskedBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_زیر_فرم_SubFormControl/کنترل_زیر_فرم_SubFormControl.html" format="html" processing-role="normal"></page>
+                  <page navtitle="کنترل  GridView" href="../contents/KasraHelp/کنترل__نمایش_لیست_GridView/کنترل_نمایش_لیست_GridView.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_شمارنده_Counter/کنترل_شمارنده_Counter.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Payment/کنترل_Payment.html" format="html" processing-role="normal"></page>
+                </book>
+                <book navtitle="کنترل‌های_نمایشی" format="html" processing-role="normal">
+                  <page href="../contents/KasraHelp/کنترل‌های_نمایشی/کنترل‌های_نمایشی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Chart/کنترل_Chart.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_HyperLink/کنترل_HyperLink.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/Iframe_کنترل_IFrame/Iframe_کنترل_IFrame.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Button/کنترل_Button.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ImageBox/کنترل_ImageBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_SignControl/کنترل_SignControl.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Captcha/کنترل_Captcha.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_HeaderField/کنترل_HeaderField.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ObjectDate/کنترل_ObjectDate.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنتر_ل_SqlDataSource/کنتر_ل_SqlDataSource.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_LinkButton/کنترل_LinkButton.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ImageButton/کنترل_ImageButton.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_UpDatePanel/کنترل_UpDatePanel.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ControlSet/کنترل_ControlSet.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Label/کنترل_Label.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ReportTable/کنترل_ReportTable.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Literal/کنترل_Literal.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_PlaceHolder/کنترل_PlaceHolder.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_FormLoader/کنترل_FormLoader.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Menu/کنترل_Menu.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Timer/کنترل_Timer.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_TimeLine/کنترل_TimeLine.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_HiddenField/کنترل_HiddenField.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ListContent/کنترل_ListContent.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_QueryBuilder/کنترل_QueryBuilder.html" format="html" processing-role="normal"></page>
+                </book>
+              </book>
+            </book>
+            <page href="../contents/KasraHelp/مرحله_سوم_بخش_جستجوی_فرم/_بخش_جستجوی_فرم.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_چهارم_بخش_لیست_فرم/_بخش_لیست_فرم.html" format="html" processing-role="normal"></page>
+            <book navtitle="مرحله_پنجم:_رخدادها_و_متغیرهای_فرم" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/مرحله_پنجم_رخدادها_و_متغیرهای_فرم/_رخدادها_و_متغیرهای_فرم.html" format="html" processing-role="normal"></page>
+              <book navtitle="رابط_تجاری_(Business_Interface)" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/رابط_تجاری_(Business_Interface)/رابط_تجاری_(Business_Interface).html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/متغیرها/متغیرها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/سرتیترها/سرتیترها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کدهای_اضافه_شده/کدهای_اضافه_شده.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/توابع/توابع.html" format="html" processing-role="normal"></page>
+              </book>
+              <book navtitle="فرم‌ها_(Form)" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/فرم‌ها_(Form)/فرم‌ها_(Form).html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/رویدادهای_عمومی/رویدادهای_عمومی.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/رویدادهای_گروهی/رویدادهای_گروهی.html" format="html" processing-role="normal"></page>
+                <book navtitle="کنترل‌ها" format="html" processing-role="normal">
+                  <page href="../contents/KasraHelp/کنترل‌ها/کنترل‌ها.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل‌های_اصلی_1/کنترل‌های_اصلی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/رویدادهای_ایجکسی_کنترل‌ها/رویدادهای_ایجکسی_کنترل‌ها.html" format="html" processing-role="normal"></page>
+                </book>
+                <page href="../contents/KasraHelp/کنترل‌های_نمایشی_1/کنترل‌های_نمایشی.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کنترل‌های_جستجو/کنترل‌های_جستجو.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/توابع_1/توابع.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/متغیرها_1/متغیرها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/سر_تیترها/سر_تیترها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کدهای_اضافه_شده_1/کدهای_اضافه_شده.html" format="html" processing-role="normal"></page>
+                <book navtitle="کدنویسی_C" format="html" processing-role="normal">
+                  <page href="../contents/KasraHelp/کدنویسی_C/کدنویسی_C.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/درخت_سمت_چپ/درخت_سمت_چپ.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/درخت_سمت_راست/درخت_سمت_راست.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/ویزارد_اجبار_وورد/ویزارد_اجبار_ورود.htm" format="html" processing-role="normal"></page>
+                </book>
+              </book>
+              <book navtitle="(Business)_تجاری" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/توابع_2/توابع.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/متغیرها_2/متغیرها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/سر_تیترها_1/سر_تیترها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کدهای_اضافه_شده_2/کدهای_اضافه_شده.html" format="html" processing-role="normal"></page>
+              </book>
+              <book navtitle="دسترسی_به_داده(Data_Access)" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/دسترسی_به_داده(Data_Access)/دسترسی_به_داده(Data_Access).html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/توابع_3/توابع.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/متغیرها_3/متغیرها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/سر_تیترها_2/سر_تیترها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کدهای_اضافه_شده_3/کدهای_اضافه_شده.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/رویه‌های_ذخیره_شده/رویه‌های_ذخیره_شده.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/تریگر/تریگر.html" format="html" processing-role="normal"></page>
+              </book>
+            </book>
+            <page href="../contents/KasraHelp/تنظیمات_فرم_جزئی/تنظیمات_فرم_جزئی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تولید_فرم/تولید_فرم.html" format="html" processing-role="normal"></page>
+          </book>
+          <page href="../contents/KasraHelp/لیست_فرم‌ها/لیست_فرم‌ها.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/تولید_گروهی_فرم‌ها/تولید_گروهی_فرم‌ها.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/جستجو_1/جستجو.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="مدیریت_صفحات" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/مدیریت_صفحات/مدیریت_صفحات.html" format="html" processing-role="normal"></page>
+          <book navtitle="مراحل_ایجاد_صفحه" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/مراحل_ایجاد_صفحه/مراحل_ایجاد_صفحه.html" format="html" processing-role="normal"></page>
+            <book navtitle="مرحله_تعیین_مشخصات" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/مرحله_تعیین_مشخصات/مرحله_تعیین_مشخصات.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مشخصات_صفحه/مشخصات_صفحه.html" format="html" processing-role="normal"></page>
+              <page navtitle="تنظیمات پیشرفته" href="../contents/KasraHelp/1.3.1.3.1.1.2_تنظیمات_پیشرفته/1.3.1.3.1.1.2_تنظیمات_پیشرفته.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رمزنگاری_1/رمزنگاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/توضیحات_1/توضیحات.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مدیریت_سوابق__(Log)/مدیریت_سوابق__(Log).html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_نمایشی_1/تنظیمات_نمایشی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حقیقت_1/حقیقت.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_راهنما_1/تنظیمات_راهنما.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_تمیزسازی_داده_1/تنظیمات_تمیزسازی_داده.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="مرحله_دوم:_تعریف_فیلدها" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/مرحله_دوم_تعریف_فیلدها_1/_تعریف_فیلدها.html" format="html" processing-role="normal"></page>
+              <book navtitle="آشنایی_با_کنترل‌ها" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/آشنایی_با_کنترل‌ها_1/آشنایی_با_کنترل‌ها.html" format="html" processing-role="normal"></page>
+                <book navtitle="کنترل‌های_اصلی" format="html" processing-role="normal">
+                  <page href="../contents/KasraHelp/کنترل‌های_اصلی_2/کنترل‌های_اصلی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_متنی__TxtTextBox/کنترل_متنی__TxtTextBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_عددی__NumericTextBox/کنترل_عددی__NumericTextBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_چک_باکس_CheckBox/کنترل_چک_باکس_CheckBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_چند_انتخابی_DropDownList/کنترل_چند_انتخابی_DropDownList.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_تاریخ_DatePanel_1/کنترل_تاریخ_DatePanel.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_تقویم_CalendarC_1/کنترل_تقویم_CalendarC.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_آپلود_فایل_FileBrowser/کنترل_آپلود_فایل_FileBrowser.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_CodeTextBox/کنترل_CodeTextBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_چک‌لیست_باکس_CheckListBox_1/کنترل_چک‌لیست_باکس_CheckListBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_TreeCodeBox_1/کنترل_TreeCodeBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_TreeView_1/کنترل_TreeView.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_HtmlEditor/کنترل_HtmlEditor.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ColorPicker/کنترل_ColorPicker.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_انتخاب_فونت_FontPicker_1/کنترل_انتخاب_فونت_FontPicker.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_CodeGrid_1/کنترل_CodeGrid.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل__SelectedGrid/کنترل__SelectedGrid.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_MaskedBox_1/کنترل_MaskedBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_SubFormControl/کنترل_SubFormControl.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_شمارنده_Counter_1/کنترل_شمارنده_Counter.html" format="html" processing-role="normal"></page>
+                </book>
+                <book navtitle="کنترل‌های_نمایشی" format="html" processing-role="normal">
+                  <page href="../contents/KasraHelp/کنترل‌های_نمایشی_2/کنترل‌های_نمایشی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Chart_1/کنترل_Chart.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_HyperLink_1/کنترل_HyperLink.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_IFrame/کنترل_IFrame.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/1.3.1.3.1.2.1.2.4_کنترل_Button/1.3.1.3.1.2.1.2.4_کنترل_Button.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ImageBox_1/کنترل_ImageBox.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_SignControl_1/کنترل_SignControl.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Captcha_1/کنترل_Captcha.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_HeaderField_1/کنترل_HeaderField.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ObjectDate_1/کنترل_ObjectDate.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_SqlDataSource/کنترل_SqlDataSource.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_LinkButton_1/کنترل_LinkButton.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ImageButton_1/کنترل_ImageButton.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_UpDatePanel_1/کنترل_UpDatePanel.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ControlSet_1/کنترل_ControlSet.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Label_1/کنترل_Label.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_ReportTable_1/کنترل_ReportTable.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Literal_1/کنترل_Literal.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_PlaceHolder_1/کنترل_PlaceHolder.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_FormLoader_1/کنترل_FormLoader.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Menu_1/کنترل_Menu.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_Timer_1/کنترل_Timer.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_TimeLine_1/کنترل_TimeLine.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل_HiddenField_1/کنترل_HiddenField.html" format="html" processing-role="normal"></page>
+                </book>
+              </book>
+            </book>
+            <book navtitle="مرحله_سوم:_تعریف_رخدادها_و_متغیرهای_صفحه" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/1.3.1.3.1.3_مرحله_سوم_تعریف_رخدادها_و_متغیرهای_صفحه/_تعریف_رخدادها_و_متغیرهای_صفحه.html" format="html" processing-role="normal"></page>
+              <book navtitle="فرم‌ها" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/فرم‌ها_1/فرم‌ها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/رویدادهای_عمومی_1/رویدادهای_عمومی.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/رویدادهای_گروهی_1/رویدادهای_گروهی.html" format="html" processing-role="normal"></page>
+                <book navtitle="رویدادهای_کنترلی" format="html" processing-role="normal">
+                  <page href="../contents/KasraHelp/رویدادهای_کنترلی/رویدادهای_کنترلی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل‌های_اصلی_3/کنترل‌های_اصلی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل‌های_نمایشی_3/کنترل‌های_نمایشی.html" format="html" processing-role="normal"></page>
+                  <page href="../contents/KasraHelp/کنترل‌های_جستجو_1/کنترل‌های_جستجو.html" format="html" processing-role="normal"></page>
+                </book>
+                <page href="../contents/KasraHelp/توابع_4/توابع.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/متغیرها_4/متغیرها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/سرتیترها_1/سرتیترها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کدهای_اضافه_شده_4/کدهای_اضافه_شده.html" format="html" processing-role="normal"></page>
+              </book>
+              <book navtitle="رابط_تجاری_(Business_Interface_)" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/رابط_تجاری_(Business_Interface_)/رابط_تجاری_(Business_Interface_).html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/توابع_5/توابع.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/متغیرها_5/متغیرها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/سرتیترها_2/سرتیترها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کدهای_اضافه_شده_5/کدهای_اضافه_شده.html" format="html" processing-role="normal"></page>
+              </book>
+              <book navtitle="تجاری_(Business)" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/تجاری_(Business)/تجاری_(Business).html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/توابع_6/توابع.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/متغیرها_6/متغیرها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/سرتیترها_3/سرتیترها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/کدهای_اضافه_شده_6/کدهای_اضافه_شده.html" format="html" processing-role="normal"></page>
+              </book>
+            </book>
+          </book>
+          <page href="../contents/KasraHelp/لیست_صفحات/لیست_صفحات.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="کلاس_/_فایل" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/کلاس__فایل/_فایل.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/تعریف_کلاس/تعریف_کلاس.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/افزودن_کلاس/افزودن_کلاس.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/افزودن_DLL/افزودن_DLL.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/تعریف_Session/تعریف_Session.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/تعریف_Application/تعریف_Application.html" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/KasraHelp/تغییرویژگی_های_کنترل‌های_فرم/تغییرویژگی_های_کنترل‌های_فرم.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/کدهای_مشترک/کدهای_مشترک.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/کنترل‌های_سفارشی/کنترل‌های_سفارشی.html" format="html" processing-role="normal"></page>
+        <book navtitle="BootStrap" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/BootStrap/BootStrap.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/قوانین_چینش_کنترل‌ها/قوانین_چینش_کنترل‌ها.html" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+      <book navtitle="فرایندها" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/فرایندها/فرایندها.html" format="html" processing-role="normal"></page>
+        <book navtitle="مدیریت_فرایندهای_سازمانی" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/مدیریت_فرایندهای_سازمانی/مدیریت_فرایندهای_سازمانی.html" format="html" processing-role="normal"></page>
+          <book navtitle="ایجاد_یک_فرایند_سازمانی" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/ایجاد_یک_فرایند_سازمانی/ایجاد_یک_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/اطلاعات_فرایند_سازمانی/اطلاعات_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/نحوه_نمایش/نحوه_نمایش.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/نحوه_شروع/نحوه_شروع.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/راهنما/راهنما.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/توضیحات_2/توضیحات.html" format="html" processing-role="normal"></page>
+          </book>
+          <book navtitle="تنظیمات_فرایند_سازمانی" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/تنظیمات_فرایند_سازمانی/تنظیمات_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کلیدواژه/کلیدواژه.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/زمان‌بندی_فرایند_سازمانی/زمان‌بندی_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/متغیرهای_سراسری/متغیرهای_سراسری.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/اعلان/اعلان.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/حقیقت_2/حقیقت.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/Orchestration/Orchestration.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/KPI/KPI.html" format="html" processing-role="normal"></page>
+          </book>
+          <page href="../contents/KasraHelp/محیط_طراحی_فرایند/محیط_طراحی_فرایند.html" format="html" processing-role="normal"></page>
+          <book navtitle="انواع_عناصر_فرایند_سازمانی" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/انواع_عناصر_فرایند_سازمانی/انواع_عناصر_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کنترل‌های_فعالیت/کنترل‌های_فعالیت.html" format="html" processing-role="normal"></page>
+            <book navtitle="کنترل‌های_رویداد" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/کنترل‌های_رویداد/کنترل‌های_رویداد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رویداد_پیام/رویداد_پیام.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رویداد_سیگنال/رویداد_سیگنال.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رویداد_زمان_سنج/رویداد_زمان_سنج.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رویداد_لینک/رویداد_لینک.html" format="html" processing-role="normal"></page>
+              <page navtitle="رویداد مشروط" href="../contents/KasraHelp/رویدادا_مشروط/رویدادا_مشروط.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/سایر_رویداد_ها/سایر_رویداد_ها.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="کنترل‌های_گذرگاه" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/کنترل‌های_گذرگاه/کنترل‌های_گذرگاه.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/گذرگاه_انحصاری/گذرگاه_انحصاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/گذرگاه_موازی/گذرگاه_موازی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/گذرگاه_مبتنی_بر_رویداد/گذرگاه_مبتنی_بر_رویداد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/گذرگاه_مبتنی_بر_رویداد_شروع/گذرگاه_مبتنی_بر_رویداد_شروع.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="سایر_کنترل‌ها" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/سایر_کنترل‌ها/سایر_کنترل‌ها.html" format="html" processing-role="normal"></page>
+              <page navtitle="Lable" href="../contents/KasraHelp/توضیحات_3/Lable.html" format="html" processing-role="normal"></page>
+              <page navtitle="مسیر" href="../contents/KasraHelp/مخزن/مسیر.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/زیرفرایند/زیرفرایند.html" format="html" processing-role="normal"></page>
+            </book>
+          </book>
+          <book navtitle="مشخصات_عنصر" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/مشخصات_عنصر/مشخصات_عنصر.html" format="html" processing-role="normal"></page>
+            <book navtitle="ویژگی‌های_اصلی" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/ویژگی‌های_اصلی/ویژگی‌های_اصلی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ویژگی‌های_اصلی_1/ویژگی‌های_اصلی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_نمایشی_2/تنظیمات_نمایشی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/سایر_ویژگی‌ها/سایر_ویژگی‌ها.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مهلت_انجام_کار/مهلت_انجام_کار.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تنظیمات_پاراف/تنظیمات_پاراف.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/(Loop)_تنظیمات_تکرار/(Loop)_تنظیمات_تکرار.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="قوانین_عبور_از_مرحله" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/قوانین_عبور_از_مرحله/قوانین_عبور_از_مرحله.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/اتمام_فعالیت/اتمام_فعالیت.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مقداردهی/مقداردهی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی/شرط_روی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط‌های_ترکیبی/شرط‌های_ترکیبی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_کنترل‌های_فرم/شرط_روی_کنترل‌های_فرم.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/نمایش_هشدار_برای_کاربر/نمایش_هشدار_برای_کاربر.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_هشدار_پیشرفته/ارسال_هشدار_پیشرفته.htm" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/کدنویسی_C_1/کدنویسی_C.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فراخوانی_BusinessRule/فراخوانی_BusinessRule.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/نتایج_رأی‌گیری/نتایج_رأی‌گیری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_نتایج_رأی‌گیری/شرط_روی_نتایج_رأی‌گیری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/اختتام_گردشکار_وابسته/اختتام_گردشکار_وابسته.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_ایمیل/ارسال_ایمیل.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/دریافت_ایمیل/دریافت_ایمیل.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/نمایش_لیست_در_زمان_ویرایش/نمایش_لیست_در_زمان_ویرایش.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رفتن_به_حالت_درج_پس_از_ذخیره/رفتن_به_حالت_درج_پس_از_ذخیره.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تعیین_کاربر_مرحله_بعد/تعیین_کاربر_مرحله_بعد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تعیین_کاربر_جایگزین/تعیین_کاربر_جایگزین.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/افزودن_رویداد/افزودن_رویداد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_پیامک/ارسال_پیامک.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/دریافت_پیامک/دریافت_پیامک.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شماره_همراه_کاربران_مرحله_جاری/شماره_همراه_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ایمیل_کاربران_مرحله_جاری/ایمیل_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_مشخصات_کاربر_جاری/شرط_روی_مشخصات_کاربر_جاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_کاربر_پاراف/شرط_روی_کاربر_پاراف.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_اعلان/ارسال_اعلان.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_اعلان_پیشرفته/ارسال_اعلان_پیشرفته.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فراخوانی_KPI/فراخوانی_KPI.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ایجاد_کاربر_جدید/ایجاد_کاربر_جدید.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/خاتمه_کل_روند_کار/خاتمه_کل_روند_کار.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_حالت_قبل/شرط_روی_حالت_قبل.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_کد/شرط_روی_کد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تغییر_رمز_عبور/تغییر_رمز_عبور.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/گرفتن_رکورد_یک_مرحله/گرفتن_رکورد_یک_مرحله.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شروع_یک_فرایند_سازمانی/شروع_یک_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حلقه_تکرار_For/حلقه_تکرار_For.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حلقه_تکرار_While/حلقه_تکرار_While.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حلقه_تکرار_DoWhile/حلقه_تکرار_DoWhile.html" format="html" processing-role="normal"></page>
+              <book navtitle="ارتباط_با_سایر_سیستم‌ها" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/ارتباط_با_سایر_سیستم‌ها/ارتباط_با_سایر_سیستم‌ها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/از_طریق_وب‌سرویس/از_طریق_وب‌سرویس.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/هماهنگ_سازی_اطلاعات_(sync)/هماهنگ_سازی_اطلاعات_(sync).html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/فراخوانی__بسته‌های_IntgrationID/فراخوانی__بسته‌های_IntgrationID.html" format="html" processing-role="normal"></page>
+              </book>
+              <page href="../contents/KasraHelp/انجام_عملیات_پایگاه‌داده‌ای/انجام_عملیات_پایگاه‌داده‌ای.html" format="html" processing-role="normal"></page>
+            </book>
+            <page href="../contents/KasraHelp/عناصر_نمایشی_کارتابل/عناصر_نمایشی_کارتابل.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کد_رهگیری_کاربر/کد_رهگیری_کاربر.html" format="html" processing-role="normal"></page>
+            <book navtitle="قوانین_ورود_به_مرحله" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/قوانین_ورود_به_مرحله/قوانین_ورود_به_مرحله.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مقداردهی_1/مقداردهی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_1/شرط_روی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط‌های_ترکیبی_1/شرط‌های_ترکیبی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_کنترل‌های_فرم_1/شرط_روی_کنترل‌های_فرم.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/نمایش_هشدار_برای_کاربر_1/نمایش_هشدار_برای_کاربر.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/کدنویسی_C_2/کدنویسی_C.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فراخوانی_BusinessRule_1/فراخوانی_BusinessRule.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/نتایج_رأی‌گیری_1/نتایج_رأی‌گیری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/اختتام_گردشکار_وابسته_1/اختتام_گردشکار_وابسته.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_ایمیل_1/ارسال_ایمیل.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/دریافت_ایمیل_1/دریافت_ایمیل.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/نمایش_لیست_در_زمان_ویرایش_1/نمایش_لیست_در_زمان_ویرایش.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/رفتن_به_حالت_درج_پس_از_ذخیره_1/رفتن_به_حالت_درج_پس_از_ذخیره.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تعیین_کاربر_مرحله_بعد_1/تعیین_کاربر_مرحله_بعد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/افزودن_رویداد_1/افزودن_رویداد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_پیامک_1/ارسال_پیامک.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/دریافت_پیامک_1/دریافت_پیامک.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شماره_همراه_کاربران_مرحله_جاری_1/شماره_همراه_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ایمیل_کاربران_مرحله_جاری_1/ایمیل_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_مشخصات_کاربر_جاری_1/شرط_روی_مشخصات_کاربر_جاری.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_کاربر_پاراف_1/شرط_روی_کاربر_پاراف.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ارسال_اعلان_1/ارسال_اعلان.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/ایجاد_کاربر_جدید_1/ایجاد_کاربر_جدید.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/خاتمه_کل_روند_کار_1/خاتمه_کل_روند_کار.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_حالت_قبل_1/شرط_روی_حالت_قبل.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تعیین_حالت_ورود_به_مرحله/تعیین_حالت_ورود_به_مرحله.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شرط_روی_کد_1/شرط_روی_کد.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/تغییر_رمز_عبور_1/تغییر_رمز_عبور.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/گرفتن_رکورد_یک_مرحله_1/گرفتن_رکورد_یک_مرحله.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/بازگشت_به_یک_حالت_(Undo)/بازگشت_به_یک_حالت_(Undo).html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/شروع_یک_فرایند_سازمانی_1/شروع_یک_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حلقه_تکرار_For_1/حلقه_تکرار_For.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حلقه_تکرار_While_1/حلقه_تکرار_While.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حلقه_تکرار_DoWhile_1/حلقه_تکرار_DoWhile.html" format="html" processing-role="normal"></page>
+              <book navtitle="ارتباط_با_سایر_سیستم‌ها" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/ارتباط_با_سایر_سیستم‌ها_1/ارتباط_با_سایر_سیستم‌ها.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/از_طریق_وب‌سرویس_1/از_طریق_وب‌سرویس.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/هماهنگ_سازی_اطلاعات_(sync)_1/هماهنگ_سازی_اطلاعات_(sync).html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/فراخوانی__بسته‌های_IntgrationID_1/فراخوانی__بسته‌های_IntgrationID.html" format="html" processing-role="normal"></page>
+              </book>
+              <page href="../contents/KasraHelp/انجام_عملیات_پایگاه‌داده‌ای_1/انجام_عملیات_پایگاه‌داده‌ای.html" format="html" processing-role="normal"></page>
+            </book>
+            <page href="../contents/KasraHelp/چاپ/چاپ.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/راهنمایی/راهنمایی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/سایر_قوانین/سایر_قوانین.htm" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/اسمبلی‌های_استفاده_شده/اسمبلی‌های_استفاده_شده.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/قوانین_انصراف_آخرین_مرحله/قوانین_انصراف_آخرین_مرحله.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/قوانین_تعیین_مسیر/قوانین_تعیین_مسیر.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تعیین_دسترسی/تعیین_دسترسی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/محدودیت_بر_روی_آیتم‌ها/محدودیت_بر_روی_آیتم‌ها.html" format="html" processing-role="normal"></page>
+          </book>
+          <page href="../contents/KasraHelp/نسخه_اجرایی_و_ورژن/نسخه_اجرایی_و_ورژن.html" format="html" processing-role="normal"></page>
+          <book navtitle="ایجاد_یک_فرایند_سازمانی" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/ایجاد_یک_فرایند_سازمانی_1/ایجاد_یک_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <book navtitle="تعیین_مراحل_یک_فرایند_سازمانی" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/تعیین_مراحل_یک_فرایند_سازمانی/تعیین_مراحل_یک_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+              <book navtitle="مشخصات_هر_مرحله_از_فرایند_سازمانی" format="html" processing-role="normal">
+                <page href="../contents/KasraHelp/مشخصات_هر_مرحله_از_فرایند_سازمانی/مشخصات_هر_مرحله_از_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/ویژگی‌های_اصلی_3/ویژگی‌های_اصلی.html" format="html" processing-role="normal"></page>
+                <page href="../contents/KasraHelp/تعریف_مقادیر_فیلدهای_جداول_فانکشنالتی/تعریف_مقادیر_فیلدهای_جداول_فانکشنالتی.html" format="html" processing-role="normal"></page>
+              </book>
+            </book>
+          </book>
+        </book>
+        <page href="../contents/KasraHelp/مدیریت_کارتابل/مدیریت_کارتابل.html" format="html" processing-role="normal"></page>
+        <book navtitle="قوانین_کاری" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/قوانین_کاری/قوانین_کاری.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/ایجاد_قانون_کاری_جدید/ایجاد_قانون_کاری_جدید.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/پارامترها/پارامترها.html" format="html" processing-role="normal"></page>
+          <book navtitle="کد_اجرایی" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/کد_اجرایی/کد_اجرایی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/اتمام_فعالیت_1/اتمام_فعالیت.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مقداردهی_2/مقداردهی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_2/شرط_روی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط‌های_ترکیبی_2/شرط‌های_ترکیبی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_کنترل‌های_فرم_2/شرط_روی_کنترل‌های_فرم.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/رفتن_به_فعالیت/رفتن_به_فعالیت.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/رفتن_به_شرط/رفتن_به_شرط.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/نمایش_هشدار_برای_کاربر_2/نمایش_هشدار_برای_کاربر.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کدنویسی_C_3/کدنویسی_C.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/فراخوانی_BusinessRule_2/فراخوانی_BusinessRule.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/نتایج_رأی‌گیری_2/نتایج_رأی‌گیری.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_نتایج_رأی‌گیری_1/شرط_روی_نتایج_رأی‌گیری.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط/شرط.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/اختتام_گردشکار_وابسته_2/اختتام_گردشکار_وابسته.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/ارسال_ایمیل_2/ارسال_ایمیل.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/دریافت_ایمیل_2/دریافت_ایمیل.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/نمایش_لیست_در_زمان_ویرایش_2/نمایش_لیست_در_زمان_ویرایش.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/رفتن_به_حالت_درج_پس_از_ذخیره_2/رفتن_به_حالت_درج_پس_از_ذخیره.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تعیین_کاربر_مرحله_بعد_2/تعیین_کاربر_مرحله_بعد.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تعیین_کاربر_جایگزین_1/تعیین_کاربر_جایگزین.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/افزودن_رویداد_2/افزودن_رویداد.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/ارسال_پیامک_2/ارسال_پیامک.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/دریافت_پیامک_2/دریافت_پیامک.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شماره_همراه_کاربران_مرحله_جاری_2/شماره_همراه_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/ایمیل_کاربران_مرحله_جاری_2/ایمیل_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_مشخصات_کاربر_جاری_2/شرط_روی_مشخصات_کاربر_جاری.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_کاربر_پاراف_2/شرط_روی_کاربر_پاراف.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/ارسال_اعلان_2/ارسال_اعلان.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/ایجاد_کاربر_جدید_2/ایجاد_کاربر_جدید.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/خاتمه_کل_روند_کار_2/خاتمه_کل_روند_کار.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/نمایش_اطلاعات_یک_فرم/نمایش_اطلاعات_یک_فرم.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_حالت_قبل_2/شرط_روی_حالت_قبل.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تعیین_حالت_ورود_به_مرحله_1/تعیین_حالت_ورود_به_مرحله.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_فرایند_سازمانی/شرط_روی_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شرط_روی_کد_2/شرط_روی_کد.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تغییر_رمز_عبور_2/تغییر_رمز_عبور.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/گرفتن_رکورد_یک_مرحله_2/گرفتن_رکورد_یک_مرحله.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/بازگشت_به_یک_حالت_(Undo)_1/بازگشت_به_یک_حالت_(Undo).html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/رکورد_جدید/رکورد_جدید.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شروع_یک_فرایند_سازمانی_2/شروع_یک_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/حلقه_تکرار(_For)/حلقه_تکرار(_For).html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/حلقه_تکرار_While_2/حلقه_تکرار_While.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/حلقه_تکرار_DoWhile_2/حلقه_تکرار_DoWhile.html" format="html" processing-role="normal"></page>
+            <book navtitle="فیلتر_لیست_نمایشی" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/فیلتر_لیست_نمایشی/فیلتر_لیست_نمایشی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فیلتر_بر_اساس_کاربر_ثبت‌کننده/فیلتر_بر_اساس_کاربر_ثبت‌کننده.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فیلتر_بر_اساس_کاربر_یا_گروه/فیلتر_بر_اساس_کاربر_یا_گروه.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فیلتر_بر_اساس_فیلد/فیلتر_بر_اساس_فیلد.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="اعمال_پایگاه‌داده‌ای" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/اعمال_پایگاه‌داده‌ای/اعمال_پایگاه‌داده‌ای.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/افزودن_در_پایگاه‌داده/افزودن_در_پایگاه‌داده.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/حذف_از_پایگاه‌داده/حذف_از_پایگاه‌داده.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/بروز_رسانی_در_پایگاه‌داده/بروز_رسانی_در_پایگاه‌داده.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/انتخابی_از_پایگاه‌داده/انتخابی_از_پایگاه‌داده.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="ارتباط_با_سایر_سیستم‌ها" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/ارتباط_با_سایر_سیستم‌ها_2/ارتباط_با_سایر_سیستم‌ها.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/از_طریق_وب‌سرویس_2/از_طریق_وب‌سرویس.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/هماهنگ_سازی_اطلاعات_(sync)_2/هماهنگ_سازی_اطلاعات_(sync).html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فراخوانی__بسته‌های_IntgrationID_2/فراخوانی__بسته‌های_IntgrationID.html" format="html" processing-role="normal"></page>
+            </book>
+            <page href="../contents/KasraHelp/حقایق/حقایق.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/انجام_عملیات_پایگاه‌داده‌ای_2/انجام_عملیات_پایگاه‌داده‌ای.html" format="html" processing-role="normal"></page>
+          </book>
+          <page href="../contents/KasraHelp/اسمبلی‌ها/اسمبلی‌ها.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="ایجاد KPI" format="html" processing-role="normal">
+          <page navtitle="ایجاد KPI" href="../contents/KasraHelp/1.3.2.4_ایجاد__kPI/1.3.2.4_ایجاد__kPI.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/نحوه_محاسبه/نحوه_محاسبه.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/زمان‌بندی/زمان‌بندی.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="تعریف_سیگنال" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/تعریف_سیگنال/تعریف_سیگنال.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/تعریف_سیگنال_جدید/تعریف_سیگنال_جدید.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/تعریف_پارامتر/تعریف_پارامتر.html" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="نحوه نمایش" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/تاریخچه_درخواست/تاریخچه_درخواست.htm" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+      <book navtitle="گزارش‌ها" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/گزارش‌ها/گزارش‌ها.html" format="html" processing-role="normal"></page>
+        <book navtitle="موتور_تولید_گزارش" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/موتور_تولید_گزارش/موتور_تولید_گزارش.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/تنظیمات_گزارش_ساز/تنظیمات_گزارش_ساز.html" format="html" processing-role="normal"></page>
+          <book navtitle="مراحل_ایجاد_و_تنظیم_گزارش" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/مراحل_ایجاد_و_تنظیم_گزارش/مراحل_ایجاد_و_تنظیم_گزارش.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_تنظیمات_اولیه/مرحله_تنظیمات_اولیه.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_انتخاب_منبع_داده‌ای/مرحله_انتخاب_منبع_داده‌ای.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_انتخاب_فیلدهای_موردنظر_برای_گزارش/مرحله_انتخاب_فیلدهای_موردنظر_برای_گزارش.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_تعیین_پارامترهای_ورودی_در_گزارش_کل_به_جزء/مرحله_تعیین_پارامترهای_ورودی_در_گزارش_کل_به_جزء.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_گروه‌بندی/مرحله_گروه‌بندی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_عملیات_تجمیعی/مرحله_عملیات_تجمیعی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_تعیین_پارامترهای_ورودی_در_گزارش_ماتریسی/مرحله_تعیین_پارامترهای_ورودی_در_گزارش_ماتریسی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_انتخاب_گزارشات_(گزارش_اصلی)/مرحله_انتخاب_گزارشات_(گزارش_اصلی).html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_ارتباط_گزارش_با_زیر_گزارشات_(گزارش_اصلی)/مرحله_ارتباط_گزارش_با_زیر_گزارشات_(گزارش_اصلی).html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_اضافه‌کردن_پارامتر_به_گزارش_(زیر_گزارش)/مرحله_اضافه‌کردن_پارامتر_به_گزارش_(زیر_گزارش).html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_نمودار/مرحله_نمودار.html" format="html" processing-role="normal"></page>
+            <book navtitle="مرحله_نقشه" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/مرحله_نقشه/مرحله_نقشه.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/مشخصات_نقشه/مشخصات_نقشه.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/فیلدهای_ورودی/فیلدهای_ورودی.html" format="html" processing-role="normal"></page>
+            </book>
+            <book navtitle="مرحله_ایجاد_پیمانه/داشبورد_مدیریتی" format="html" processing-role="normal">
+              <page href="../contents/KasraHelp/مرحله_ایجاد_پیمانهداشبورد_مدیریتی/داشبورد_مدیریتی.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/داشبورد_ساده/داشبورد_ساده.html" format="html" processing-role="normal"></page>
+              <page href="../contents/KasraHelp/داشبورد_پیشرفته/داشبورد_پیشرفته.html" format="html" processing-role="normal"></page>
+            </book>
+            <page href="../contents/KasraHelp/مرحله_تنظیمات_نهایی/مرحله_تنظیمات_نهایی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مرحله_تعیین_حق_دسترسی_و_فیلتر/مرحله_تعیین_حق_دسترسی_و_فیلتر.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/نمودارها/نمودارها.html" format="html" processing-role="normal"></page>
+          </book>
+        </book>
+        <book navtitle="الگوهای_چاپی" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/الگوهای_چاپی/الگوهای_چاپی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/راهنمای_ایجاد_گزارش_با_الگوی_Stimulsoft/راهنمای_ایجاد_گزارش_با_الگوی_Stimulsoft.html" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+      <book navtitle="یکپارچه‌سازی" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/یکپارچه‌سازی/یکپارچه‌سازی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_Job/مدیریت_Job.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/فرایندهای_انتقال_اطلاعات/فرایندهای_انتقال_اطلاعات.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ImportExport/Export.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/منابع_خارجی/منابع_خارجی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تنظیمات_SSO/تنظیمات_SSO.html" format="html" processing-role="normal"></page>
+        <book navtitle="وب‌سرویس" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/وب‌سرویس/وب‌سرویس.html" format="html" processing-role="normal"></page>
+          <book navtitle="Soap" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/Soap/Soap.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/معرفی_وب‌سرویس_Soap/معرفی_وب‌سرویس_Soap.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/ایجاد_وب‌سرویس_Soap/ایجاد_وب‌سرویس_Soap.html" format="html" processing-role="normal"></page>
+          </book>
+          <book navtitle="Rest(WebApi)" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/Rest(WebApi)/Rest(WebApi).html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تنظیمات_مسیریابی/تنظیمات_مسیریابی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/Rest_ایجاد_وب‌سرویس/Rest_ایجاد_وب‌سرویس.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/Rest_معرفی_وب‌سرویس/Rest_معرفی_وب‌سرویس.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/احراز_هویت_وب‌سرویس‌های_Rest/احراز_هویت_وب‌سرویس‌های_Rest.html" format="html" processing-role="normal"></page>
+          </book>
+          <book navtitle="WCF(Soap_1.2)" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/WCF(Soap_1.2)/WCF(Soap_1.2).html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/Binding_تنظیمات/Binding_تنظیمات.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/Behavior_تنظیمات/Behavior_تنظیمات.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/WCF__ایجاد_وب‌سرویس/WCF__ایجاد_وب‌سرویس.html" format="html" processing-role="normal"></page>
+          </book>
+        </book>
+      </book>
+      <book navtitle="اطلاعات" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/اطلاعات/اطلاعات.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/دسته‌بندی/دسته‌بندی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_حقایق/مدیریت_حقایق.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تزریق_اطلاعات_اینترنتی/تزریق_اطلاعات_اینترنتی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_پایگاه‌داده/مدیریت_پایگاه‌داده.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مستندسازی" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/مستندسازی/مستندسازی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تولید_اسناد_تحلیل_و_طراحی/تولید_اسناد_تحلیل_و_طراحی.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="پروژه‌ها" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/پروژه‌ها/پروژه‌ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تغییر_پروژه_جاری/تغییر_پروژه_جاری.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_پروژه‌ها/مدیریت_پروژه‌ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/بروز_رسانی_سامانه/ماژول_بروزرسانی.htm" format="html" processing-role="normal"></page>
+        <book navtitle="تنظیمات_پروژه" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/تنظیمات_پروژه/تنظیمات_پروژه.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/وب‌سرویس‌های_تولید/وب‌سرویس‌های_تولید.html" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/KasraHelp/تغییر_رمز_عبور_3/تغییر_رمز_عبور.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_لیست‌ها/مدیریت_لیست‌ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_سابقه‌های_سیستمی/مدیریت_سابقه‌های_سیستمی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/آماده‌سازی_بسته_خروجی_(Deploy)/آماده‌سازی_بسته_خروجی_(Deploy).html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت_مقادیر_پایه" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/مدیریت_مقادیر_پایه/مدیریت_مقادیر_پایه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_سابقه/مدیریت_سابقه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_گروه‌های_اقلام_داده‌ای/مدیریت_گروه‌های_اقلام_داده‌ای.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/الگوهای_اتصال/الگوهای_اتصال.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_انواع_فایل‌ها/مدیریت_انواع_فایل‌ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/دسته‌بندی_فایل‌ها/دسته‌بندی_فایل‌ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_رویدادها/مدیریت_رویدادها.html" format="html" processing-role="normal"></page>
+        <book navtitle="توابع_عمومی" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/توابع_عمومی/توابع_عمومی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/فهرست_توابع_عمومی/فهرست_توابع_عمومی.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/A-F/A-F.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/G/G.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/H-Q/H-Q.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/R-Z/R-Z.html" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/KasraHelp/به‌روزرسانی_جداول_پایه/به‌روزرسانی_جداول_پایه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/به‌روزرسانی_فرایندها/به‌روزرسانی_فرایندها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/به‌روزرسانی_کلاس_های_Template/به‌روزرسانی_کلاس_های_Template.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_راهنماهای_پویا/مدیریت_راهنماهای_پویا.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تغییرات_نسخه/تغییرات_نسخه.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="کاربران" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/کاربران/کاربران.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_کاربران/مدیریت_کاربران.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_گروه_ها/مدیریت_گروه_ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_عضویت_درگروه/مدیریت_عضویت_درگروه.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_نسخه_بندی/مدیریت_نسخه_بندی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_دسترسی_ها/مدیریت_دسترسی_ها.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مدیریت_دسترسی_ها_جدید/مدیریت_دسترسی_ها_جدید.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="عملکردهای_از_پیش_تعریف_شده" format="html" processing-role="normal">
+        <page href="../contents/KasraHelp/عملکردهای_از_پیش_تعریف_شده/عملکردهای_از_پیش_تعریف_شده.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/اتمام_فعالیت_2/اتمام_فعالیت.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/مقداردهی_3/مقداردهی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_3/شرط_روی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط‌های_ترکیبی_3/شرط‌های_ترکیبی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/نمایش_هشدار_برای_کاربر_3/نمایش_هشدار_برای_کاربر.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ارسال_هشدار_پیشرفته/ارسال_هشدار_پیشرفته.htm" format="html" processing-role="normal"></page>
+        <book navtitle="کدنویسی_C" format="html" processing-role="normal">
+          <page href="../contents/KasraHelp/کدنویسی_C_4/کدنویسی_C.html" format="html" processing-role="normal"></page>
+          <page href="../contents/KasraHelp/درخت_سمت_راست_1/درخت_سمت_راست.html" format="html" processing-role="normal"></page>
+          <book navtitle="درخت_سمت_چپ" format="html" processing-role="normal">
+            <page href="../contents/KasraHelp/درخت_سمت_چپ_1/درخت_سمت_چپ.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کلاس/کلاس.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کنترل‌های_جستجوی_فرم/کنترل‌های_جستجوی_فرم.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کنترل‌های_فرم/کنترل‌های_فرم.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/متغیرهای_فرم/متغیرهای_فرم.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/پایگاه‌داده/پایگاه‌داده.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کار_با_فایل‌ها/کار_با_فایل‌ها.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/توابع_7/توابع.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/سایر/سایر.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/خروجی/خروجی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/جاوا_اسکریپت/جاوا_اسکریپت.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/افزودن_فایل_css_به_فرم/افزودن_فایل_css_به_فرم.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/پیامک/پیامک.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/شناسه‌ها/شناسه‌ها.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/تراکنش/تراکنش.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/فرایند‌های_سازمانی/فرایند‌های_سازمانی.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/گزارشات/گزارشات.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/ارتباط_با_سایر_سیستم‌های_دپنا/ارتباط_با_سایر_سیستم‌های_دپنا.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/کدهای_کاربر/کدهای_کاربر.html" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraHelp/مقادیر_حقایق/مقادیر_حقایق.html" format="html" processing-role="normal"></page>
+          </book>
+        </book>
+        <page href="../contents/KasraHelp/فراخوانی_BusinessRule_3/فراخوانی_BusinessRule.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/نتایج_رأی‌گیری_3/نتایج_رأی‌گیری.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_نتایج_رأی‌گیری_2/شرط_روی_نتایج_رأی‌گیری.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/اختتام_گردشکار_وابسته_3/اختتام_گردشکار_وابسته.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ارسال_ایمیل_3/ارسال_ایمیل.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/دریافت_ایمیل_3/دریافت_ایمیل.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/نمایش_لیست_در_زمان_ویرایش_3/نمایش_لیست_در_زمان_ویرایش.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/رفتن_به_حالت_درج_پس_از_ذخیره_3/رفتن_به_حالت_درج_پس_از_ذخیره.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تعیین_کاربر_مرحله_بعد_3/تعیین_کاربر_مرحله_بعد.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تعیین_کاربر_جایگزین_2/تعیین_کاربر_جایگزین.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/افزودن_رویداد_3/افزودن_رویداد.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ارسال_پیامک_3/ارسال_پیامک.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/دریافت_پیامک_3/دریافت_پیامک.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شماره_همراه_کاربران_مرحله_جاری_3/شماره_همراه_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ایمیل_کاربران_مرحله_جاری_3/ایمیل_کاربران_مرحله_جاری.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_مشخصات_کاربر_جاری_3/شرط_روی_مشخصات_کاربر_جاری.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ارسال_اعلان_3/ارسال_اعلان.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ارسال_اعلان_پیشرفته_1/ارسال_اعلان_پیشرفته.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/فراخوانیKPI/فراخوانیKPI.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/ایجاد_کاربر_جدید_3/ایجاد_کاربر_جدید.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/خاتمه_کل_روند_کار_3/خاتمه_کل_روند_کار.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_حالت_قبل_3/شرط_روی_حالت_قبل.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_کد_3/شرط_روی_کد.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تغییر_رمز_عبور_4/تغییر_رمز_عبور.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/گرفتن_رکورد_یک_مرحله_3/گرفتن_رکورد_یک_مرحله.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شروع_یک_فرایند_سازمانی_3/شروع_یک_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/حلقه_تکرار_For_2/حلقه_تکرار_For.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/حلقه_تکرار_While_3/حلقه_تکرار_While.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/حلقه_تکرار_DoWhile_3/حلقه_تکرار_DoWhile.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/نمایش_اطلاعات_یک_فرم_1/نمایش_اطلاعات_یک_فرم.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_فرایند_سازمانی_1/شرط_روی_فرایند_سازمانی.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_حالت_قبل_4/شرط_روی_حالت_قبل.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/خاتمه_کل_روند/خاتمه_کل_روند.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تعیین_کاربر_جایگزین_3/تعیین_کاربر_جایگزین.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/اتمام_فعالیت_3/اتمام_فعالیت.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تعیین_حالت_ورود/تعیین_حالت_ورود.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/شرط_روی_حالت_قبل_5/شرط_روی_حالت_قبل.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/اتمام_فعالیت_4/اتمام_فعالیت.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/توابع_چک‌لیست_باکس/توابع_چک‌لیست_باکس.html" format="html" processing-role="normal"></page>
+        <page href="../contents/KasraHelp/تعیین_راهنما/تعیین_راهنما.html" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="نوع پرونده" format="html" processing-role="normal">
+      <page href="../contents/KasraHelp/طراحی_نوع_پرونده/طراحی_نوع_پرونده.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="آشنایی_با_روندهای_گردشکار" format="html" processing-role="normal">
+      <page href="../contents/KasraHelp/آشنایی_با_روندهای_گردشکار/آشنایی_با_روندهای_گردشکار.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/تعریف/تعریف.html" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="مثال‌ها" format="html" processing-role="normal">
+      <page href="../contents/KasraHelp/Exclusive_Gateway/Exclusive_Gateway.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/Parallel_Gateway/Parallel_Gateway.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/Inclusive_Gateway/Inclusive_Gateway.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/استفاده_از_رویدادهای_عمومی/استفاده_از_رویدادهای_عمومی.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/رویداد_GenerateFilteExpression/رویداد_GenerateFilteExpression.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/رویداد_SaveInfo/رویداد_SaveInfo.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/رویدادهای_گروهی_2/رویدادهای_گروهی.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/پیاده‌سازی_دراپ‌دان‌های_وابسته_(آبشاری)/پیاده‌سازی_دراپ‌دان‌های_وابسته_(آبشاری).html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/ارسال_پیام_به_تلگرام/ارسال_پیام_به_تلگرام.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/گرید_ایجکسی_صفحه_به_صفحه/گرید_ایجکسی_صفحه_به_صفحه.html" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="محتوای آموزشی" condition="Product:نسل_یک" format="html" processing-role="normal">
+    <book navtitle="خود آموز پلتفرم کسرا" href="../contents/KasraWebHelp/سناریو_های_خودخوان/سناریو_های_خودخوان.htm" format="html" processing-role="normal">
+      <page navtitle="جلسه اول - معرفی" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_اول.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه دوم_فرآیند و مدل سازی" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_دوم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه سوم_بررسی کنترل های فرم" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_سوم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه چهارم_اجزاء  فرآیند" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_چهارم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه پنجم_کاربری سامانه و رویداد های سیگنال" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_پنجم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه ششم_ادامه فرآیند ها" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_ششم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه هفتم_ادامه کنترل های فرم" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_هفتم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه هشتم_بررسی رویداد ها" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_هشتم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه نهم_بررسی کنترل های پیشرفته و جزییات فرم" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_نهم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه دهم_ادامه بررسی کنترل های پیشرفته" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_دهم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه یازدهم_مباحث پیشرفته در فرآیند ها" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_یازدهم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه دوازدهم_ادامه مباحث پیشرفته در فرایند ها" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_دوازدهم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه سیزدهم_ایجاد کارتابل سفارشی" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_سیزدهم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه چهاردهم- الگوی چاپی" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_چهاردهم.htm" format="html" processing-role="normal"></page>
+      <page navtitle="جلسه پانزدهم_کلاس ها و وب سرویس" href="../contents/KasraWebHelp/سناریو_های_خودخوان/جلسه_پانزدهم.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="سناریو های موردی" href="../contents/KasraHelp/سناریو_های_آموزشی.htm" format="html" processing-role="normal">
+      <page navtitle="سناریو_آموزشی_کار با گریدویو" href="../contents/KasraHelp/سناریو_آموزشی_گرید_gridView/سناریو_آموزشی_گرید_gridView.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_ستون_فایل_در_گرید/سناریو_ستون_فایل_در_گرید.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوی_الگوی_چاپی/سناریوی_الگوی_چاپی.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوی_الگوی_چاپی_اکسل/سناریوی_الگوی_چاپی_اکسل.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_اموزش_الگوی_چاپی_استیمول_سافت/سناریو_اموزش_الگوی_چاپی_استیمول_سافت.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوی_کارتابل_ساز/سناریوی_کارتابل_ساز.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوی_ارسال_ایمیل/سناریوی_ارسال_ایمیل.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوی_فرایند/سناریوی_فرایند.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_ایجاد_چارت_سازمانی/سناریو_ایجاد_چارت_سازمانی.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_ایجاد_داشبورد_مدیریتی_با_استفاده_از_کنترل‌های_چارت/سناریو_ایجاد_داشبورد_مدیریتی_با_استفاده_از_کنترل‌های_چارت.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_تنظیم_و_ایجاد_پیامک/سناریو_تنظیم_و_ایجاد_پیامک.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_آموزشی_نحوه_تنظیم_و_استفاده_از_OTP/سناریو_آموزشی_نحوه_تنظیم_و_استفاده_از_OTP.html" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوهای_آموزشی/سناریو_استفاده_از_نقشه.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوهای_آموزشی/سناریو_ساخت_گزارش_با_ابزار_گزارش_ساز.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_مدیریت_پرونده/سناریو_مدیریت_پرونده.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوهای_آموزشی/سناریو_ایجاد_گزارش_ماتریسی.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_پاراف/سناریو_استفاده_از_پاراف_در_فرایند.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریو_نمودار_خورشیدی/سناریو_نمودار_خورشیدی.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سوالات_پر_تکرار_گرید/سوالات_پر_تکرار_کنترل_گرید.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سوالات_پر_تکرار_نمایش_اطلاعات_فرم_فرایند/سوالات_پر_تکرار_نمایش_اطلاعات_فرم_و_فرایند.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سوالات_پر_تکرار_فایل_بروزر/سوالات_پر_تکرار_فایل_بروزر.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/پاس_دادن_مقدار_از_فرم_فرزند_به_پدر_در_فرم_لودر/پاس_دادن_مقدار_از_فرم_فرزند_به_پدر_در_فرم_لودر.htm" format="html" processing-role="normal"></page>
+      <page navtitle="توابع_جاوا_اسکریپت" href="../contents/KasraHelp/توابع_جاوا_اسکریپت/توابع_جاوا_اسکریپت.htm" format="html" processing-role="normal"></page>
+      <page navtitle="سناریو افزودن چارت سفارشی از highchart" href="../contents/KasraHelp/سناریو_افزودن_چارت_سفارشی_از_highchart/سناریو_افزودن_چارت_سفارشی_از_highchart.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/KasraHelp/سناریوی_ایجاد_QRCode/سناریوی_ایجاد_QRCode.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="برگه های تقلب" format="html" processing-role="normal">
+      <page href="../contents/KasraWebHelp/CheatSheet/Cheatsheet.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book href="../contents/KasraWebHelp/ویدئو_های_اموزشی_BPM.htm" format="html" processing-role="normal"></book>
+  </book>
+  <book navtitle="راهنمای نصب و پیکر بندی نسخه 8" condition="Product:نسل_یک" format="html" processing-role="normal">
+    <page href="../contents/InstallAndUpdate_R8/Intro/Intro.htm" format="html" processing-role="normal"></page>
+    <book navtitle="محیط بهره برداری در سرور توسعه" format="html" processing-role="normal">
+      <page href="../contents/InstallAndUpdate_R8/CreateDevelopVersion/CreateDevelopVersion.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/UpdateDevelopVersion/UpdateDevelopVersion.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="محیط بهره برداری در سرور عملیاتی" format="html" processing-role="normal">
+      <page href="../contents/InstallAndUpdate_R8/CreateOperationalVersion/CreateOperationalVersion.htm" format="html" processing-role="normal"></page>
+      <book navtitle="به روز رسانی محیط بهره برداری " format="html" processing-role="normal">
+        <page href="../contents/InstallAndUpdate_R8/IntroOperationalVersion/IntroOperationalVersion.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/InstallAndUpdate_R8/MinorUpdateOperationalVersion/MinorUpdateOperationalVersion.htm" format="html" processing-role="normal"></page>
+      </book>
+      <page href="../contents/InstallAndUpdate_R8/OperationalVersionUpgrate/OperationalVersionUpgrate.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="عیب یابی" format="html" processing-role="normal">
+      <page href="../contents/InstallAndUpdate_R8/EfficiencyCheck/EfficiencyCheck.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/QueryStore/QueryStore.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="پیش نیازها" format="html" processing-role="normal">
+      <page href="../contents/InstallAndUpdate_R8/HardwareRequirements/HardwareRequirements.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/SoftwareRequiredDevelope/SoftwareRequiredDevelope.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/SoftwareRequiredOperating/SoftwareRequiredOperating.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/IISSettingsOnDevelope/IISSettingsOnDevelope.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/IISSettingsOnOperation/IISSettingsOnOperation.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/InstallFileStream/InstallFileStream.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/EditSynonyms/EditSynonyms.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/CreateRestrictedDBUser/CreateRestrictedDBUser.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/CreateDBConnectionByDotNetCoreExe/CreateDBConnectionByDotNetCoreExe.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/InstallIISByDotNetExe/InstallIISByDotNetExe.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/InstallRedis/InstallRedis.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/WorkingRedGateTools/WorkingRedGateTools.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="نیازمندی های پروژه کسرا" format="html" processing-role="normal">
+      <page href="../contents/InstallAndUpdate_R8/DevelopeVersionConfig/DevelopeVersionConfig.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/OperationVersionConfig/OperationVersionConfig.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/AdditionalIISSettingsInOperationalServer/AdditionalIISSettingsInOperationalServer.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/DBConfigOnDevelop/DBConfigOnDevelop.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/DBConfigOnOperation/DBConfigOnOperation.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/InstallKasraAuto/InstallKaraAuto.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/AccessScripts/AccessScripts.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/CompairDBs/CompairDBs.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/DataTransfer/DataTransfer.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/UpdateMenu/UpdateMenu.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/AccessConvert/AccessConvert.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/Queries/Queries.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/InstallCLR/InstallCLR.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/SSOConfig/SSOConfig.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/ServiceBrokerActivation/ServiceBrokerActivation.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/KasraHardening/KasraHardening.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/FrontPortalSettings/FrontPortalSetting.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/GateWaysSetting/GateWaysSetting.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/InstallAndUpdate_R8/AppSettingJson/AppSettingJson.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+</book>
+<book navtitle="نسل دو" condition="Product:نسل_دو" format="html" processing-role="normal">
+  <book navtitle="محیط طراحی" condition="Product:نسل_دو" format="html" processing-role="normal">
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Definitions/Definitions.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Migration/Migration.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Desktop/میزکار.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/GitlabCICDOnKasra/CICDONGitlab.htm" format="html" processing-role="normal"></page>
+    <book navtitle="پرتال طراحی واسط کاربری" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/LayoutSetting/LayoutSetting.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Layouts/Layouts.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/PageDesign/صفحات.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Components_Front/Component.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/RemoteApi/RemoteApi.htm" format="html" processing-role="normal"></page>
+      <book navtitle="طراح واسط کاربری" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/DesignPage/DesignPage.htm" format="html" processing-role="normal"></page>
+        <book navtitle="اجزاء عمومی" condition="Product:نسل_دو" format="html" processing-role="normal">
+          <page navtitle="ها Layout" condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Layouts/و_انواع_آن_Layout.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Div/DivControl.htm" format="html" processing-role="normal"></page>
+          <page navtitle="کنترل Grid Container" condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Datagrid/کنترل_Datagrid.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/StepperContainer/کنترل_StepperContainer.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/CardElement/CardElement.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/TabContainer/TabContainer.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/ComponentLoader/ComponentLoader.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/CustomLoader/CustomLoader.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/BPMNLoader/BPMNLoader.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/CheckBox/کنترل_CheckBox.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Textinput/کنترل_TextInput.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Radiobox/کنترل_Radio.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/FileBrowser/کنترل_FileBrowse.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/FileBrowserAdvanced/FileBrowserAdvance.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/DatePicker/کنترل_DatePicker.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/TimePicker/Timepicker.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/DropDown/کنترل_DropDown.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/HtmlEditor/HtmlEditor.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Switch/کنترل_Switch.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Treefrom/TreeForm.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/TagboxInput/TagboxInput.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Tooltip/Tooltip.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Button/کنترل_Button.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Label/کنترل_Label.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/HyperLink/کنترل_Hyperlink.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Alert/کنترل_Alert.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/IconButton/کنترل_IconButton.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Icon/Icon.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/ImageBox/کنترل_Imagebox.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Modal/Modal.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Typography/کنترل_Typography.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/PieChart/کنترل_PieChart.htm" format="html" processing-role="normal"></page>
+          <page navtitle="کنترل Column_Chart" condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/ColumnChart/Column_Chart.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Segment/Segment.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Tree/TreeControl.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Loading/Loading.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Pagination/Pagination.htm" format="html" processing-role="normal"></page>
+        </book>
+        <book navtitle="اجزاء سیستمی" condition="Product:نسل_دو" format="html" processing-role="normal">
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/CAPTCHA/CAPTCHA.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/SimpleFooter/Simplefooter.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/ComplexFooter/ComplexFooter.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/SimpleHeader/SimpleHeader.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/ComplexHeader/ComplexHeader.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Sidebar/Sidebar.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Controls/Navbar/Navbar.htm" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+    </book>
+    <book navtitle="پرتال طراحی دامنه" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Actor/اقدام_گر.htm" format="html" processing-role="normal"></page>
+      <book navtitle="طراح موجودیت" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <book navtitle="موجودیت سفارشی" condition="Product:نسل_دو" format="html" processing-role="normal">
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity/موجودیت.htm" format="html" processing-role="normal"></page>
+          <book navtitle="طراحی" condition="Product:نسل_دو" format="html" processing-role="normal">
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_Property/ویژگی_ها.htm" format="html" processing-role="normal"></page>
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_Behavior/رفتارها.htm" format="html" processing-role="normal"></page>
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_Specification/توصیفات.htm" format="html" processing-role="normal"></page>
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_Operation/عملیات_ها.htm" format="html" processing-role="normal"></page>
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_Constraint/وابستگی_ها.htm" format="html" processing-role="normal"></page>
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/DependentElements/DependentElements.htm" format="html" processing-role="normal"></page>
+          </book>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_ShowDataModel/نمایش_مدل_داده.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_ShowDomainModel/نمایش_مدل_دامنه.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Entity_UserInterface/واسط_کاربری.htm" format="html" processing-role="normal"></page>
+        </book>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/SystemEntity/موجودیت_های_سیستمی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/OtherEntity/OtherEntity.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Specification/توصیفات.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Enums/نوع__های_شمارشی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ValueObject/فیلد_های_ترکیبی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Fact/Fact.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="طراح عملیات" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Operation/عملیات_عمومی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/OtherAppService/OtherAppService.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/OperationGroup/گروه_بندی_عملیات_ها.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ScopeOperationGroup/محدوده_گروه_های_عملیات.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/DTO/اشیاء_انتقال_داده.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/API/API_ها.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ExternalAPI/ExternalAPI.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/SocketOperations/SocketOP.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="طراحی رخداد" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/DomainEvent/رخداد_های_حوزه_کاری.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/IntegrationEvent/IntegrationEvent.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ConsumeIntegrationEvent/ConsumeIntegrationEvent.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="طراح فرایند" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/WorkFlowDatatypes/WorkFlowDatatypes.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/BPMN/BPMN.htm" format="html" processing-role="normal"></page>
+        <book navtitle="فرایند" condition="Product:نسل_دو" format="html" processing-role="normal">
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Process/فرایند.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Process/تنظیمات_فرایند.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Workflow_designer/WFDesigner.htm" format="html" processing-role="normal"></page>
+          <book navtitle="تنظیمات عناصر در یک فرایند" condition="Product:نسل_دو" format="html" processing-role="normal">
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ProcessElements/Link/Link.htm" format="html" processing-role="normal"></page>
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ProcessElements/Signal/SignalElement.htm" format="html" processing-role="normal"></page>
+            <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ProcessElements/Timer/Timer.htm" format="html" processing-role="normal"></page>
+            <page href="../contents/KasraDesign_Core/ProcessElements/ParallelMultiinstance/ParallelMultiinstance.htm" format="html" processing-role="normal"></page>
+          </book>
+        </book>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ProcessKPI/شاخص_ها.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Signal/سیگنال.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Message/پیام.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="طراح پرونده" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Case2ndGeneration/طراحی_نوع_پرونده.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="طراح گزارشات" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Reports/گزارشات.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ExportPattern/الگوهای_خروجی.htm" format="html" processing-role="normal"></page>
+      </book>
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Job/Job.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="پرتال مدیریت" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <book navtitle="مدیریت تیم های توسعه" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page navtitle="تیم های توسعه" condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Projects/Projects.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Microservices/Microservices.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Applications/Applications.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت کاربران" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/UserManagement/Usermanagement.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مانیتورینگ و گزارش" condition="Product:نسل_دو" format="html" processing-role="normal"></book>
+      <book navtitle="مدیریت آدرس های مسدود" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page href="../contents/KasraDesign_Core/BlockedAddress/BlockedAdress.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="فضای اشتراکی" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/SharedWorkSpace/SharedWorkspace.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle=" محیط بهره برداری" condition="Product:نسل_دو" href="../contents/KasraHelp/راهنمای_مدیریتی_وب.htm" format="html" processing-role="normal">
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/MainPage/PortalMainPage.htm" format="html" processing-role="normal"></page>
+    <page navtitle="نحوه اعمال دسترسی‌ به زیر سیستم ها  و اجزای آن" condition="Product:نسل_دو" href="../contents/KasraWebCore/Access/دسترسی‌ها.htm" format="html" processing-role="resource-only"></page>
+    <book navtitle="پرتال سازمانی" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <book navtitle="کارتابل" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Cartable/کارتابل.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Cartable_Column_Settings/تنظیمات_ستون‌های_کارتابل.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت پرونده" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/CreateCase/CreateCase.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebHelp/ایجاد_لینک_به_پرونده_با_کد_نویسی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebHelp/تشکیل_پرونده_بوسیله_تسک_های_مختلف_از_طریق_کد_نویسی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebHelp/شروع_یک_تسک_پرونده_از_طریق_کد_نویسی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/CreateCasefromwizard/ایجاد_پرونده_جدید_از_طریق_ویزارد_کد_نویسی.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Message Broker" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Message_Broker/Message_Broker.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="تنظیمات SSO" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page navtitle="SSO و نحوه تنظیم آن" condition="Product:نسل_دو" href="../contents/KasraWebCore/SSO/SSO.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="پایش کسب و کار" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page condition="Product:نسل_دو" href="../contents/KasraWebCore/راهنمای_کاربری_گزارشات_بم/راهنمای_کاربری_گزارشات_بم.htm" format="html" processing-role="normal"></page>
+      <book navtitle="فعالیت محور" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/فعالیت_محور/فعالیت_محور.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_مدت_انجام_فعالیت‌ها/گزارش_مدت_انجام_فعالیت‌ها.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_آنالیز_عملکرد_نسخه‌های_مختلف_فرایند/گزارش_آنالیز_عملکرد_نسخه‌های_مختلف_فرایند.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_وضعیت_فعالیت‌ها/گزارش_وضعیت_فعالیت‌ها.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_عملکردی_فعالیت_بر_اساس_مهلت_انجام/گزارش_عملکردی_فعالیت_بر_اساس_مهلت_انجام.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/نرخ_ورودی_و_خروجی_فعالیت‌ها/نرخ_ورودی_و_خروجی_فعالیت‌ها.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="فرایند محور" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/فرایند_محور/فرایند_محور.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_تاریخچه_وضعیت_فرایندهای_سازمانی/گزارش_تاریخچه_وضعیت_فرایندهای_سازمانی.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_عملکردی_فرایندها_بر_اساس_مهلت_انجام/گزارش_عملکردی_فرایندها_بر_اساس_مهلت_انجام.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_آنالیز_نمونه‌های_فرایند/گزارش_آنالیز_نمونه‌های_فرایند.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_آنالیز_وضعیت_نسخه‌های_مختلف_فرایند/گزارش_آنالیز_وضعیت_نسخه‌های_مختلف_فرایند.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_آنالیز_عملکرد_عناصر_نسخه‌های_مختلف_فرایند/گزارش_آنالیز_عملکرد_عناصر_نسخه‌های_مختلف_فرایند.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="کاربر محور" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/کاربر_محور/کاربر_محور.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/آنالیز_فعالیت‌های_سازمان_(کاربرانجایگاه‌ها_دپارتمان‌ها)/_دپارتمان‌ها).html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_آنالیز_عملکرد_کاربران/گزارش_آنالیز_عملکرد_کاربران.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_تاریخچه_عملکرد_کاربران/گزارش_تاریخچه_عملکرد_کاربران.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="نقشه های حرارتی" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/نقشه‌های_حرارتی/نقشه‌های_حرارتی.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/بر_اساس_مدت_زمانی_که_کار_در_هر_مرحله_مانده_است/بر_اساس_مدت_زمانی_که_کار_در_هر_مرحله_مانده_است.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/بر_اساس_تعداد_نمونه‌های_انجام_شده_در_هر_مرحله/بر_اساس_تعداد_نمونه‌های_انجام_شده_در_هر_مرحله.html" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/بر_اساس_تعداد_نمونه‌های_موجود_در_هر_مرحله/بر_اساس_تعداد_نمونه‌های_موجود_در_هر_مرحله.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="راهنمای فنی گزارشات بم" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/MohasebatGozareshatBAM/نحوه_محاسبات_گزارشات_بم.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="پنل مدیریتی" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <book navtitle="چارت سازمانی" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page navtitle="کاربران" condition="Product:نسل_دو" href="../contents/KasraWebCore/Users/کاربران.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Interaction_Range/محدوده_تعاملات.htm" format="html" processing-role="normal"></page>
+        <page navtitle="گروه کاربران" condition="Product:نسل_دو" href="../contents/KasraWebCore/User_Group/گروه_کاربران.htm" format="html" processing-role="normal"></page>
+        <page navtitle="سازمان" condition="Product:نسل_دو" href="../contents/KasraWebCore/Organization/سازمان.htm" format="html" processing-role="normal"></page>
+        <page navtitle="جایگاه" condition="Product:نسل_دو" href="../contents/KasraWebCore/Position/جایگاه.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Post/طبقه.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Occupation/رسته_شغلی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Organization_Chart_Tree/درخت_چارت_سازمانی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ActiveUsers/ActiveUsers.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Electronic_Signature/امضای_الکترونیکی.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت عناصر و اطلاعات" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Data_items/دسته_بندی_اقلام_داده‌ای.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Work_calendar/تقویم_کاری.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/News/اخبار.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/BankGateway/BankGatewayMgm.htm" format="html" processing-role="normal"></page>
+        <page navtitle="مدیریت آدرس های مسدود" condition="Product:نسل_دو" href="../contents/KasraWebCore/BlockedAddress/BloackedAddress.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Fact/Facts.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Job_env/JobConfig.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="مدیریت واسط کاربری" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <book navtitle="تنظیمات نمایشی" condition="Product:نسل_دو" format="html" processing-role="normal">
+          <page condition="Product:نسل_دو" href="../contents/KasraWebCore/LogSetting/تنظیمات_لاگ.htm" format="html" processing-role="normal"></page>
+          <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ProfileUser/پروفایل_کاربر.htm" format="html" processing-role="normal"></page>
+        </book>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Desktop/میزکار.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ApplicationManagement/ApplicationManagement.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ساختار_نمایشی/ساختار_نمایشی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Menu/منو_ها.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="مدیریت کارهای سازمانی" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <book navtitle="سوابق عملکردی" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page navtitle="سوابق عملکردی" condition="Product:نسل_دو" href="../contents/KasraWebCore/Management_Records/سوابق_مدیریتی.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/LogDashboard/LogDashboard.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/EntityLog/Entitylog.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/IndependentAppLog/IndAppLog.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/OperationLog/عملیات_ها.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ImpersonateLog/ورود_با_کاربر_دیگر.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/TafvizLog/TafvizLog.htm" format="html" processing-role="normal"></page>
+        <page navtitle="تغییر رمز " condition="Product:نسل_دو" href="../contents/KasraWebCore/Change_Password_Log/تغییررمز_عبور.htm" format="html" processing-role="normal"></page>
+        <page navtitle="پیامک" condition="Product:نسل_دو" href="../contents/KasraWebCore/SMS_Records/سوابق_پیامک‌ها.htm" format="html" processing-role="normal"></page>
+        <page navtitle="JOB" condition="Product:نسل_دو" href="../contents/KasraWebCore/JOB_Records/سوابق_JOB.htm" format="html" processing-role="normal"></page>
+        <page navtitle="ورود و خروج" condition="Product:نسل_دو" href="../contents/KasraWebCore/Login_Logout_Log/سوابق_ورود_و_خروج.htm" format="html" processing-role="normal"></page>
+        <page navtitle="خطاها" condition="Product:نسل_دو" href="../contents/KasraWebCore/Error_Records/سوابق_خطاها.htm" format="html" processing-role="normal"></page>
+        <page navtitle="ایمیل" condition="Product:نسل_دو" href="../contents/KasraWebCore/Email_Records/سوابق_ایمیل.htm" format="html" processing-role="normal"></page>
+        <page navtitle="فرم ها نسل قدیم" condition="Product:نسل_دو" href="../contents/KasraWebCore/Form_Records/سوابق_فرم.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Records_Management/سوابق_پنل_مدیریتی.htm" format="html" processing-role="normal"></page>
+        <page navtitle="سرویس ها نسل قدیم" condition="Product:نسل_دو" href="../contents/KasraWebCore/Service_Recordes/لاگ_سرویس_ها.htm" format="html" processing-role="normal"></page>
+        <page navtitle="صفحات نسل قدیم" condition="Product:نسل_دو" href="../contents/KasraWebCore/Pages_Records/سوابق_صفحات.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="فرایند" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Actors/ActorsMgm.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ProcessManagement/ProcessManagement.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/InstanceManagement/InstanceManagement.htm" format="html" processing-role="normal"></page>
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/TokenManagement/TokenManagement.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="پرونده" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page navtitle="مدیریت نوع پرونده" condition="Product:نسل_دو" href="../contents/KasraWebCore/CaseManagement/مدیریت_پرونده.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="پروفایل کاربری" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page href="../contents/KasraWebCore/UserProfile/UserProfile.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="محتوای آموزشی" condition="Product:نسل_دو" format="html" processing-role="normal">
+    <book navtitle="خودآموز پلت فرم کسرا" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page navtitle="ویدئوهای_آموزشی_محیط_طراحی" condition="Product:نسل_دو" href="../contents/KasraDesign_Core/Training_Video/ویدئوهای_آموزشی_محیط_طراحی.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="سناریو های موردی" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/CardElement/CardElementSenario.htm" format="html" processing-role="normal"></page>
+      <page navtitle="ویدئو آموزشی ایجاد عملیات ماک و استفاده از آن در کامپوننت" condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/MockOp/MockOP.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/StepperAndGrid/GridAndstepper.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/MiniAPP/Miniapp.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/VirtualDirectory/VirtualDerectory.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/DesignSystem/Designsystem.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/CustomizeGrid/CustomizeGrid.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/UnAuthorizedSenario/UnAuthorizedSenario.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/MultiInstance_Parallel/MultiinstanceParallel.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/CaseDesign/CaseDesign_Senario.htm" format="html" processing-role="normal"></page>
+      <page navtitle="ویدئوی آموزشی ایجاد کامپوننت یا صفحات واکنش گرا" condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/Responsive/ResponsiveComponent.htm" format="html" processing-role="normal"></page>
+      <page navtitle="معرفی سرویس Rest و استفاده از آن در کامپوننت" condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/UseRestAPIinComponent/UserestApiinComponent.htm" format="html" processing-role="normal"></page>
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/Notification/Notification.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="ویدئوهای اموزشی DDD" format="html" processing-role="normal">
+      <page href="../contents/KasraWebCore/DDD_vid/ویدئو_های_آموزشی_DDD.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="ویدئوهای آموزشی مفاهیم BPM" format="html" processing-role="normal">
+      <page href="../contents/KasraWebHelp/ویدئو_های_اموزشی_BPM.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="آموزش تست خودکار نرم افزار" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page condition="Product:نسل_دو" href="../contents/KasraCoreSenarios/Cypress/Cypress.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="برگه های تقلب" condition="Product:نسل_دو" format="html" processing-role="normal"></book>
+    <book condition="Product:نسل_دو" href="../contents/KasraWebHelp/ویدئو_های_اموزشی_BPM.htm" format="html" processing-role="normal"></book>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/CaseManagementConcept/CaseMgmConcept_Video.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="راهنمای نصب، پیکربندی و عیب یابی" condition="Product:نسل_دو" href="../contents/KasraWebHelp/راهنمای_نصب_و_پیکربندی.htm" format="html" processing-role="normal">
+    <page condition="Product:نسل_دو" href="../contents/KasraWebHelp/QueryStore/Query_Store.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ServiceDebug/ServiceDebug.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ServiceDocumentation/ServiceDescription.htm" format="html" processing-role="normal"></page>
+    <page navtitle="تنظیمات کانفیگ پرتال" condition="Product:نسل_دو" href="../contents/KasraWebCore/BackEnd_ConfigKeys/BackEndConfigKeys.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/FrontEnd_ConfigKeys/FrontEnd_ConfigKeys.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/PortalRouteConfig/PortalRouteConfig.htm" format="html" processing-role="normal"></page>
+    <page navtitle="نحوه دیباگ پروژه های دات نت کور" condition="Product:نسل_دو" href="../contents/KasraWebCore/Debug/دیباگ.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/KasraPublish/Kasra_Publish.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Entity_installation/Ef_installation.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/MicroService_Instalation/MicroServiceInstalation.htm" format="html" processing-role="normal"></page>
+    <page navtitle="نحوه استفاده از EF_Profiler" condition="Product:نسل_دو" href="../contents/KasraWebCore/EFProfiler/Ef_Profiler.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/HealthCheck/HealthCheck.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/MicroserviceMonitoring/MicroserviceMonitoring.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/HowToUpgrade/HowToUpgrade.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/SecurityInDevelopment/SecurityInDevelopment.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/WSO2Integration/WSO2Integration.htm" format="html" processing-role="normal"></page>
+    <page navtitle="معرفی جداول لاگ محیط بهره برداری" condition="Product:نسل_دو" href="../contents/KasraWebCore/LogIntroduction/LogIntroduction.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ChartTablesIntro/ChartTableIntro.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/RestApiTest/RestApiTest.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/InstallMonitoringTools/InstallMonitoringTools.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page navtitle="سوالات پر تکرار" condition="Product:نسل_دو" href="../contents/microcontent/سوالات_پر_تکرار.mc" format="html" processing-role="normal"></page>
+  <page navtitle="اسنیپت های کاربردی" condition="Product:نسل_دو" href="../contents/microcontent/Snippets.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/KasraDesign_Core/KasraReleaseNotes/KasrareleaseNotes.htm" format="html" processing-role="resource-only"></page>
+</book>
+</map>

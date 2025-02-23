@@ -70,7 +70,7 @@ def create_folder_with_meta_json(save_directory, english_name, persian_name):
 # main
 
 if __name__ == "__main__":
-    file_path = 'Table Of Contents.report_.xlsx'
+    file_path = 'Table Of Contents.report.xlsx'
     data = read_excel_data(file_path)
     # print_data(data)
 
@@ -152,33 +152,33 @@ if __name__ == "__main__":
         #     # اینجا می‌توانید با داده‌ها کار کنید
         #     print(f"عنوان: {title}, مرجع: {reference}, صفحه یا بوک {is_page}, پوشه نزدیک: {near_folder}, URL کامل: {full_url}, نام فایل 1: {filename1}, نام فایل 2: {filename2}, نام HTML: {htm_name}")
 
-    
+            
 
-    # # بررسی وجود nearFolder در ستون htmName شیت سوم
-    # if any(third_sheet_data['htmName'] == near_folder):
-    #     # دانلود فایل HTML
-    #     html_url = second_sheet_data.iloc[0]['htmlUrl']  # فرض می‌کنیم که آدرس HTML در شیت اول موجود است
-    #     html_file_path = os.path.join(base_folder, f"{near_folder}.html")
-        
-    #     response = requests.get(html_url)
-    #     with open(html_file_path, 'wb') as html_file:
-    #         html_file.write(response.content)
-    #     print(f"📄 فایل HTML دانلود شد: {html_file_path}")
+            # بررسی وجود nearFolder در ستون htmName شیت سوم
+            # if any(third_sheet_data['htmName'] == near_folder):
+            #     # دانلود فایل HTML
+            #     html_url = second_sheet_data.iloc[0]['htmlUrl']  # فرض می‌کنیم که آدرس HTML در شیت اول موجود است
+            #     html_file_path = os.path.join(base_folder, f"{near_folder}.html")
+                
+            #     response = requests.get(html_url)
+            #     with open(html_file_path, 'wb') as html_file:
+            #         html_file.write(response.content)
+            #     print(f"📄 فایل HTML دانلود شد: {html_file_path}")
 
-    #     # دانلود مدیاها
-    #     media_urls = second_sheet_data.iloc[0]['mediaUrls'].split(',')  # فرض می‌کنیم که آدرس‌های مدیا در یک ستون به صورت کاما جدا شده‌اند
-    #     media_folder = os.path.join(static_img_folder, 'media')
-    #     os.makedirs(media_folder, exist_ok=True)
+            #     # دانلود مدیاها
+            #     media_urls = second_sheet_data.iloc[0]['mediaUrls'].split(',')  # فرض می‌کنیم که آدرس‌های مدیا در یک ستون به صورت کاما جدا شده‌اند
+            #     media_folder = os.path.join(static_img_folder, 'media')
+            #     os.makedirs(media_folder, exist_ok=True)
 
-    #     for media_url in media_urls:
-    #         media_response = requests.get(media_url.strip())
-    #         media_file_name = os.path.basename(media_url.strip())
-    #         media_file_path = os.path.join(media_folder, media_file_name)
-    #         with open(media_file_path, 'wb') as media_file:
-    #             media_file.write(media_response.content)
-    #         print(f"📦 مدیا دانلود شد: {media_file_path}")
-    # else:
-    #     print("❌ هیچ موردی با nearFolder پیدا نشد.")
+            #     for media_url in media_urls:
+            #         media_response = requests.get(media_url.strip())
+            #         media_file_name = os.path.basename(media_url.strip())
+            #         media_file_path = os.path.join(media_folder, media_file_name)
+            #         with open(media_file_path, 'wb') as media_file:
+            #             media_file.write(media_response.content)
+            #         print(f"📦 مدیا دانلود شد: {media_file_path}")
+            # else:
+            #     print("❌ هیچ موردی با nearFolder پیدا نشد.")
 
 
 

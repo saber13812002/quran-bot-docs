@@ -21,7 +21,7 @@ def update_meta_json(directory, fa_name, en_name):
     
     with open(meta_path, 'w', encoding='utf-8') as f:
         json.dump(meta_data, f, ensure_ascii=False, indent=2)
-        
+
 def save_content(path, content):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding='utf-8') as f:
@@ -29,10 +29,12 @@ def save_content(path, content):
     print(f"💾 Saved: {os.path.relpath(path)}")
 
 def convert_to_markdown(soup):
+    """تبدیل HTML به Markdown و حفظ کاراکترهای یونیکد"""
     converter = html2text.HTML2Text()
     converter.ignore_links = False
     converter.ignore_images = False
-    return converter.handle(str(soup))
+    markdown_content = converter.handle(str(soup))
+    return markdown_content.encode('utf-8').decode('utf-8')
 
 def convert_persian_to_english(persian_name):
     """Converts Persian characters to their English equivalents for folder naming."""
@@ -97,13 +99,17 @@ def process_xml(xml_file, save_directory):
                 page_href = page.get("href")
                 if page_href:
                     # Download the HTML file
+                    page_href = page_href.replace("../contents", "")
                     html_url = f"https://kasrayar.depna.com{page_href}"
                     response = requests.get(html_url)
                     response.raise_for_status()
 
+                    htm_file_name = os.path.basename(html_url)
+                    print(f"📄 HTML file name: {htm_file_name}")
+                    htm_path = os.path.join(book_path, sub_english)
                     # Create the file path for saving
-                    page_english_name = convert_persian_to_english(persian_name) + ".htm"
-                    html_file_path = os.path.join(book_path, page_english_name)
+                    page_english_name = convert_persian_to_english(htm_file_name)
+                    html_file_path = os.path.join(htm_path, page_english_name)
 
                     # Save the HTML file
                     with open(html_file_path, 'wb') as html_file:

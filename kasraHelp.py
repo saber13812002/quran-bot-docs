@@ -347,7 +347,7 @@ if __name__ == "__main__":
     xml_file_path = "KasraHelp.toc.txt"
     save_directory = "./pages"
     print(f"📂 Saving to: {save_directory}")
-    remove_main_folder_and_contents(save_directory+'/kasra')
+    # remove_main_folder_and_contents(save_directory+'/kasra')
 
     process_xml(xml_file_path, save_directory)
 

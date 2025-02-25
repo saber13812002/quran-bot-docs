@@ -1,35 +1,57 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
-import { useRouter } from 'next/router';
+import matter from 'gray-matter'; // برای خواندن front matter
+import { useEffect, useState } from 'react';
 
-export default function DocPage({ content }) {
-  const router = useRouter();
-  
-  if (router.isFallback) {
-    return <div>در حال بارگذاری...</div>;
-  }
-
+const SlugPage = ({ title }) => {
   return (
-    <div className="prose prose-lg">
-      <div dangerouslySetInnerHTML={{ __html: content }} />
+    <div>
+      <h1>{title}</h1> {/* نمایش عنوان */}
+      {/* محتوای دیگر صفحه */}
     </div>
   );
-}
+};
 
-export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("pages"));
-  const paths = files
-    .filter(file => file.endsWith(".mdx"))
-    .map(file => ({ params: { slug: file.replace(".mdx", "") } }));
+export const getStaticProps = async (context) => {
+  const { slug } = context.params; // دریافت slug از URL
 
-  return { paths, fallback: false };
-}
+  const filePath = path.join(process.cwd(), 'pages', `${slug}.mdx`); // مسیر فایل MDX
 
-export async function getStaticProps({ params }) {
-  const filePath = path.join("pages", `${params.slug}.mdx`);
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const { content } = matter(fileContent);
+  // بررسی اینکه آیا فایل وجود دارد یا خیر
+  if (!fs.existsSync(filePath)) {
+    return {
+      notFound: true, // در صورتی که فایل وجود نداشت، صفحه 404 نمایش داده می‌شود.
+    };
+  }
 
-  return { props: { content } };
-}
+  const content = fs.readFileSync(filePath, 'utf8'); // خواندن محتوای فایل
+
+  // استخراج front matter با استفاده از gray-matter
+  const { data } = matter(content); // استخراج front matter
+
+  // استخراج عنوان از اولین تگ h1 (یعنی اولین #)
+  const titleMatch = content.match(/^#\s+(.*)$/m); // پیدا کردن اولین تگ #
+  const title = titleMatch ? titleMatch[1] : data.title || 'بدون عنوان'; // اگر # یافت شد، عنوانش را می‌گیریم
+
+  return {
+    props: {
+      title, // انتقال عنوان به کامپوننت
+    },
+  };
+};
+
+export const getStaticPaths = async () => {
+  // فرض کنید همه فایل‌های MDX در پوشه "pages" قرار دارند.
+  const files = fs.readdirSync(path.join(process.cwd(), 'pages')).filter(file => file.endsWith('.mdx'));
+  
+  const paths = files.map(file => ({
+    params: { slug: file.replace('.mdx', '') }, // حذف .mdx از نام فایل برای استفاده به عنوان slug
+  }));
+
+  return {
+    paths,
+    fallback: false, // همه صفحات باید از قبل ساخته شوند
+  };
+};
+
+export default SlugPage;

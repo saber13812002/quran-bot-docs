@@ -123,23 +123,72 @@ def extract_links(soup, base_url, base_domain):
     return links
 
 
+def is_not_english(text):
+    """Check if the given text is not in English (i.e., contains non-ASCII characters)."""
+    return any(ord(char) >= 128 for char in text)
+
+def get_first_10Lines(md_content):
+    """Returns the first 10 lines of the given markdown content."""
+    return "\n".join(md_content.splitlines()[:10])
+
+def get_first_title_from_mdx(md_content):
+    """Extracts the first title from the given markdown content (first H1 tag)."""
+    lines = md_content.splitlines()
+    for line in lines:
+        line = line.strip()  # Clean up extra spaces
+        if line.startswith('# '):  # Assuming the title is the first H1
+            return line[2:].strip()  # Return the title without the '# ' and any extra spaces
+    return None  # Return None if no title is found
+
+def save_content(md_path, content):
+    """Helper function to save the modified content back to the file."""
+    with open(md_path, 'w', encoding='utf-8') as file:
+        file.write(content)
+
 def add_front_matter(md_path, md_content, original_title=None):
-    """اضافه کردن front matter با پشتیبانی از عنوان‌های فارسی"""
+    """Adds front matter with support for Persian titles."""
     base_name = os.path.splitext(os.path.basename(md_path))[0]
-    
-    # استفاده از عنوان اصلی فارسی اگر موجود باشد
+
+    # Attempt to extract title from first H1 tag
     title = original_title or base_name
-    
+    extracted_title = get_first_title_from_mdx(md_content)
+
+    # If title is found in the content, use it
+    if extracted_title:
+        title = extracted_title
+
+    # If the title is Persian (non-ASCII), use the extracted title or default base name
+    if is_not_english(title):
+        md_10_first_lines = get_first_10Lines(md_content)
+        print("Detected Persian content or title: ", title)
+    else:
+        print("Detected English content or title: ", title)
+
+
+    formatted_content = ""
+    inside_json = False
+    for line in md_content.split('\n'):
+        if '{' in line and not inside_json:
+            formatted_content += "```json\n" + line + "\n"
+            inside_json = True
+        elif '}' in line and inside_json:
+            formatted_content += line + "\n" + "```\n"
+            inside_json = False
+        else:
+            formatted_content += line + "\n"
+
+    # Create front matter with extracted title
     front_matter = f"""---
 id: "{base_name}"
 title: "{title}"
 ---
 
 """
-    final_content = front_matter + md_content
+    # Combine front matter and original markdown content
+    final_content = front_matter + formatted_content
+
+    # Save the updated content to the file
     save_content(md_path, final_content)
-
-
 
 def create_file_path(url, base_dir, extension):
     """ایجاد مسیر فایل با پشتیبانی از نام‌های فارسی"""
@@ -170,7 +219,23 @@ def create_file_path(url, base_dir, extension):
     # فقط نام فایل را برمی‌گردانیم
     return os.path.join(base_dir, file_name)
 
-def create_index_page(links, index_file_path):
+def create_index_page(new_links, index_file_path):
+    try:
+        # Read the existing content if the file exists
+        with open(index_file_path, 'r', encoding='utf-8') as f:
+            existing_content = f.read()
+        
+        # Extract existing links if any
+        start = existing_content.find('<ul>') + 4
+        end = existing_content.find('</ul>')
+        existing_links = existing_content[start:end].strip().split('\n') if start != 3 and end != -1 else []
+    except FileNotFoundError:
+        existing_links = []
+
+    # Combine the existing links with the new links
+    combined_links = existing_links + new_links
+    
+    # Create the new index content
     index_content = """
 # فهرست
 
@@ -179,11 +244,12 @@ def create_index_page(links, index_file_path):
 <ul>
     {links}
 </ul>
-""".format(links='\n    '.join(links))
+""".format(links='\n    '.join(combined_links))
     
     with open(index_file_path, 'w', encoding='utf-8') as f:
         f.write(index_content)
     print(f"📄 Index page created: {index_file_path}")
+
 
 
 
@@ -232,10 +298,17 @@ def save_media_file(url, save_dir):
     
 
 def convert_to_markdown(soup):
-    """تبدیل HTML به Markdown و حفظ کاراکترهای یونیکد"""
+    """تبدیل HTML به Markdown و حفظ کاراکترهای یونیکد و مدیریت کدبلاک‌های JSON"""
     converter = html2text.HTML2Text()
     converter.ignore_links = False
     converter.ignore_images = False
+    
+    # مدیریت کدبلاک‌های JSON
+    for script in soup.find_all('script', type='application/json'):
+        json_content = json.loads(script.string)
+        json_code_block = f"```json\n{json.dumps(json_content, indent=4)}\n```"
+        script.replace_with(json_code_block)  # Replace JSON script with markdown code block
+
     markdown_content = converter.handle(str(soup))
     return markdown_content.encode('utf-8').decode('utf-8')
 
@@ -303,8 +376,11 @@ def process_book_or_page(element, parent_directory):
     """Recursively processes books and pages, creating folders and downloading content."""
     if element.tag == "book":
         persian_name = element.get("navtitle")
-        english_name = convert_persian_to_english(persian_name)
+        if not persian_name:
+            href = element.get("href")
+            persian_name = os.path.splitext(os.path.basename(href))[0]
 
+        english_name = convert_persian_to_english(persian_name)
         # Create folder for this book
         book_path = create_folder_with_meta_json(parent_directory, english_name, persian_name)
 
@@ -318,7 +394,8 @@ def process_book_or_page(element, parent_directory):
 
         if page_href:
             download_and_convert_html(page_href, parent_directory, page_title)
-
+    else:
+        return ""
 
 def process_xml(xml_file, save_directory):
     """Parses the XML TOC file and processes all books and pages."""
@@ -347,7 +424,7 @@ if __name__ == "__main__":
     xml_file_path = "KasraHelp.toc.txt"
     save_directory = "./pages"
     print(f"📂 Saving to: {save_directory}")
-    # remove_main_folder_and_contents(save_directory+'/kasra')
+    remove_main_folder_and_contents(save_directory+'/kasra')
 
     process_xml(xml_file_path, save_directory)
 

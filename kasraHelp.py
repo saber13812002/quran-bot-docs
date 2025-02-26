@@ -171,7 +171,7 @@ def add_front_matter(md_path, md_content, original_title=None):
         if '{' in line and not inside_json:
             formatted_content += "```json\n" + line + "\n"
             inside_json = True
-        elif '}' in line and inside_json:
+        elif '}' == line:
             formatted_content += line + "\n" + "```\n"
             inside_json = False
         else:

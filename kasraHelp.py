@@ -168,7 +168,13 @@ def add_front_matter(md_path, md_content, original_title=None):
     formatted_content = ""
     inside_json = False
     for line in md_content.split('\n'):
-        if '{' in line and not inside_json:
+        line = line.replace('\\', '/')  # Replace backslashes with forward slashes
+        line = re.sub(r'/{2,}', '/', line)  # Remove repeated slashes
+        if '<Path>' in line and not inside_json:
+            formatted_content = line.replace('<Pa', '[Pa').replace('th>', 'th]') + "\n"
+        elif '<user>' in line and not inside_json:
+            formatted_content = line.replace('<us', '[us').replace('er>', 'er]') + "\n"
+        elif '{' in line and not inside_json:
             formatted_content += "```json\n" + line + "\n"
             inside_json = True
         elif '}' == line:
@@ -321,7 +327,7 @@ def convert_persian_to_english(persian_name):
         'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f', 'ق': 'gh', 
         'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n', 'و': 'v', 
         'ه': 'h', 'ی': 'y', ' ': '_', ':': '_', '/': '_', '-': '_',
-         '.': '_', 'ء': 'e' , 'ئ': 'y', ' ': '-'
+         '.': '_', 'ء': 'e' , 'ئ': 'y', ' ': '-', '،': '-'
     }
     return ''.join(translation_map.get(char, char) for char in persian_name)
 
@@ -334,7 +340,7 @@ def persian_to_english(text):
         'ر': 'r', 'ز': 'z', 'ژ': 'zh', 'س': 's', 'ش': 'sh', 'ص': 's',
         'ض': 'z', 'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f',
         'ق': 'gh', 'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n',
-        'و': 'v', 'ه': 'h', 'ی': 'y', 'ئ': 'y', ' ': '-', 'ء': 'e'
+        'و': 'v', 'ه': 'h', 'ی': 'y', 'ئ': 'y', ' ': '-', 'ء': 'e', '،': '-'
     }
     result = ''
     for char in text:

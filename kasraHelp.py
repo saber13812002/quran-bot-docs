@@ -112,6 +112,25 @@ def crawl_website(start_urls, save_directory, page_title):
     # Create the index file
     create_index_page(all_links, index_file_path)
 
+def download_and_save_images_and_assets(current_url, soup, media_links):
+    for img_tag in soup.find_all('img', src=True):
+        img_url = img_tag['src']
+        #  fond all perisan character in folder name to save image url
+        folder_name = convert_persian_to_english(os.path.basename(os.path.dirname(img_url)))
+        img_tag['src'] = os.path.join(folder_name, img_tag['src'])
+        # img_url = img_url.replace("لاگ_سرویس_ها", "log_services")
+        # img_url = img_url.replace("سوابق_JOB", "svbgh_job")
+        img_full_url = urljoin(current_url, img_url)
+        img_file_path = save_media_file(img_full_url, static_img_dir)
+
+        if img_file_path:
+                    # Update img tag src to '/img/...' path
+            img_relative_path = '/img/' + os.path.relpath(img_file_path, static_img_dir).replace('\\', '/')
+            img_tag['src'] = img_relative_path
+            media_links.append(img_relative_path)
+
+    return media_links
+
 
 def extract_links(soup, base_url, base_domain):
     links = []
@@ -144,6 +163,19 @@ def save_content(md_path, content):
     """Helper function to save the modified content back to the file."""
     with open(md_path, 'w', encoding='utf-8') as file:
         file.write(content)
+
+
+def escape_special_characters(md_content):
+    """Escapes problematic characters for MDX compatibility."""
+    # Replace special characters
+    md_content = md_content.replace('<<', '&#60;&#60;').replace('>>', '&#62;&#62;')
+    md_content = md_content.replace('<', '&#60;').replace('>', '&#62;')
+    md_content = md_content.replace('​', '')  # Remove U+200E character (zero-width non-joiner)
+    md_content = md_content.replace('‏', '')  # Remove 
+    md_content = md_content.replace('[U+200E]', '')
+
+    return md_content
+
 
 def add_front_matter(md_path, md_content, original_title=None):
     """Adds front matter with support for Persian titles."""
@@ -182,6 +214,9 @@ def add_front_matter(md_path, md_content, original_title=None):
             inside_json = False
         else:
             formatted_content += line + "\n"
+            
+    # Escape special characters in the MDX content
+    formatted_content = escape_special_characters(formatted_content)
 
     # Create front matter with extracted title
     front_matter = f"""---
@@ -329,23 +364,38 @@ def convert_persian_to_english(persian_name):
         'ه': 'h', 'ی': 'y', ' ': '_', ':': '_', '/': '_', '-': '_',
          '.': '_', 'ء': 'e' , 'ئ': 'y', ' ': '-', '،': '-'
     }
+
+    # Replace Zero Width Non-Joiner (U+200C) and Left-to-Right Mark (U+200E) with '_'
+    persian_name = persian_name.replace('\u200C', '_')  # U+200C: Zero Width Non-Joiner
+    persian_name = persian_name.replace('\u200E', '_')  # U+200E: Left-to-Right Mark
+    
+
     return ''.join(translation_map.get(char, char) for char in persian_name)
 
 
 def persian_to_english(text):
-    """تبدیل متن فارسی به انگلیسی با استفاده از یک الگوریتم پایدار"""
+    """Converts Persian text to a URL-safe English representation."""
     mapping = {
         'آ': 'a', 'ا': 'a', 'ب': 'b', 'پ': 'p', 'ت': 't', 'ث': 's',
         'ج': 'j', 'چ': 'ch', 'ح': 'h', 'خ': 'kh', 'د': 'd', 'ذ': 'z',
         'ر': 'r', 'ز': 'z', 'ژ': 'zh', 'س': 's', 'ش': 'sh', 'ص': 's',
         'ض': 'z', 'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f',
         'ق': 'gh', 'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n',
-        'و': 'v', 'ه': 'h', 'ی': 'y', 'ئ': 'y', ' ': '-', 'ء': 'e', '،': '-'
+        'و': 'v', 'ه': 'h', 'ی': 'y', 'ئ': 'y', 'ء': 'e', '،': '-'
     }
-    result = ''
-    for char in text:
-        result += mapping.get(char, char)
-    return result.lower().strip('-')
+
+    # Remove Zero Width Non-Joiner (U+200C) and Left-to-Right Mark (U+200E)
+    text = text.replace('\u200C', '').replace('\u200E', '')
+
+    # Convert Persian letters to English
+    result = ''.join(mapping.get(char, char) for char in text)
+
+    # Replace spaces with dashes and normalize multiple dashes
+    result = re.sub(r'\s+', '-', result)  # Replace spaces with '-'
+    result = re.sub(r'-+', '-', result)   # Remove multiple dashes in a row
+    result = result.strip('-')            # Remove leading/trailing '-'
+
+    return result.lower()
 
 
 def create_folder_with_meta_json(base_dir, english_name, persian_name):

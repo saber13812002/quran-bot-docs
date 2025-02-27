@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>KasraWebHelp</title>
+<book navtitle="نسل دو" condition="Product:نسل_دو" format="html" processing-role="normal">
+  <book navtitle="محیط طراحی" condition="Product:نسل_دو" format="html" processing-role="normal">
+    <book navtitle="پنل مدیریتی" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <book navtitle="مدیریت واسط کاربری" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <book navtitle="تنظیمات نمایشی" condition="Product:نسل_دو" format="html" processing-role="normal">
+          <page condition="Product:نسل_دو" href="../contents/KasraWebCore/LogSetting/تنظیمات_لاگ.htm" format="html" processing-role="normal"></page>
+        </book><page condition="Product:نسل_دو" href="../contents/KasraWebCore/Menu/منو_ها.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="مدیریت کارهای سازمانی" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <book navtitle="سوابق عملکردی" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page navtitle="JOB" condition="Product:نسل_دو" href="../contents/KasraWebCore/JOB_Records/سوابق_JOB.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+  </book>
+  <page navtitle="سوالات پر تکرار" condition="Product:نسل_دو" href="../contents/microcontent/سوالات_پر_تکرار.mc" format="html" processing-role="normal"></page>
+  <page navtitle="اسنیپت های کاربردی" condition="Product:نسل_دو" href="../contents/microcontent/Snippets.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/KasraDesign_Core/KasraReleaseNotes/KasrareleaseNotes.htm" format="html" processing-role="resource-only"></page>
+</book>
+</map>

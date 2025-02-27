@@ -101,3 +101,13 @@
 button svg {
   transform: scaleX(-1);
 }
+
+@media (min-width: 768px) {
+  .nextra-sidebar-container{
+    width: 300px;
+  }
+}
+
+.nextra-code-block {
+  text-align: left !important;
+}

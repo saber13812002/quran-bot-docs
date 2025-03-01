@@ -1,5 +1,7 @@
 # Nextra Docs RTL Template for Persian Arabic or Hebrew With Adobe RoboHelp importer tool with python
 
+   pip install -r requirements.txt
+
 This GPT Bot trained based on Nextra Docs version 4.2.1 
 
 https://chatgpt.com/g/g-67b99cafa11081918759be8e325f15e5-nextra-customization-assistant

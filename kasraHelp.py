@@ -193,6 +193,13 @@ def copy_image_to_new_folder(img_file_path):
     # کپی فایل
     shutil.copy(img_file_path, new_path)
 
+    # حذف پوشه و تصویر قدیمی پس از کپی
+    if os.path.exists(img_file_path):
+        os.remove(img_file_path)  # حذف تصویر قدیمی
+        
+    if os.path.exists(new_dir) and not os.listdir(new_dir):
+        os.rmdir(new_dir)  # حذف پوشه اگر خالی باشد
+
     print("Old path:", img_file_path)
     print("New path:", new_path)
     return new_path

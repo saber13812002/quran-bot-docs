@@ -122,6 +122,9 @@ def download_and_save_images_and_assets(current_url, soup, media_links):
         # img_url = img_url.replace("سوابق_JOB", "svbgh_job")
         img_full_url = urljoin(current_url, img_url)
         img_file_path = save_media_file(img_full_url, static_img_dir)
+        if(is_not_english(img_file_path)):
+            img_file_path = copy_image_to_new_folder(img_file_path)
+        # img_file_path = copy_image_to_new_folder(img_file_path)
 
         if img_file_path:
                     # Update img tag src to '/img/...' path
@@ -131,6 +134,68 @@ def download_and_save_images_and_assets(current_url, soup, media_links):
 
     return media_links
 
+
+def split_path_into_folders(path):
+    # نرمال کردن مسیر تا همه جداسازها (مانند "/" و "\") یکی شوند
+    normalized_path = os.path.normpath(path)
+    # پوشه‌های مسیر را جدا می‌کنیم
+    parts = normalized_path.split(os.sep)
+    return parts
+
+
+def find_persian_folders(path):
+    folders = split_path_into_folders(path)
+    # برای نمونه می‌خواهیم بدانیم کدام پوشه‌ها حاوی کاراکتر فارسی هستند
+    persian_folders = [f for f in folders if has_persian(f)]
+    return persian_folders
+
+def has_persian(text):
+    # الگوی یونیکد برای حروف فارسی (پایۀ بازۀ 0600 تا 06FF)
+    persian_pattern = re.compile('[\u0600-\u06FF]')
+    return bool(persian_pattern.search(text))
+
+
+def copy_image_to_new_folder(img_file_path):
+    # مسیر را نرمال کنیم
+    img_file_path = os.path.normpath(img_file_path)
+
+    # درایو (مثلاً D:) و بقیه مسیر را جدا کنیم
+    drive, tail = os.path.splitdrive(img_file_path)
+    # حالا اگر مثلاً drive = 'D:', tail = '\saberprojects\...'
+
+    # پوشه‌ها را از قسمت tail جدا می‌کنیم
+    parts = tail.split(os.sep)  # ['', 'saberprojects', 'kasra', ...]
+
+    # آخرین بخش parts نام فایل است
+    filename = parts[-1]
+    # مابقی، پوشه‌های مسیر هستند
+    folders = parts[:-1]
+
+    # اگر اولین پوشه خالی بود (مثلاً به‌خاطر اسلش اول)، آن را حذف می‌کنیم
+    # چراکه split('\saberprojects\...') ممکن است با یک '' شروع شود
+    if folders and folders[0] == '':
+        folders = folders[1:]
+
+    # روی فولدرها حلقه می‌زنیم؛ اگر حروف فارسی داشتند، تبدیلشان می‌کنیم
+    for i in range(len(folders)):
+        if has_persian(folders[i]):
+            folders[i] = convert_persian_to_english(folders[i])
+
+    # حالا با هم دوباره یک مسیر صحیح می‌سازیم
+    # برای ساخت مسیر کامل درایو را با اسلش اضافه می‌کنیم
+    # به جای drive='D:' → 'D:\' یا 'D:/' (در ویندوز فرقی نمی‌کند)
+    new_dir = os.path.join(drive + os.sep, *folders)
+    new_path = os.path.join(new_dir, filename)
+
+    # ساختن فولدر اگر وجود ندارد
+    os.makedirs(new_dir, exist_ok=True)
+
+    # کپی فایل
+    shutil.copy(img_file_path, new_path)
+
+    print("Old path:", img_file_path)
+    print("New path:", new_path)
+    return new_path
 
 def extract_links(soup, base_url, base_domain):
     links = []
@@ -146,9 +211,9 @@ def is_not_english(text):
     """Check if the given text is not in English (i.e., contains non-ASCII characters)."""
     return any(ord(char) >= 128 for char in text)
 
-def get_first_10Lines(md_content):
-    """Returns the first 10 lines of the given markdown content."""
-    return "\n".join(md_content.splitlines()[:10])
+# def get_first_10Lines(md_content):
+#     """Returns the first 10 lines of the given markdown content."""
+#     return "\n".join(md_content.splitlines()[:10])
 
 def get_first_title_from_mdx(md_content):
     """Extracts the first title from the given markdown content (first H1 tag)."""
@@ -159,10 +224,10 @@ def get_first_title_from_mdx(md_content):
             return line[2:].strip()  # Return the title without the '# ' and any extra spaces
     return None  # Return None if no title is found
 
-def save_content(md_path, content):
-    """Helper function to save the modified content back to the file."""
-    with open(md_path, 'w', encoding='utf-8') as file:
-        file.write(content)
+# def save_content(md_path, content):
+#     """Helper function to save the modified content back to the file."""
+#     with open(md_path, 'w', encoding='utf-8') as file:
+#         file.write(content)
 
 
 def escape_special_characters(md_content):
@@ -189,31 +254,8 @@ def add_front_matter(md_path, md_content, original_title=None):
     if extracted_title:
         title = extracted_title
 
-    # If the title is Persian (non-ASCII), use the extracted title or default base name
-    if is_not_english(title):
-        md_10_first_lines = get_first_10Lines(md_content)
-        print("Detected Persian content or title: ", title)
-    else:
-        print("Detected English content or title: ", title)
 
-
-    formatted_content = ""
-    inside_json = False
-    for line in md_content.split('\n'):
-        line = line.replace('\\', '/')  # Replace backslashes with forward slashes
-        line = re.sub(r'/{2,}', '/', line)  # Remove repeated slashes
-        if '<Path>' in line and not inside_json:
-            formatted_content = line.replace('<Pa', '[Pa').replace('th>', 'th]') + "\n"
-        elif '<user>' in line and not inside_json:
-            formatted_content = line.replace('<us', '[us').replace('er>', 'er]') + "\n"
-        elif '{' in line and not inside_json:
-            formatted_content += "```json\n" + line + "\n"
-            inside_json = True
-        elif '}' == line:
-            formatted_content += line + "\n" + "```\n"
-            inside_json = False
-        else:
-            formatted_content += line + "\n"
+    formatted_content = replace_strange_characters(md_content)
             
     # Escape special characters in the MDX content
     formatted_content = escape_special_characters(formatted_content)
@@ -231,30 +273,32 @@ title: "{title}"
     # Save the updated content to the file
     save_content(md_path, final_content)
 
+def replace_strange_characters(md_content):
+    formatted_content = ""
+    inside_json = False
+    for line in md_content.split('\n'):
+        line = line.replace('\\', '/')  # Replace backslashes with forward slashes
+        line = re.sub(r'/{2,}', '/', line)  # Remove repeated slashes
+        if '<Path>' in line and not inside_json:
+            formatted_content = line.replace('<Pa', '[Pa').replace('th>', 'th]') + "\n"
+        elif '<user>' in line and not inside_json:
+            formatted_content = line.replace('<us', '[us').replace('er>', 'er]') + "\n"
+        elif '{' in line and not inside_json:
+            formatted_content += "```json\n" + line + "\n"
+            inside_json = True
+        elif '}' == line:
+            formatted_content += line + "\n" + "```\n"
+            inside_json = False
+        else:
+            formatted_content += line + "\n"
+    return formatted_content
+
 def create_file_path(url, base_dir, extension):
-    """ایجاد مسیر فایل با پشتیبانی از نام‌های فارسی"""
     parsed_url = urlparse(url)
     path = parsed_url.path
     path = re.sub(r'\.html?$', '', path)  # حذف پسوند .htm/.html
     path_parts = unquote(path.strip('/')).split('/')
-    
-    # # تبدیل هر بخش مسیر به انگلیسی
-    # en_parts = []
-    # current_dir = base_dir
-    
-    # for part in path_parts:
-    #     if any(ord(c) > 127 for c in part):  # بررسی وجود کاراکتر فارسی
-    #         en_name = persian_to_english(part)
-    #         en_parts.append(en_name)
-            
-    #         # ایجاد یا به‌روزرسانی _meta.json
-    #         current_dir = os.path.join(base_dir, *en_parts[:-1])
-    #         os.makedirs(current_dir, exist_ok=True)
-    #         update_meta_json(current_dir, part, en_name)
-    #     else:
-    #         en_parts.append(part)
-    
-    # return os.path.join(base_dir, *en_parts) + extension
+
 
     file_name = convert_persian_to_english(os.path.basename(path_parts[-1])) + extension
     # فقط نام فایل را برمی‌گردانیم
@@ -300,6 +344,11 @@ def download_and_save_media(soup, base_url, static_img_dir, static_assets_dir):
         img_url = img_tag['src']
         img_full_url = urljoin(base_url, img_url)
         img_file_path = save_media_file(img_full_url, static_img_dir)
+        if(is_not_english(img_file_path)): # used
+            img_file_path = copy_image_to_new_folder(img_file_path)
+        # img_file_path = copy_image_to_new_folder(img_file_path)
+
+
 
         if img_file_path:
             # Update img tag src to '/img/...' path
@@ -311,6 +360,7 @@ def download_and_save_media(soup, base_url, static_img_dir, static_assets_dir):
         if is_media_url(href):
             asset_full_url = urljoin(base_url, href)
             asset_file_path = save_media_file(asset_full_url, static_assets_dir)
+            # asset_file_path = copy_image_to_new_folder(asset_file_path)
 
             if asset_file_path:
                 # Update href to '/assets/...'

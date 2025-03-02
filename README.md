@@ -4,6 +4,15 @@
 
    ```python ./kasraHelp.py```
 
+# install npm packages
+
+   ```
+   npm install -g pnpm
+   npm install -g next
+   npm install -g serve
+   ```
+
+
 # run local as dev
 
    ```pnpm dev```

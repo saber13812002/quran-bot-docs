@@ -432,34 +432,8 @@ def convert_persian_to_english(persian_name):
     # Replace Zero Width Non-Joiner (U+200C) and Left-to-Right Mark (U+200E) with '_'
     persian_name = persian_name.replace('\u200C', '_')  # U+200C: Zero Width Non-Joiner
     persian_name = persian_name.replace('\u200E', '_')  # U+200E: Left-to-Right Mark
-    
 
     return ''.join(translation_map.get(char, char) for char in persian_name)
-
-
-def persian_to_english(text):
-    """Converts Persian text to a URL-safe English representation."""
-    mapping = {
-        'آ': 'a', 'ا': 'a', 'ب': 'b', 'پ': 'p', 'ت': 't', 'ث': 's',
-        'ج': 'j', 'چ': 'ch', 'ح': 'h', 'خ': 'kh', 'د': 'd', 'ذ': 'z',
-        'ر': 'r', 'ز': 'z', 'ژ': 'zh', 'س': 's', 'ش': 'sh', 'ص': 's',
-        'ض': 'z', 'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f',
-        'ق': 'gh', 'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n',
-        'و': 'v', 'ه': 'h', 'ی': 'y', 'ئ': 'y', 'ء': 'e', '،': '-', '(': '-', ')': '-'
-    }
-
-    # Remove Zero Width Non-Joiner (U+200C) and Left-to-Right Mark (U+200E)
-    text = text.replace('\u200C', '').replace('\u200E', '')
-
-    # Convert Persian letters to English
-    result = ''.join(mapping.get(char, char) for char in text)
-
-    # Replace spaces with dashes and normalize multiple dashes
-    result = re.sub(r'\s+', '-', result)  # Replace spaces with '-'
-    result = re.sub(r'-+', '-', result)   # Remove multiple dashes in a row
-    result = result.strip('-')            # Remove leading/trailing '-'
-
-    return result.lower()
 
 
 def create_folder_with_meta_json(base_dir, english_name, persian_name):

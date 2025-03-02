@@ -116,45 +116,8 @@ def crawl_website(start_urls, save_directory, page_title):
 
     print(f"✅ Crawling finished. {len(visited_urls)} pages processed.")
     # Create the index file
-    
     # create_index_page(all_links, index_file_path)
 
-def download_and_save_images_and_assets(current_url, soup, media_links):
-    for img_tag in soup.find_all('img', src=True):
-        img_url = img_tag['src']
-        #  fond all perisan character in folder name to save image url
-        folder_name = convert_persian_to_english(os.path.basename(os.path.dirname(img_url)))
-        img_tag['src'] = os.path.join(folder_name, img_tag['src'])
-        # img_url = img_url.replace("لاگ_سرویس_ها", "log_services")
-        # img_url = img_url.replace("سوابق_JOB", "svbgh_job")
-        img_full_url = urljoin(current_url, img_url)
-        img_file_path = save_media_file(img_full_url, static_img_dir)
-        if(is_not_english(img_file_path)):
-            img_file_path = copy_image_to_new_folder(img_file_path)
-        # img_file_path = copy_image_to_new_folder(img_file_path)
-
-        if img_file_path:
-                    # Update img tag src to '/img/...' path
-            img_relative_path = '/img/' + os.path.relpath(img_file_path, static_img_dir).replace('\\', '/')
-            img_tag['src'] = img_relative_path
-            media_links.append(img_relative_path)
-
-    return media_links
-
-
-def split_path_into_folders(path):
-    # نرمال کردن مسیر تا همه جداسازها (مانند "/" و "\") یکی شوند
-    normalized_path = os.path.normpath(path)
-    # پوشه‌های مسیر را جدا می‌کنیم
-    parts = normalized_path.split(os.sep)
-    return parts
-
-
-def find_persian_folders(path):
-    folders = split_path_into_folders(path)
-    # برای نمونه می‌خواهیم بدانیم کدام پوشه‌ها حاوی کاراکتر فارسی هستند
-    persian_folders = [f for f in folders if has_persian(f)]
-    return persian_folders
 
 def has_persian(text):
     # الگوی یونیکد برای حروف فارسی (پایۀ بازۀ 0600 تا 06FF)
@@ -165,41 +128,41 @@ def has_persian(text):
 def copy_image_to_new_folder(img_file_path):
     # مسیر را نرمال کنیم
     img_file_path = os.path.normpath(img_file_path)
-
     # درایو (مثلاً D:) و بقیه مسیر را جدا کنیم
     drive, tail = os.path.splitdrive(img_file_path)
     # حالا اگر مثلاً drive = 'D:', tail = '\saberprojects\...'
-
     # پوشه‌ها را از قسمت tail جدا می‌کنیم
     parts = tail.split(os.sep)  # ['', 'saberprojects', 'kasra', ...]
-
     # آخرین بخش parts نام فایل است
     filename = parts[-1]
     # مابقی، پوشه‌های مسیر هستند
     folders = parts[:-1]
-
     # اگر اولین پوشه خالی بود (مثلاً به‌خاطر اسلش اول)، آن را حذف می‌کنیم
     # چراکه split('\saberprojects\...') ممکن است با یک '' شروع شود
     if folders and folders[0] == '':
         folders = folders[1:]
-
     # روی فولدرها حلقه می‌زنیم؛ اگر حروف فارسی داشتند، تبدیلشان می‌کنیم
     for i in range(len(folders)):
         if has_persian(folders[i]):
             folders[i] = convert_persian_to_english(folders[i])
 
+    # جدا کردن نام فایل و پسوند
+    name, ext = os.path.splitext(filename)
+    # تبدیل پسوند به حروف کوچک
+    ext = ext.lower()
+    # ساخت نام جدید فایل
+    new_filename = name + ext
+
     # حالا با هم دوباره یک مسیر صحیح می‌سازیم
     # برای ساخت مسیر کامل درایو را با اسلش اضافه می‌کنیم
     # به جای drive='D:' → 'D:\' یا 'D:/' (در ویندوز فرقی نمی‌کند)
     new_dir = os.path.join(drive + os.sep, *folders)
-    new_path = os.path.join(new_dir, filename)
+    new_path = os.path.join(new_dir, new_filename)
 
     # ساختن فولدر اگر وجود ندارد
     os.makedirs(new_dir, exist_ok=True)
-
     # کپی فایل
     shutil.copy(img_file_path, new_path)
-
     # حذف پوشه و تصویر قدیمی پس از کپی
     if os.path.exists(img_file_path):
         os.remove(img_file_path)  # حذف تصویر قدیمی
@@ -207,9 +170,10 @@ def copy_image_to_new_folder(img_file_path):
     if os.path.exists(new_dir) and not os.listdir(new_dir):
         os.rmdir(new_dir)  # حذف پوشه اگر خالی باشد
 
-    print("Old path:", img_file_path)
-    print("New path:", new_path)
+    print("😴Old path:", img_file_path)
+    print("😍New path:", new_path)
     return new_path
+
 
 def extract_links(soup, base_url, base_domain):
     links = []
@@ -225,9 +189,6 @@ def is_not_english(text):
     """Check if the given text is not in English (i.e., contains non-ASCII characters)."""
     return any(ord(char) >= 128 for char in text)
 
-# def get_first_10Lines(md_content):
-#     """Returns the first 10 lines of the given markdown content."""
-#     return "\n".join(md_content.splitlines()[:10])
 
 def get_first_title_from_mdx(md_content):
     """Extracts the first title from the given markdown content (first H1 tag)."""
@@ -238,11 +199,6 @@ def get_first_title_from_mdx(md_content):
             return line[2:].strip()  # Return the title without the '# ' and any extra spaces
     return None  # Return None if no title is found
 
-# def save_content(md_path, content):
-#     """Helper function to save the modified content back to the file."""
-#     with open(md_path, 'w', encoding='utf-8') as file:
-#         file.write(content)
-
 
 def escape_special_characters(md_content):
     """Escapes problematic characters for MDX compatibility."""
@@ -252,7 +208,6 @@ def escape_special_characters(md_content):
     md_content = md_content.replace('​', '')  # Remove U+200E character (zero-width non-joiner)
     md_content = md_content.replace('‏', '')  # Remove 
     md_content = md_content.replace('[U+200E]', '')
-
     return md_content
 
 
@@ -267,10 +222,7 @@ def add_front_matter(md_path, md_content, original_title=None):
     # If title is found in the content, use it
     if extracted_title:
         title = extracted_title
-
-
     formatted_content = replace_strange_characters(md_content)
-            
     # Escape special characters in the MDX content
     formatted_content = escape_special_characters(formatted_content)
 
@@ -312,8 +264,6 @@ def create_file_path(url, base_dir, extension):
     path = parsed_url.path
     path = re.sub(r'\.html?$', '', path)  # حذف پسوند .htm/.html
     path_parts = unquote(path.strip('/')).split('/')
-
-
     file_name = convert_persian_to_english(os.path.basename(path_parts[-1])) + extension
     # فقط نام فایل را برمی‌گردانیم
     return os.path.join(base_dir, file_name)
@@ -323,17 +273,14 @@ def create_index_page(new_links, index_file_path):
         # Read the existing content if the file exists
         with open(index_file_path, 'r', encoding='utf-8') as f:
             existing_content = f.read()
-        
         # Extract existing links if any
         start = existing_content.find('<ul>') + 4
         end = existing_content.find('</ul>')
         existing_links = existing_content[start:end].strip().split('\n') if start != 3 and end != -1 else []
     except FileNotFoundError:
         existing_links = []
-
     # Combine the existing links with the new links
     combined_links = existing_links + new_links
-    
     # Create the new index content
     index_content = """
 # فهرست
@@ -350,8 +297,6 @@ def create_index_page(new_links, index_file_path):
     print(f"📄 Index page created: {index_file_path}")
 
 
-
-
 def download_and_save_media(soup, base_url, static_img_dir, static_assets_dir):
     # Handle images
     for img_tag in soup.find_all('img', src=True):
@@ -361,9 +306,6 @@ def download_and_save_media(soup, base_url, static_img_dir, static_assets_dir):
         if(is_not_english(img_file_path)): # used
             img_file_path = copy_image_to_new_folder(img_file_path)
         # img_file_path = copy_image_to_new_folder(img_file_path)
-
-
-
         if img_file_path:
             # Update img tag src to '/img/...' path
             img_relative_path = '/img/' + os.path.relpath(img_file_path, static_img_dir).replace('\\', '/')
@@ -375,7 +317,6 @@ def download_and_save_media(soup, base_url, static_img_dir, static_assets_dir):
             asset_full_url = urljoin(base_url, href)
             asset_file_path = save_media_file(asset_full_url, static_assets_dir)
             # asset_file_path = copy_image_to_new_folder(asset_file_path)
-
             if asset_file_path:
                 # Update href to '/assets/...'
                 asset_relative_path = '/assets/' + os.path.relpath(asset_file_path, static_assets_dir).replace('\\', '/')
@@ -388,15 +329,24 @@ def save_media_file(url, save_dir):
     try:
         parsed_url = urlparse(url)
         media_path = os.path.join(save_dir, unquote(parsed_url.path.lstrip('/')))
-
         response = requests.get(url, timeout=20)
         response.raise_for_status()
         os.makedirs(os.path.dirname(media_path), exist_ok=True)
         with open(media_path, 'wb') as file:
             file.write(response.content)
-        print(f"📦 Media saved: {os.path.relpath(media_path)}")
 
-        return media_path
+        # Rename the file if it has a .PNG extension
+        if media_path.lower().endswith('.png'):
+            new_media_path = media_path[:-4] + '.png'
+            os.rename(media_path, new_media_path)
+            print(f"📦 Media saved and renamed: {os.path.relpath(new_media_path)}")
+            return new_media_path
+        else:
+            print(f"📦 Media saved: {os.path.relpath(media_path)}")
+            return media_path
+
+
+
     except Exception as e:
         print(f"❌ Error downloading media {url}: {str(e)}")
         return None
@@ -407,15 +357,32 @@ def convert_to_markdown(soup):
     converter = html2text.HTML2Text()
     converter.ignore_links = False
     converter.ignore_images = False
-    
     # مدیریت کدبلاک‌های JSON
     for script in soup.find_all('script', type='application/json'):
         json_content = json.loads(script.string)
         json_code_block = f"```json\n{json.dumps(json_content, indent=4)}\n```"
         script.replace_with(json_code_block)  # Replace JSON script with markdown code block
-
     markdown_content = converter.handle(str(soup))
     return markdown_content.encode('utf-8').decode('utf-8')
+
+
+
+def rename_png_files_in_subdirectories(directory):
+    # Walk through all directories and files
+    for root, dirs, files in os.walk(directory):
+        for filename in files:
+            # Check if the file has a .PNG extension
+            if filename.endswith('.PNG'):
+                # Create the new filename with .png extension
+                new_filename = filename[:-4] + '.png'
+                # Get the full path of the old and new filenames
+                old_file_path = os.path.join(root, filename)
+                new_file_path = os.path.join(root, new_filename)
+                # Rename the file
+                os.rename(old_file_path, new_file_path)
+                print(f'Renamed: {old_file_path} to {new_file_path}')
+
+
 
 def convert_persian_to_english(persian_name):
     """Converts Persian characters to their English equivalents for folder naming."""
@@ -432,7 +399,6 @@ def convert_persian_to_english(persian_name):
     # Replace Zero Width Non-Joiner (U+200C) and Left-to-Right Mark (U+200E) with '_'
     persian_name = persian_name.replace('\u200C', '_')  # U+200C: Zero Width Non-Joiner
     persian_name = persian_name.replace('\u200E', '_')  # U+200E: Left-to-Right Mark
-
     return ''.join(translation_map.get(char, char) for char in persian_name)
 
 
@@ -463,7 +429,6 @@ def download_and_convert_html(page_href, save_directory, page_title):
     full_url = f"{BASE_URL}/{page_href.lstrip('../')}"  # اطمینان از مسیر صحیح
 
     crawl_website(full_url,save_directory, page_title)
-
 
 
 def process_book_or_page(element, parent_directory):
@@ -521,8 +486,4 @@ if __name__ == "__main__":
     remove_main_folder_and_contents(save_directory+'/kasra')
 
     process_xml(xml_file_path, save_directory)
-
-
-
-
 

@@ -1,19 +1,24 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter'; // برای خواندن front matter
-import { useEffect, useState } from 'react';
+import matter from 'gray-matter';
 
 const SlugPage = ({ title }) => {
   return (
     <div>
-      <h1>{title}</h1> {/* نمایش عنوان */}
-      {/* محتوای دیگر صفحه */}
+      <h1>{title}</h1>
     </div>
   );
 };
 
 export const getStaticProps = async (context) => {
-  const { slug } = context.params; // دریافت slug از URL
+  const { slug } = context.params;
+
+
+  
+  // Exclude 404 and about from being treated as dynamic pages
+  if (slug === '404' || slug === 'about') {
+    return { notFound: true };
+  }
 
   const filePath = path.join(process.cwd(), 'pages', `${slug}.mdx`); // مسیر فایل MDX
 
@@ -24,14 +29,10 @@ export const getStaticProps = async (context) => {
     };
   }
 
-  const content = fs.readFileSync(filePath, 'utf8'); // خواندن محتوای فایل
-
-  // استخراج front matter با استفاده از gray-matter
-  const { data } = matter(content); // استخراج front matter
-
-  // استخراج عنوان از اولین تگ h1 (یعنی اولین #)
-  const titleMatch = content.match(/^#\s+(.*)$/m); // پیدا کردن اولین تگ #
-  const title = titleMatch ? titleMatch[1] : data.title || 'بدون عنوان'; // اگر # یافت شد، عنوانش را می‌گیریم
+  const content = fs.readFileSync(filePath, 'utf8');
+  const { data } = matter(content);
+  const titleMatch = content.match(/^#\s+(.*)$/m);
+  const title = titleMatch ? titleMatch[1] : data.title || 'Untitled';
 
   return {
     props: {
@@ -41,9 +42,10 @@ export const getStaticProps = async (context) => {
 };
 
 export const getStaticPaths = async () => {
-  // فرض کنید همه فایل‌های MDX در پوشه "pages" قرار دارند.
-  const files = fs.readdirSync(path.join(process.cwd(), 'pages')).filter(file => file.endsWith('.mdx'));
-  
+  const files = fs.readdirSync(path.join(process.cwd(), 'pages'))
+    .filter(file => file.endsWith('.mdx'))
+    .filter(file => !['404.mdx', 'about.mdx'].includes(file)); // Exclude static pages
+
   const paths = files.map(file => ({
     params: { slug: file.replace('.mdx', '') }, // حذف .mdx از نام فایل برای استفاده به عنوان slug
   }));

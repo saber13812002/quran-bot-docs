@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'Anjoman';
-    src: url('/fonts/Anjoman-Light.ttf') format('truetype');
+    src: url('../public/assets/fonts/Anjoman/Anjoman-Light.ttf') format('truetype')
+         url('../public/assets/fonts/Anjoman/Anjoman-Light.woff2') format('woff2'),
+         url('../public/assets/fonts/Anjoman/Anjoman-Light.woff') format('woff'),
+         url('../public/assets/fonts/Anjoman/Anjoman-Light.eot') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
   }

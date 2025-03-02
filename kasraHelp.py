@@ -110,7 +110,8 @@ def crawl_website(start_urls, save_directory, page_title):
 
     print(f"✅ Crawling finished. {len(visited_urls)} pages processed.")
     # Create the index file
-    create_index_page(all_links, index_file_path)
+    
+    # create_index_page(all_links, index_file_path)
 
 def download_and_save_images_and_assets(current_url, soup, media_links):
     for img_tag in soup.find_all('img', src=True):

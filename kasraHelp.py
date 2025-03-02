@@ -12,11 +12,17 @@ import time
 
 
 BASE_URL = "https://kasrayar.depna.com"  # پایه آدرس برای دانلود صفحات HTML
-save_directory = r"D:\saberprojects\kasra\kasra-docs\pages"
-static_img_dir = r"D:\saberprojects\kasra\kasra-docs\public\img"
-static_assets_dir = r"D:\saberprojects\kasra\kasra-docs\public\assets"
+
+# Get the script's directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+save_directory = os.path.join(BASE_DIR, "pages")
+static_img_dir = os.path.join(BASE_DIR, "public", "img")
+static_assets_dir = os.path.join(BASE_DIR, "public", "assets")
+
 index_file_path = os.path.join(save_directory, 'index.mdx')
 max_pages=500
+
 
 def update_meta_json(directory, fa_name, en_name):
     """به‌روزرسانی یا ایجاد فایل _meta.json"""

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>KasraWebHelp</title>
+<book navtitle="نسل دو" condition="Product:نسل_دو" format="html" processing-role="normal">
+  <book navtitle=" محیط بهره برداری" condition="Product:نسل_دو" href="../contents/KasraHelp/راهنمای_مدیریتی_وب.htm" format="html" processing-role="normal">
+    <book navtitle="پایش کسب و کار" condition="Product:نسل_دو" format="html" processing-role="normal">
+      <page condition="Product:نسل_دو" href="../contents/KasraWebCore/راهنمای_کاربری_گزارشات_بم/راهنمای_کاربری_گزارشات_بم.htm" format="html" processing-role="normal"></page>
+      <book navtitle="فعالیت محور" condition="Product:نسل_دو" format="html" processing-role="normal">
+        <page condition="Product:نسل_دو" href="../contents/KasraWebCore/گزارش_آنالیز_عملکرد_نسخه‌های_مختلف_فرایند/گزارش_آنالیز_عملکرد_نسخه‌های_مختلف_فرایند.html" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+  </book>
+</book>
+</map>

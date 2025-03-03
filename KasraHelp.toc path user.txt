@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>KasraWebHelp</title>
+<book navtitle="نسل دو" condition="Product:نسل_دو" format="html" processing-role="normal">
+  <book navtitle="راهنمای نصب، پیکربندی و عیب یابی" condition="Product:نسل_دو" href="../contents/KasraWebHelp/راهنمای_نصب_و_پیکربندی.htm" format="html" processing-role="normal">
+    <page condition="Product:نسل_دو" href="../contents/KasraWebHelp/QueryStore/Query_Store.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ServiceDebug/ServiceDebug.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/ServiceDocumentation/ServiceDescription.htm" format="html" processing-role="normal"></page>
+    <page navtitle="تنظیمات کانفیگ پرتال" condition="Product:نسل_دو" href="../contents/KasraWebCore/BackEnd_ConfigKeys/BackEndConfigKeys.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/FrontEnd_ConfigKeys/FrontEnd_ConfigKeys.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/PortalRouteConfig/PortalRouteConfig.htm" format="html" processing-role="normal"></page>
+    <page navtitle="نحوه دیباگ پروژه های دات نت کور" condition="Product:نسل_دو" href="../contents/KasraWebCore/Debug/دیباگ.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/KasraPublish/Kasra_Publish.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/Entity_installation/Ef_installation.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/MicroService_Instalation/MicroServiceInstalation.htm" format="html" processing-role="normal"></page>
+    <page navtitle="نحوه استفاده از EF_Profiler" condition="Product:نسل_دو" href="../contents/KasraWebCore/EFProfiler/Ef_Profiler.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/HealthCheck/HealthCheck.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/MicroserviceMonitoring/MicroserviceMonitoring.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/HowToUpgrade/HowToUpgrade.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/SecurityInDevelopment/SecurityInDevelopment.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/WSO2Integration/WSO2Integration.htm" format="html" processing-role="normal"></page>
+    <page navtitle="معرفی جداول لاگ محیط بهره برداری" condition="Product:نسل_دو" href="../contents/KasraWebCore/LogIntroduction/LogIntroduction.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/ChartTablesIntro/ChartTableIntro.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/RestApiTest/RestApiTest.htm" format="html" processing-role="normal"></page>
+    <page condition="Product:نسل_دو" href="../contents/KasraDesign_Core/InstallMonitoringTools/InstallMonitoringTools.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page navtitle="سوالات پر تکرار" condition="Product:نسل_دو" href="../contents/microcontent/سوالات_پر_تکرار.mc" format="html" processing-role="normal"></page>
+  <page navtitle="اسنیپت های کاربردی" condition="Product:نسل_دو" href="../contents/microcontent/Snippets.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/KasraDesign_Core/KasraReleaseNotes/KasrareleaseNotes.htm" format="html" processing-role="resource-only"></page>
+</book>
+</map>

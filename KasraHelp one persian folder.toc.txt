@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>KasraWebHelp</title>
+<book navtitle="نسل دو" condition="Product:نسل_دو" format="html" processing-role="normal">
+  <book navtitle=" محیط بهره برداری" condition="Product:نسل_دو" href="../contents/KasraHelp/راهنمای_مدیریتی_وب.htm" format="html" processing-role="normal">
+    <page condition="Product:نسل_دو" href="../contents/KasraWebCore/MainPage/PortalMainPage.htm" format="html" processing-role="normal"></page>
+    <page navtitle="نحوه اعمال دسترسی‌ به زیر سیستم ها  و اجزای آن" condition="Product:نسل_دو" href="../contents/KasraWebCore/Access/دسترسی‌ها.htm" format="html" processing-role="resource-only"></page>
+  </book>
+</book>
+</map>

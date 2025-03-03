@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "fuse.js": "^7.1.0",
+    "gray-matter": "^4.0.3",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",

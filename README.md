@@ -1,5 +1,35 @@
 # Nextra Docs RTL Template for Persian Arabic or Hebrew With Adobe RoboHelp importer tool with python
 
+   ```pip install -r requirements.txt```
+
+   ```python ./kasraHelp.py```
+
+# install npm packages
+
+   ```
+   npm install -g pnpm
+   npm install -g next
+   npm install -g serve
+   ```
+
+
+# run local as dev
+
+   ```pnpm dev```
+
+## build
+
+   ```pnpm build```
+
+## generate ssg and server
+
+   ```pnpm export```
+   
+   ```serve out```
+
+
+## About
+
 This GPT Bot trained based on Nextra Docs version 4.2.1 
 
 https://chatgpt.com/g/g-67b99cafa11081918759be8e325f15e5-nextra-customization-assistant

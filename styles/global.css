@@ -1,116 +1,120 @@
 @font-face {
-    font-family: 'Anjoman';
-    src: url('../public/assets/fonts/Anjoman/Anjoman-Light.ttf') format('truetype')
-         url('../public/assets/fonts/Anjoman/Anjoman-Light.woff2') format('woff2'),
-         url('../public/assets/fonts/Anjoman/Anjoman-Light.woff') format('woff'),
-         url('../public/assets/fonts/Anjoman/Anjoman-Light.eot') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  html {
-    direction: rtl;
-    text-align: right;
-    unicode-bidi: embed;
-  }
-  
-  body {
-    font-family: 'Anjoman', sans-serif;
-    direction: rtl;
-    text-align: right;
-    /* display: flex; */
-    flex-direction: row-reverse; /* کل ساختار را معکوس می‌کند */
-  }
-  
-  /* تغییر موقعیت سایدبار */
-  .nextra-sidebar-container {
-    right: 0;
-    left: auto;
-  }
-  
-  /* تغییر موقعیت محتوا */
-  .nextra-content {
-    margin-left: 0;
-  }
-  
+  font-family: 'IRANSansWeb';
+  src: url('../public/assets/fonts/IRANSansWeb/IRANSansWeb(FaNum)_Light-C1lxxtwE.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  
-  /* تغییر موقعیت لینک‌های ناوبری */
-  .nextra-navbar {
-    direction: rtl;
-    text-align: right;
-  }
-  
-  .nextra-steps {
-    margin-right: -26px !important;
-  }
-  
-  .nextra-steps h3 {
-    margin-left: 16px !important;
-  }
-  
-  .nextra-steps h3:before {
-    margin-right: -32px !important;
-  }
-  
+html {
+  font-family: 'IRANSansWeb', sans-serif;
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+}
 
-  .nextra-filetree {
-    direction: ltr !important;
-    text-align: left !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
-    display: flex !important;
-    justify-content: flex-start !important;
-  }
-  
-  .nextra-filetree > div {
-    direction: ltr !important;
-    text-align: left !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-  
-  .nextra-filetree li {
-    direction: ltr !important;
-  }
-  
-  .nextra-filetree span, 
-  .nextra-filetree button {
-    direction: ltr !important;
-    text-align: left !important;
-  }
-  
-  .nextra-search {
-    order: 3;
-  }
+body {
+  font-family: 'IRANSansWeb', sans-serif !important;
+  direction: rtl;
+  text-align: right;
+  /* display: flex; */
+  flex-direction: row-reverse; /* کل ساختار را معکوس می‌کند */
+}
 
-  .nextra-sections {
-    order: 2;
-    margin-left: 20%;
-  }
-  
+.nextra-content,
+.nextra-navbar,
+.nextra-sidebar-container {
+  font-family: 'IRANSansWeb', sans-serif !important;
+}
 
-  .nextra-sections a {
-    margin-left: 20px;
-  }
-  
-  
+/* تغییر موقعیت سایدبار */
+.nextra-sidebar-container {
+  right: 0;
+  left: auto;
+}
+
+/* تغییر موقعیت محتوا */
+.nextra-content {
+  margin-left: 0;
+}
+
+
+
+/* تغییر موقعیت لینک‌های ناوبری */
+.nextra-navbar {
+  direction: rtl;
+  text-align: right;
+}
+
+.nextra-steps {
+  margin-right: -26px !important;
+}
+
+.nextra-steps h3 {
+  margin-left: 16px !important;
+}
+
+.nextra-steps h3:before {
+  margin-right: -32px !important;
+}
+
+
+.nextra-filetree {
+  direction: ltr !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.nextra-filetree > div {
+  direction: ltr !important;
+  text-align: left !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.nextra-filetree li {
+  direction: ltr !important;
+}
+
+.nextra-filetree span, 
+.nextra-filetree button {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.nextra-search {
+  order: 3;
+}
+
+.nextra-sections {
+  order: 2;
+  margin-left: 20%;
+}
+
+
+.nextra-sections a {
+  margin-left: 20px;
+}
+
+
 /* Flip SVGs only in RTL contexts */
 [dir="rtl"] main > div:first-child > svg {
-  transform: scaleX(-1);
+transform: scaleX(-1);
 }
 
 /* Flip SVGs only in RTL contexts */
 button svg {
-  transform: scaleX(-1);
+transform: scaleX(-1);
 }
 
 @media (min-width: 768px) {
-  .nextra-sidebar-container{
-    width: 300px;
-  }
+.nextra-sidebar-container{
+  width: 300px;
+}
 }
 
 .nextra-code-block {
-  text-align: left !important;
+text-align: left !important;
 }

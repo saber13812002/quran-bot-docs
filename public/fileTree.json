@@ -1,0 +1,1318 @@
+[
+  {
+    "name": "about.mdx",
+    "type": "file"
+  },
+  {
+    "name": "کسرا",
+    "realName": "kasra",
+    "type": "folder",
+    "count": 0
+  },
+  {
+    "name": "نسل دو",
+    "realName": "nsl-dv",
+    "type": "folder",
+    "children": [
+      {
+        "name": " محیط بهره برداری",
+        "realName": "-mhyt-bhrh-brdary",
+        "type": "folder",
+        "children": [
+          {
+            "name": "dstrsy_ha.mdx",
+            "type": "file"
+          },
+          {
+            "name": "مدیریت کارهای سازمانی",
+            "realName": "mdyryt-karhay-sazmany",
+            "type": "folder",
+            "children": [
+              {
+                "name": "فرایند",
+                "realName": "fraynd",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "ActorsMgm.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "InstanceManagement.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "ProcessManagement.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "TokenManagement.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 4
+              },
+              {
+                "name": "پرونده",
+                "realName": "prvndh",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "mdyryt_prvndh.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 1
+              },
+              {
+                "name": "سوابق عملکردی",
+                "realName": "svabgh-amlkrdy",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "amlyat_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "Entitylog.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "IndAppLog.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "lag_srvys_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "LogDashboard.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_aymyl.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_frm.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_JOB.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_khtaha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_mdyryty.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_pnl_mdyryty.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_pyamk_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_sfhat.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "svabgh_vrvd_v_khrvj.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "TafvizLog.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "tghyyrrmz_abvr.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "vrvd_ba_karbr_dygr.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 17
+              }
+            ],
+            "count": 3
+          },
+          {
+            "name": "پایش کسب و کار",
+            "realName": "paysh-ksb-v-kar",
+            "type": "folder",
+            "children": [
+              {
+                "name": "فعالیت محور",
+                "realName": "faalyt-mhvr",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "faalyt_mhvr.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_aanalyz_amlkrd_nskhh_hay_mkhtlf_fraynd.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_amlkrdy_faalyt_br_asas_mhlt_anjam.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_mdt_anjam_faalyt_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_vzayt_faalyt_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "nrkh_vrvdy_v_khrvjy_faalyt_ha.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 6
+              },
+              {
+                "name": "فرایند محور",
+                "realName": "fraynd-mhvr",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "fraynd_mhvr.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_aanalyz_amlkrd_anasr_nskhh_hay_mkhtlf_fraynd.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_aanalyz_nmvnh_hay_fraynd.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_aanalyz_vzayt_nskhh_hay_mkhtlf_fraynd.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_amlkrdy_frayndha_br_asas_mhlt_anjam.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_tarykhchh_vzayt_frayndhay_sazmany.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 6
+              },
+              {
+                "name": "کاربر محور",
+                "realName": "karbr-mhvr",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "gzarsh_aanalyz_amlkrd_karbran.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarsh_tarykhchh_amlkrd_karbran.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "karbr_mhvr.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "_dpartman_ha-.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 4
+              },
+              {
+                "name": "نقشه های حرارتی",
+                "realName": "nghshh-hay-hrarty",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "br_asas_mdt_zmany_kh_kar_dr_hr_mrhlh_mandh_ast.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "br_asas_tadad_nmvnh_hay_anjam_shdh_dr_hr_mrhlh.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "br_asas_tadad_nmvnh_hay_mvjvd_dr_hr_mrhlh.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "nghshh_hay_hrarty.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 4
+              },
+              {
+                "name": "راهنمای فنی گزارشات بم",
+                "realName": "rahnmay-fny-gzarshat-bm",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "nhvh_mhasbat_gzarshat_bm.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 1
+              },
+              {
+                "name": "rahnmay_karbry_gzarshat_bm.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 6
+          },
+          {
+            "name": "پنل مدیریتی",
+            "realName": "pnl-mdyryty",
+            "type": "folder",
+            "children": [
+              {
+                "name": "چارت سازمانی",
+                "realName": "chart-sazmany",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "ActiveUsers.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "amzay_alktrvnyky.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "drkht_chart_sazmany.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "grvh_karbran.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "jaygah.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "karbran.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "mhdvdh_taamlat.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "rsth_shghly.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "sazman.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "tbghh.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 10
+              },
+              {
+                "name": "مدیریت عناصر و اطلاعات",
+                "realName": "mdyryt-anasr-v-atlaaat",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "akhbar.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "BankGatewayMgm.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "BloackedAddress.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "dsth_bndy_aghlam_dadh_ay.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "Facts.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "JobConfig.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "tghvym_kary.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 7
+              },
+              {
+                "name": "مدیریت واسط کاربری",
+                "realName": "mdyryt-vast-karbry",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "ApplicationManagement.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "mnv_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "myzkar.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "sakhtar_nmayshy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "تنظیمات نمایشی",
+                    "realName": "tnzymat-nmayshy",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "name": "prvfayl_karbr.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "tnzymat_lag.mdx",
+                        "type": "file"
+                      }
+                    ],
+                    "count": 2
+                  }
+                ],
+                "count": 5
+              }
+            ],
+            "count": 3
+          },
+          {
+            "name": "PortalMainPage.mdx",
+            "type": "file"
+          },
+          {
+            "name": "پرتال سازمانی",
+            "realName": "prtal-sazmany",
+            "type": "folder",
+            "children": [
+              {
+                "name": "کارتابل",
+                "realName": "kartabl",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "kartabl.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "tnzymat_stvn_hay_kartabl.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 2
+              },
+              {
+                "name": "مدیریت پرونده",
+                "realName": "mdyryt-prvndh",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "ayjad_lynk_bh_prvndh_ba_kd_nvysy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "ayjad_prvndh_jdyd_az_trygh_vyzard_kd_nvysy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "CreateCase.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "shrva_yk_tsk_prvndh_az_trygh_kd_nvysy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "tshkyl_prvndh_bvsylh_tsk_hay_mkhtlf_az_trygh_kd_nvysy.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 5
+              },
+              {
+                "name": "Message Broker",
+                "realName": "Message-Broker",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "Message_Broker.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 1
+              },
+              {
+                "name": "تنظیمات SSO",
+                "realName": "tnzymat-SSO",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "SSO.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 1
+              }
+            ],
+            "count": 4
+          },
+          {
+            "name": "پروفایل کاربری",
+            "realName": "prvfayl-karbry",
+            "type": "folder",
+            "children": [
+              {
+                "name": "UserProfile.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 1
+          }
+        ],
+        "count": 7
+      },
+      {
+        "name": "KasrareleaseNotes.mdx",
+        "type": "file"
+      },
+      {
+        "name": "محتوای آموزشی",
+        "realName": "mhtvay-aamvzshy",
+        "type": "folder",
+        "children": [
+          {
+            "name": "آموزش تست خودکار نرم افزار",
+            "realName": "aamvzsh-tst-khvdkar-nrm-afzar",
+            "type": "folder",
+            "children": [
+              {
+                "name": "Cypress.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 1
+          },
+          {
+            "name": "CaseMgmConcept_Video.mdx",
+            "type": "file"
+          },
+          {
+            "name": "خودآموز پلت فرم کسرا",
+            "realName": "khvdaamvz-plt-frm-ksra",
+            "type": "folder",
+            "children": [
+              {
+                "name": "vydyvhay_aamvzshy_mhyt_trahy.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 1
+          },
+          {
+            "name": "سناریو های موردی",
+            "realName": "snaryv-hay-mvrdy",
+            "type": "folder",
+            "children": [
+              {
+                "name": "CardElementSenario.mdx",
+                "type": "file"
+              },
+              {
+                "name": "CaseDesign_Senario.mdx",
+                "type": "file"
+              },
+              {
+                "name": "CustomizeGrid.mdx",
+                "type": "file"
+              },
+              {
+                "name": "Designsystem.mdx",
+                "type": "file"
+              },
+              {
+                "name": "GridAndstepper.mdx",
+                "type": "file"
+              },
+              {
+                "name": "Miniapp.mdx",
+                "type": "file"
+              },
+              {
+                "name": "MockOP.mdx",
+                "type": "file"
+              },
+              {
+                "name": "MultiinstanceParallel.mdx",
+                "type": "file"
+              },
+              {
+                "name": "Notification.mdx",
+                "type": "file"
+              },
+              {
+                "name": "ResponsiveComponent.mdx",
+                "type": "file"
+              },
+              {
+                "name": "UnAuthorizedSenario.mdx",
+                "type": "file"
+              },
+              {
+                "name": "UserestApiinComponent.mdx",
+                "type": "file"
+              },
+              {
+                "name": "VirtualDerectory.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 13
+          },
+          {
+            "name": "ویدئوهای آموزشی مفاهیم BPM",
+            "realName": "vydyvhay-aamvzshy-mfahym-BPM",
+            "type": "folder",
+            "children": [
+              {
+                "name": "vydyv_hay_amvzshy_BPM.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 1
+          },
+          {
+            "name": "ویدئوهای اموزشی DDD",
+            "realName": "vydyvhay-amvzshy-DDD",
+            "type": "folder",
+            "children": [
+              {
+                "name": "vydyv_hay_aamvzshy_DDD.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 1
+          }
+        ],
+        "count": 6
+      },
+      {
+        "name": "محیط طراحی",
+        "realName": "mhyt-trahy",
+        "type": "folder",
+        "children": [
+          {
+            "name": "CICDONGitlab.mdx",
+            "type": "file"
+          },
+          {
+            "name": "Definitions.mdx",
+            "type": "file"
+          },
+          {
+            "name": "فضای اشتراکی",
+            "realName": "fzay-ashtraky",
+            "type": "folder",
+            "children": [
+              {
+                "name": "SharedWorkspace.mdx",
+                "type": "file"
+              }
+            ],
+            "count": 1
+          },
+          {
+            "name": "Migration.mdx",
+            "type": "file"
+          },
+          {
+            "name": "myzkar.mdx",
+            "type": "file"
+          },
+          {
+            "name": "پرتال مدیریت",
+            "realName": "prtal-mdyryt",
+            "type": "folder",
+            "children": [
+              {
+                "name": "مانیتورینگ و گزارش",
+                "realName": "manytvryng-v-gzarsh",
+                "type": "folder",
+                "count": 0
+              },
+              {
+                "name": "مدیریت آدرس های مسدود",
+                "realName": "mdyryt-aadrs-hay-msdvd",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "BlockedAdress.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 1
+              },
+              {
+                "name": "مدیریت کاربران",
+                "realName": "mdyryt-karbran",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "Usermanagement.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 1
+              },
+              {
+                "name": "مدیریت تیم های توسعه",
+                "realName": "mdyryt-tym-hay-tvsah",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "Applications.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "Microservices.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "Projects.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 3
+              }
+            ],
+            "count": 4
+          },
+          {
+            "name": "پرتال طراحی دامنه",
+            "realName": "prtal-trahy-damnh",
+            "type": "folder",
+            "children": [
+              {
+                "name": "aghdam_gr.mdx",
+                "type": "file"
+              },
+              {
+                "name": "Job.mdx",
+                "type": "file"
+              },
+              {
+                "name": "طراح عملیات",
+                "realName": "trah-amlyat",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "amlyat_amvmy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "API_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "ashyae_antghal_dadh.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "ExternalAPI.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "grvh_bndy_amlyat_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "mhdvdh_grvh_hay_amlyat.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "OtherAppService.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "SocketOP.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 8
+              },
+              {
+                "name": "طراح فرایند",
+                "realName": "trah-fraynd",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "BPMN.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "فرایند",
+                    "realName": "fraynd",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "name": "fraynd.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "تنظیمات عناصر در یک فرایند",
+                        "realName": "tnzymat-anasr-dr-yk-fraynd",
+                        "type": "folder",
+                        "children": [
+                          {
+                            "name": "Link.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "ParallelMultiinstance.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "SignalElement.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "Timer.mdx",
+                            "type": "file"
+                          }
+                        ],
+                        "count": 4
+                      },
+                      {
+                        "name": "tnzymat_fraynd.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "WFDesigner.mdx",
+                        "type": "file"
+                      }
+                    ],
+                    "count": 4
+                  },
+                  {
+                    "name": "pyam.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "shakhs_ha.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "sygnal.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "WorkFlowDatatypes.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 6
+              },
+              {
+                "name": "طراح گزارشات",
+                "realName": "trah-gzarshat",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "algvhay_khrvjy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "gzarshat.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 2
+              },
+              {
+                "name": "طراح موجودیت",
+                "realName": "trah-mvjvdyt",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "Fact.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "fyld_hay_trkyby.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "موجودیت سفارشی",
+                    "realName": "mvjvdyt-sfarshy",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "name": "mvjvdyt.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "nmaysh_mdl_dadh.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "nmaysh_mdl_damnh.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "طراحی",
+                        "realName": "trahy",
+                        "type": "folder",
+                        "children": [
+                          {
+                            "name": "amlyat_ha.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "DependentElements.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "rftarha.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "tvsyfat.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "vabstgy_ha.mdx",
+                            "type": "file"
+                          },
+                          {
+                            "name": "vyzhgy_ha.mdx",
+                            "type": "file"
+                          }
+                        ],
+                        "count": 6
+                      },
+                      {
+                        "name": "vast_karbry.mdx",
+                        "type": "file"
+                      }
+                    ],
+                    "count": 5
+                  },
+                  {
+                    "name": "mvjvdyt_hay_systmy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "nva__hay_shmarshy.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "OtherEntity.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "tvsyfat.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 7
+              },
+              {
+                "name": "طراح پرونده",
+                "realName": "trah-prvndh",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "trahy_nva_prvndh.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 1
+              },
+              {
+                "name": "طراحی رخداد",
+                "realName": "trahy-rkhdad",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "ConsumeIntegrationEvent.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "IntegrationEvent.mdx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "rkhdad_hay_hvzh_kary.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 3
+              }
+            ],
+            "count": 8
+          },
+          {
+            "name": "پرتال طراحی واسط کاربری",
+            "realName": "prtal-trahy-vast-karbry",
+            "type": "folder",
+            "children": [
+              {
+                "name": "Component.mdx",
+                "type": "file"
+              },
+              {
+                "name": "Layouts.mdx",
+                "type": "file"
+              },
+              {
+                "name": "LayoutSetting.mdx",
+                "type": "file"
+              },
+              {
+                "name": "RemoteApi.mdx",
+                "type": "file"
+              },
+              {
+                "name": "sfhat.mdx",
+                "type": "file"
+              },
+              {
+                "name": "طراح واسط کاربری",
+                "realName": "trah-vast-karbry",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "اجزاء عمومی",
+                    "realName": "ajzae-amvmy",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "name": "BPMNLoader.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "CardElement.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Column_Chart.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ComponentLoader.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "CustomLoader.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "DivControl.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "FileBrowserAdvance.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "HtmlEditor.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Icon.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Alert.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Button.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_CheckBox.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Datagrid.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_DatePicker.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_DropDown.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_FileBrowse.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Hyperlink.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_IconButton.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Imagebox.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Label.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_PieChart.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Radio.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_StepperContainer.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Switch.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_TextInput.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "kntrl_Typography.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Loading.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Modal.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Pagination.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Segment.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "TabContainer.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "TagboxInput.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Timepicker.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Tooltip.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "TreeControl.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "TreeForm.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "v_anvaa_aan_Layout.mdx",
+                        "type": "file"
+                      }
+                    ],
+                    "count": 37
+                  },
+                  {
+                    "name": "اجزاء سیستمی",
+                    "realName": "ajzae-systmy",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "name": "CAPTCHA.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ComplexFooter.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ComplexHeader.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Navbar.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Sidebar.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "Simplefooter.mdx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "SimpleHeader.mdx",
+                        "type": "file"
+                      }
+                    ],
+                    "count": 7
+                  },
+                  {
+                    "name": "DesignPage.mdx",
+                    "type": "file"
+                  }
+                ],
+                "count": 3
+              }
+            ],
+            "count": 6
+          }
+        ],
+        "count": 8
+      },
+      {
+        "name": "راهنمای نصب، پیکربندی و عیب یابی",
+        "realName": "rahnmay-nsb--pykrbndy-v-ayb-yaby",
+        "type": "folder",
+        "children": [
+          {
+            "name": "BackEndConfigKeys.mdx",
+            "type": "file"
+          },
+          {
+            "name": "ChartTableIntro.mdx",
+            "type": "file"
+          },
+          {
+            "name": "dybag.mdx",
+            "type": "file"
+          },
+          {
+            "name": "Ef_installation.mdx",
+            "type": "file"
+          },
+          {
+            "name": "Ef_Profiler.mdx",
+            "type": "file"
+          },
+          {
+            "name": "FrontEnd_ConfigKeys.mdx",
+            "type": "file"
+          },
+          {
+            "name": "HealthCheck.mdx",
+            "type": "file"
+          },
+          {
+            "name": "HowToUpgrade.mdx",
+            "type": "file"
+          },
+          {
+            "name": "InstallMonitoringTools.mdx",
+            "type": "file"
+          },
+          {
+            "name": "Kasra_Publish.mdx",
+            "type": "file"
+          },
+          {
+            "name": "LogIntroduction.mdx",
+            "type": "file"
+          },
+          {
+            "name": "MicroServiceInstalation.mdx",
+            "type": "file"
+          },
+          {
+            "name": "MicroserviceMonitoring.mdx",
+            "type": "file"
+          },
+          {
+            "name": "PortalRouteConfig.mdx",
+            "type": "file"
+          },
+          {
+            "name": "Query_Store.mdx",
+            "type": "file"
+          },
+          {
+            "name": "RestApiTest.mdx",
+            "type": "file"
+          },
+          {
+            "name": "SecurityInDevelopment.mdx",
+            "type": "file"
+          },
+          {
+            "name": "ServiceDebug.mdx",
+            "type": "file"
+          },
+          {
+            "name": "ServiceDescription.mdx",
+            "type": "file"
+          },
+          {
+            "name": "WSO2Integration.mdx",
+            "type": "file"
+          }
+        ],
+        "count": 20
+      },
+      {
+        "name": "Snippets.mdx",
+        "type": "file"
+      }
+    ],
+    "count": 6
+  }
+]

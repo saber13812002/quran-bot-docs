@@ -38,7 +38,7 @@ const config: DocsThemeConfig = {
   // },
   docsRepositoryBase: "https://gitlab.depna.com/s.tabatabaei/kasra-nextra-doc/-/blob/main",
   footer: {
-    text: "هولدینگ مهیمن - محصول کسرا نسل دوم",
+    text: "موسسه اسلام اصیل",
   },
   useNextSeoProps() {
     return {
